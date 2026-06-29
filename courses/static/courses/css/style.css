@@ -280,3 +280,7 @@ mark.hl.flash{ animation:hlflash 1.2s ease; }
 .note-text{ margin-top:6px; font-size:13px; color:var(--ink-soft,#6b6253); line-height:1.45;
   white-space:pre-wrap; }
 @media (max-width:680px){ .notes-toggle{ left:14px; bottom:14px; } }
+
+/* Fix: explicit display on these overrides the [hidden] attribute, so restore it */
+.notes-panel[hidden]{ display:none; }
+.hl-pop[hidden]{ display:none; }
