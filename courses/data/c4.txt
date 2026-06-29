@@ -1,0 +1,150 @@
+TITLE|The American Story
+SUBTITLE|A Deep History of a Providential and Imperfect Nation
+ACCENT|#3a4a6b
+ACCENTSOFT|#e8ecf3
+DESC|American history told from a conservative, pro-American, and Christian perspective that is engaged rather than insulated — taking the founding seriously, giving Christianity its due, and refusing both triumphalism and grievance.
+@UNIT|1|The Inheritance (Pre-1607)|The intellectual, legal, and spiritual soil America grew from
+Why Start Before America? — How ideas travel across centuries and why the Founders thought they were heirs, not inventors
+Jerusalem: The Hebrew Inheritance — Covenant, law, prophetic critique, and the dignity of the person
+Athens and Rome: Reason, Virtue, and the Republic — Classical political thought from Aristotle to Cicero
+The Christian Synthesis — How Augustine and Aquinas wove Jerusalem and Athens together
+Magna Carta and the English Constitutional Tradition — Limited government before there was a word for it
+The Reformation's Political Earthquake — Luther, Calvin, and the priesthood of all believers
+Calvinist Resistance Theory — Beza, the Vindiciae, and the right to resist tyrants
+The Geneva Bible and the English Puritans — A book that scared a king
+English Common Law and the Rights of Englishmen — Coke, Blackstone, and the inheritance of liberty
+The Anglo-Saxon Imagination — Local self-government, juries, and the deep roots of American instincts
+@UNIT|2|Colonial America (1607-1763)|Two foundings, a great awakening, and the making of an American character
+Jamestown: The Commercial Founding — Tobacco, survival, and the first representative assembly
+Plymouth and the Mayflower Compact — A covenant in the cabin of a ship
+The Puritan Errand — Winthrop's "City Upon a Hill" and what he actually meant
+Covenant Theology and Self-Government — Why Puritan churches looked like little republics
+Roger Williams and the Surprising Baptist Roots of Religious Liberty — Soul liberty before the First Amendment
+William Penn's Holy Experiment — Quaker pluralism in Pennsylvania
+The Middle Colonies: A Different Religious World — Dutch Reformed, Presbyterians, Catholics in Maryland
+The Southern Colonies and Anglican Establishment — A different model of Christian society
+Slavery Takes Root — The terrible beginning and the early Christian voices against it
+Colonial Education and the Founding of the Colleges — Harvard, Yale, Princeton as schools of the prophets
+Jonathan Edwards: Mind on Fire — America's greatest theologian and philosopher
+George Whitefield: The First American Celebrity — The transatlantic preacher who united the colonies
+The Great Awakening — Revival as the first continental American event
+The Old Lights and the New — How revival reshaped denominations and democratized faith
+The Black Regiment Forms — How pulpits prepared a people for revolution
+The French and Indian War and the Coming Crisis — Empire, debt, and a changing relationship with Britain
+@UNIT|3|The Founding (1763-1791)|Revolution, declaration, constitution — and the worldview behind it all
+The Intellectual World of the Founders — Locke, Montesquieu, Blackstone, Cicero, and the Bible
+How Biblically Literate Were the Founders? — Dreisbach's case that everyone spoke fluent Scripture
+The Religious Diversity of the Founders — Orthodox Christians, theistic rationalists, and the genuinely Deist few
+John Witherspoon: The Founding Father Who Taught the Founders — Princeton, Madison, and Reformed political theology
+Samuel Adams, Patrick Henry, and the Christian Patriots — Faith as fuel for revolution
+The Black Regiment in Action — Sermons that lit the fuse
+The Declaration as a Moral Document — Self-evident truths and the Creator who endows them
+The War for Independence — Providence, perseverance, and an improbable victory
+Washington at Prayer and at War — The indispensable man and his quiet faith
+The Articles of Confederation and Why They Failed — Liberty without order
+The Constitutional Convention — Compromise, structure, and the science of politics
+Federalists vs. Anti-Federalists — The debate that still defines us
+The Constitution's Moral Anthropology — "If men were angels..."
+The Bill of Rights and Religious Liberty — Establishment, free exercise, and what the Founders meant
+The Baptists, the Quakers, and the Push for Disestablishment — Why religious minorities wanted separation
+The Slavery Compromise — The wound at the founding
+Was America Founded as a Christian Nation? — The honest, complicated answer
+@UNIT|4|The Early Republic (1791-1860)|A new nation finds its character, faith, and fault lines
+Washington's Farewell Address — Religion, morality, and the warning we forgot
+Hamilton vs. Jefferson — Two visions of the American future
+The Adams Presidency and the Alien and Sedition Acts — Early tests of liberty
+Jefferson, Religion, and the "Wall of Separation" — What that letter actually said
+The Louisiana Purchase and Manifest Destiny's Roots — Empire of liberty or empire?
+The War of 1812: The Second War of Independence — Forgotten war, lasting consequences
+The Second Great Awakening Begins — Cane Ridge and the camp meeting revolution
+Charles Finney and the New Measures — Revival as reform engine
+The Democratization of American Christianity — Methodists, Baptists, and the religion of the common man
+Tocqueville Visits America — What the Frenchman saw that we missed about ourselves
+Religion and Reform — Temperance, education, prisons, and the reforming impulse
+The Beginnings of Christian Abolitionism — The Tappan brothers, Theodore Weld, and the moral case
+Frederick Douglass and the Christianity of Christ vs. the Christianity of This Land — Internal prophetic critique
+The Proslavery Biblical Argument — How Christians defended the indefensible
+The Antislavery Biblical Argument — How other Christians refuted them
+The Denominations Split — Methodists, Baptists, Presbyterians divide over slavery
+Mormonism, Adventism, and the New American Religions — The Burned-Over District's strange harvest
+Westward Expansion and the Native Peoples — Removal, Trail of Tears, missions and complicity
+The Mexican-American War and Its Critics — Manifest Destiny tested
+The Road to Disunion — Compromise after compromise until none would hold
+@UNIT|5|Civil War and Reconstruction (1860-1877)|The refounding through fire
+Lincoln the Man — From Kentucky cabin to the White House
+Lincoln's Religious Development — Skeptic, seeker, providentialist
+The Election of 1860 and Secession — When politics broke
+The Theological Crisis of the Civil War — Both sides read the same Bible
+Fort Sumter and the War Begins — The illusion of a short war
+The Battle Hymn and Sacred Cause — Julia Ward Howe and Northern war theology
+Southern Christianity and the Lost Cause Forming — Religion in the Confederacy
+The Emancipation Proclamation — Military necessity and moral revolution
+Gettysburg and the New Birth of Freedom — The address that reframed the nation
+Lincoln's Second Inaugural — The most theologically serious speech in American history
+Appomattox and the Death of Lincoln — Magnanimity and martyrdom
+The 13th, 14th, and 15th Amendments — A second founding
+Reconstruction's Promise — Black political power, schools, churches
+The Black Church Comes Into Its Own — Independent institutions from slavery's end
+Reconstruction's Betrayal — The Compromise of 1877 and the long retreat
+The Lost Cause Religion — How the South sanctified defeat
+@UNIT|6|Industrial America and the Progressive Era (1877-1929)|Wealth, immigration, empire, and the fundamentalist-modernist divide
+The Gilded Age — Industry, robber barons, and a transforming nation
+The Social Gospel — Rauschenbusch and Christianity's response to industrial misery
+Catholic Immigration Transforms American Religion — Irish, Italian, Polish, and the Protestant reaction
+The Jewish Migration — From shtetl to Lower East Side
+D.L. Moody and Urban Revivalism — The evangelist of the industrial city
+The Holiness Movement and Pentecostal Origins — Azusa Street, 1906
+The Rise of Liberal Protestantism — Higher criticism crosses the Atlantic
+The Fundamentalist Response — The Fundamentals and the defense of orthodoxy
+Populism and the Cross of Gold — Bryan, agrarian protest, and Christian politics
+The Spanish-American War and American Empire — Christian mission or imperial ambition?
+Progressivism's Religious Roots — Wilson the Presbyterian and the social science gospel
+Women's Suffrage and the WCTU — Frances Willard and Christian feminism
+World War I — Crusade, disillusionment, and the end of Protestant optimism
+The Scopes Trial — Bryan, Darrow, and a defining cultural moment
+Prohibition — The high-water mark of Protestant cultural power
+The Roaring Twenties and Cultural Shift — Jazz Age morality and reactionary anxiety
+The Great Migration — Black Americans move north and the Black church follows
+@UNIT|7|From New Deal to Cold War (1929-1989)|Crisis, total war, civil rights, and the rise of modern conservatism
+The Crash and the Great Depression — A wounded nation
+FDR and the New Deal — Necessary response or constitutional turning point?
+Reinhold Niebuhr and Christian Realism — The theologian who shaped the century
+Dorothy Day and the Catholic Worker — Radical Christianity from the left
+The Road to World War II — Isolation, Pearl Harbor, and the just war
+World War II as a Theological Crisis — Bonhoeffer, the Holocaust, and Christian failure in Europe
+The American Home Front and Civil Religion — Foxhole faith and national prayer
+The Bomb and the Dawn of the Atomic Age — Hiroshima and moral reckoning
+The Cold War Begins — Communism, containment, Christian anticommunism
+Billy Graham: America's Pastor — Crusades, presidents, and mid-century evangelicalism
+The Postwar Religious Boom — "Under God" added, churches packed
+The Civil Rights Movement Begins — Montgomery, the SCLC, and the Black church
+Martin Luther King Jr.: The Theologian of the Movement — Beloved community and prophetic faith
+Letter from Birmingham Jail — The case for just disobedience
+The White Christian Response to Civil Rights — Allies, opponents, and the moderate's failure
+Vatican II and American Catholicism — A Church transformed
+The Sixties Revolution — Counterculture, sexual revolution, and a fracturing consensus
+The Death of Mainline Protestantism Begins — The decline of the old establishment
+The Birth of the Religious Right — Schaeffer, Falwell, and political mobilization
+Reagan and the Conservative Coalition — Faith, family, freedom, and the Cold War's end
+The Conservative Intellectual Movement — Buckley, Kirk, Kristol, and the founding of fusionism
+@UNIT|8|Contemporary America (1989-Present)|A pluralist, polarized, and still-religious nation
+The End of History? — Post-Cold War triumph and unease
+The Culture Wars Take Shape — Hunter's thesis and the new alignment
+Evangelicals as a Political Bloc — From mobilization to polarization
+9/11 and Its Aftermath — Faith, fear, and the wars that followed
+The Rise of the Nones — Secularization or sorting?
+Religious Liberty in the Courts — Hosanna-Tabor, Hobby Lobby, 303 Creative
+Same-Sex Marriage and Obergefell — A revolution in two decades
+Immigration and a Changing American Christianity — Latino, African, Asian churches reshape the landscape
+The Black Church in the 21st Century — Continuity and crisis
+Catholicism in Crisis and Renewal — The abuse scandals and the new evangelization
+The 2016 Election and Evangelical Realignment — A coalition tested
+Postliberalism and Its Critics — Deneen, Vermeule, and the integralist question
+Tim Keller and Winsome Christianity — Engagement in the secular city
+Russell Moore, David French, and the Evangelical Civil War — Internal fractures
+Wokeness, Critical Theory, and the New Cultural Conflict — Religion or rival religion?
+The Decline of Institutions — Trust collapse and its consequences
+AI, Transhumanism, and the Next Frontier — What does it mean to be human?
+What America Is Now — Honest assessment of a complicated nation
+The Christian's Place in Late-Modern America — Faithful presence, exile, or revival?
+The Long View — What lasts, what changes, and what the next generation inherits

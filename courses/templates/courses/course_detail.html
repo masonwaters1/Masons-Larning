@@ -1,0 +1,38 @@
+{% extends "courses/base.html" %}
+{% block title %}{{ course.title }}{% endblock %}
+{% block body_style %} style="--accent:{{ course.accent }};--accent-soft:{{ course.accent_soft }}"{% endblock %}
+{% block topnav %}<a href="{% url 'courses:dashboard' %}">&larr; All Courses</a>{% endblock %}
+
+{% block content %}
+<section class="course-head">
+  <div class="wrap">
+    <span class="eyebrow">Course {{ course.order }} &middot; {{ course.units.count }} units &middot; {{ course.total_lessons }} lessons</span>
+    <h1>{{ course.title }}</h1>
+    <p class="lede">{{ course.description }}</p>
+    <div class="progress-strip" style="margin-top:26px">
+      <div class="course-bar" style="width:280px;max-width:60vw"><i style="width:{{ course.percent_complete }}%;background:var(--accent)"></i></div>
+      <div class="progress-meta"><strong>{{ course.read_count }}</strong> / {{ course.total_lessons }} read &middot; {{ course.percent_complete }}%</div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap">
+  {% for unit in units %}
+  <section class="unit-block">
+    <div class="uh">
+      <span class="un">Unit {{ unit.number }}</span>
+      <h2>{{ unit.title }}</h2>
+      {% if unit.subtitle %}<span class="us">{{ unit.subtitle }}</span>{% endif %}
+    </div>
+    {% for l in unit.lessons.all %}
+    <a class="lesson-row {% if l.is_read %}read{% endif %}" href="{{ l.get_absolute_url }}">
+      <span class="ln">L{{ l.course_lesson_number }}</span>
+      <span class="lr-check">{% if l.is_read %}&#10003;{% endif %}</span>
+      <span class="lr-title">{{ l.title }}</span>
+      {% if l.is_written %}<span class="lr-badge">Full text</span>{% else %}<span></span>{% endif %}
+    </a>
+    {% endfor %}
+  </section>
+  {% endfor %}
+</div>
+{% endblock %}

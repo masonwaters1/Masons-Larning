@@ -1,0 +1,74 @@
+{% extends "courses/base.html" %}
+{% load lesson_extras %}
+{% block title %}The Reading Room — Your Study{% endblock %}
+{% block topnav %}
+  {% for c in courses %}<a href="{{ c.get_absolute_url }}">{{ c.title }}</a>{% endfor %}
+{% endblock %}
+
+{% block content %}
+<section class="dash-hero">
+  <div class="wrap">
+    <span class="eyebrow">A self-directed course of study &middot; four parallel tracks</span>
+    <h1>Read one lesson from each<br>course, in turn.</h1>
+    <p>You move across all four courses one lesson at a time &mdash; lesson&nbsp;one of each, then lesson&nbsp;two of each, and onward. Your place is kept automatically.</p>
+
+    <div class="progress-strip">
+      <div class="ring" style="--p:{{ percent }}"><b>{{ percent }}<small>%</small></b></div>
+      <div class="progress-meta">
+        <div><strong>{{ read }}</strong> of <strong>{{ total }}</strong> lessons read across the four courses.</div>
+        <div style="margin-top:4px;color:var(--ink-faint)">{{ round_total }} interleaved rounds in the full sequence.</div>
+      </div>
+    </div>
+
+    {% if next_lesson %}
+    <div class="continue-card" style="--accent:{{ next_lesson.course.accent }}">
+      <div>
+        <span class="ct-label">{% if read %}Continue where you left off{% else %}Begin here{% endif %}</span>
+        <h3>{{ next_lesson.title }}</h3>
+        <span class="ct-course">{{ next_lesson.course.title }} &middot; Lesson {{ next_lesson.course_lesson_number }} &middot; {{ next_lesson.unit.title }}</span>
+      </div>
+      <a class="btn accent" href="{{ next_lesson.get_absolute_url }}">Read &rarr;</a>
+    </div>
+    {% else %}
+    <div class="continue-card"><div><h3>You've read every lesson. 🎉</h3></div></div>
+    {% endif %}
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="section-head"><h2>The Four Courses</h2><span class="eyebrow">Reading order &rarr;</span></div>
+  <div class="course-grid">
+    {% for c in courses %}
+    <a class="course-card" href="{{ c.get_absolute_url }}" style="--ca:{{ c.accent }}">
+      <span class="spine"></span>
+      <span class="cc-num">Course {{ c.order }}</span>
+      <h3>{{ c.title }}</h3>
+      <div class="cc-sub">{{ c.subtitle }}</div>
+      <div class="course-bar"><i style="width:{{ c.percent_complete }}%"></i></div>
+      <div class="cc-foot"><span>{{ c.read_count }}/{{ c.total_lessons }} read</span><span>{{ c.percent_complete }}%</span></div>
+    </a>
+    {% endfor %}
+  </div>
+
+  <div class="section-head"><h2>Your Sequence, Up Close</h2><span class="eyebrow">Next rounds</span></div>
+  <div class="rounds">
+    {% for num, items in rounds %}
+    <div class="round">
+      <div class="round-n">{{ num }}</div>
+      <div class="round-items">
+        {% for l in items %}
+        <a class="ritem {% if l.is_read %}done{% endif %}" href="{{ l.get_absolute_url }}"
+           style="--rd:{{ l.course.accent }}">
+          <span class="dot"></span>
+          <span>
+            <span class="ci">C{{ l.course.order }}</span><br>
+            <span class="rt">{{ l.title|truncatechars:38 }}</span>
+          </span>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

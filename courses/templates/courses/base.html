@@ -1,0 +1,31 @@
+{% load static %}<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}The Reading Room{% endblock %}</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..900;1,9..144,400..700&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&family=Spline+Sans+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{% static 'courses/css/style.css' %}">
+  {% block head_extra %}{% endblock %}
+</head>
+<body class="{% block body_class %}{% endblock %}"{% block body_style %}{% endblock %}>
+  <header class="topbar">
+    <a class="brand" href="{% url 'courses:dashboard' %}">
+      <span class="brand-mark">&#10070;</span>
+      <span class="brand-text">The Reading Room</span>
+    </a>
+    <nav class="topnav">
+      {% block topnav %}{% endblock %}
+    </nav>
+  </header>
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="sitefoot">
+    <span>A private course of study &middot; built with Django</span>
+  </footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

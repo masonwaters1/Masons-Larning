@@ -1,0 +1,207 @@
+TITLE|The Water We Swim In
+SUBTITLE|How Christianity Made the Modern World (And Why Almost No One Knows It)
+ACCENT|#7a3b3b
+ACCENTSOFT|#f3e9e7
+DESC|An extended argument that the modern Western mind is far more Christian than it knows — tracing this inheritance through morality, science, politics, law, sexuality, the self, secularism, and human rights, drawing on Tom Holland, Bart Ehrman, Larry Siedentop, Rodney Stark, Charles Taylor, and others.
+@UNIT|1|The Fish Who Don't Know They're Wet|Why the most powerful ideas are the ones we never notice
+The Water We Swim In — Tom Holland's metaphor and why "obvious" moral intuitions are almost never obvious
+What Is Cultural Inheritance? — How values get passed down invisibly through language, law, and habit rather than through belief
+The Strangeness Test — A simple tool: if our values are universal, why do they look so different from every other civilization's?
+Three Authors, One Argument — Holland, Ehrman, and Siedentop walking into the same conclusion from different doors
+Christianity as Civilization, Not Just Religion — Distinguishing the creed from the cultural operating system it produced
+The Secular Mind Is Not a Blank Slate — Why "I'm not religious" doesn't mean "I think outside religion's categories"
+Inheritance Without Belief — How moral commitments can outlive the metaphysics that birthed them, at least for a while
+Why This Question Matters Now — The cultural stakes of the conversation in an age of declining belief
+Genealogy as a Method — What Nietzsche, Foucault, and MacIntyre taught us about tracing ideas to their sources
+The Apologetics Trap — Why "Christianity invented X" is a historical claim, not a theological one — and how to keep them separate
+The Reverse Trap — Why secular dismissals of religious influence are often just as unhistorical
+Who Gets to Tell This Story? — On Christian and non-Christian scholars converging on the same thesis, and what that convergence means
+Mapping the Course Ahead — A preview of the eleven domains where this inheritance shows up
+Counterpoints: The Overclaim Problem — Where this whole genre risks attributing too much to one tradition
+@UNIT|2|A World Before Christ|The ancient moral universe was not a rough draft of ours
+The Honor-Shame World — How most ancient societies organized morality around reputation, face, and group standing
+The Logic of Hierarchy — Why inequality wasn't a problem to be solved but a structure to be celebrated
+Aristotle on Slaves and Women — A clear-eyed look at what one of antiquity's greatest minds actually believed
+Roman Virtues: Strength, Piety, Loyalty — The cardinal virtues of a warrior civilization and what they prized
+The Pagan Gods Were Not Moral Teachers — Why Greek and Roman religion had almost nothing to do with ethics as we understand it
+Fate, Fortune, and the Absence of Hope — The tragic frame and why "progress" was unthinkable
+Pity Was a Vice — How Stoics, Romans, and most ancients regarded compassion for the weak as a character flaw
+The Disposable Body — Infanticide, slavery, and sexual use in the ancient world
+What Jews Brought to the Table — Monotheism, covenant ethics, and the prophetic critique of power
+Ancient Universalisms That Almost Worked — Stoic cosmopolitanism, Buddhist compassion, and why they didn't reshape the West
+The Mystery Religions — What Greco-Roman religious life looked like, and why it lost to Christianity
+Imagining the Cross from a Roman Bench — A thought experiment: how the message of a crucified savior would have sounded
+The "Pagan Golden Age" Myth — Why romantic reconstructions of antiquity get the moral world badly wrong
+Counterpoints: What the Ancients Got Right — Honest acknowledgment of pagan moral achievements we still draw on
+@UNIT|3|The Scandal of the Cross|How an instrument of torture became a symbol of triumph
+Crucifixion as Imperial Theater — What Rome actually did and why, and who was watching
+The Lowest of the Low — Why the victims of the cross were always slaves, rebels, and the politically negligible
+The First Christians' Embarrassment — How early believers struggled with the obvious shame of their central symbol
+Paul's Inversion — "We preach Christ crucified, a stumbling block to Jews and folly to Gentiles"
+The God Who Suffers — A claim no ancient pagan philosopher could have entertained
+The Slave's Eye View — Why this story landed first and hardest among the powerless
+The Beatitudes' Reversal — Blessed are the poor, the mourning, the meek — the inversion in Jesus's own words
+What the Cross Did to Power — How divine endorsement of the executed criminal destabilized every hierarchy it touched
+Constantine and the Cross on the Battlefield — When the symbol of the powerless became the standard of empire
+The Suffering God in Art — Tracking the crucifixion's visual evolution from absent symbol to dominant icon
+The Cross Behind Modern Compassion — Why we instinctively side with victims, refugees, the dispossessed
+Nietzsche's Verdict: Slave Morality — The dissenting voice that saw the inversion clearly and rejected it
+The Cross and Trauma Culture — Why contemporary identity politics so often centers suffering as moral credential
+René Girard on Sacrifice — The anthropologist who argued the cross uniquely exposed and unwound the scapegoat mechanism
+Counterpoints: Is the Inversion Really That Unique? — Comparing Christian reversal to Buddhist, Daoist, and other patterns
+@UNIT|4|Love Thy Stranger|The most radical commandment and what it changed
+Ehrman's Thesis — Why a secular New Testament scholar argues Jesus's ethics genuinely revolutionized the West
+The Limits of Ancient Generosity — Friends, family, city, patron — and the silence beyond
+The Good Samaritan as Provocation — Why this parable was meant to scandalize, and still does
+The Plague Test — Rodney Stark on how early Christians' care for plague victims grew the church
+Hospitality as Theology — How the early church institutionalized care for strangers, widows, and orphans
+Inventing the Hospital — From the first xenodocheia of late antiquity to the modern medical system
+The Orphanage, the Almshouse, the Soup Kitchen — Tracing a thousand-year institutional lineage
+The Welfare State as Christian Echo — How modern social safety nets descend from monastic and parochial care
+Foreign Aid and Distant Suffering — Why we feel obligated to children we'll never meet on the other side of the world
+Effective Altruism's Hidden Lineage — How the most rationalist charitable movement of our time is structurally Christian
+The Limits of Compassion — Why this commandment is also exhausting, and how the modern West manages "compassion fatigue"
+The Stranger and the Border — How Christian universalism complicates modern debates about immigration on both left and right
+What Jesus Actually Said About Wealth — The hardest sayings, mostly skipped in modern Christianity
+Counterpoints: Doesn't Every Religion Teach Love? — How Christian agape compares to Buddhist karuna, Confucian ren, Islamic zakat
+@UNIT|5|Inventing the Individual|Where the modern self came from
+Siedentop's Big Claim — The individual as historical invention, not anthropological default
+The Ancient Self Was a Role — Why personhood in antiquity meant your place in a web, not your inner life
+Paul's Revolution — "Neither Jew nor Greek, slave nor free, male nor female" and what it loosened
+Augustine's Confessions — The first interior autobiography in Western literature
+Monastic Interiority — How the desert and the cloister incubated the examined inner life
+Conscience as Christian Invention — Tracking syneidesis from Paul to medieval moral theology
+Canon Law and the Person Before God — How church courts established the individual as the unit of moral and legal account
+The Confessional and the Self — How yearly auricular confession trained Europeans to introspect
+Equality Before God, Equality Before Law — The slow migration of a theological claim into a juridical one
+Reformation and the Unmediated Soul — How Luther's "priesthood of all believers" radicalized individualism
+The Liberal Subject Is a Christian Subject — Why John Locke's rights-bearing individual is unthinkable without theological scaffolding
+Romantic Authenticity — Charles Taylor on how the modern "be yourself" emerged from Christian interiority gone secular
+The Therapeutic Self — How psychotherapy inherited the confessional's architecture without its theology
+The Individual at the Voting Booth — Why democracy presumes a metaphysics it no longer admits
+Counterpoints: Are Other Cultures Really Less Individual? — Resisting the caricature of "collectivist East, individualist West"
+@UNIT|6|The Christian Roots of Science|Why modern science emerged in Christian Europe, not elsewhere
+The Conflict Thesis Was Mostly Fiction — Where the "war between science and religion" narrative actually came from
+A Rational Creator Makes Nature Legible — The theological premise that made science thinkable
+Contingency and Experiment — Why a God who freely creates makes empirical investigation necessary
+The Two Books — How medieval theologians taught that nature and scripture both revealed God
+The Medieval University — How the church invented the institution that still runs science
+God's Philosophers — Hannam's case for the unbroken intellectual life of the Middle Ages
+Copernicus, Galileo, Kepler, Newton — All believers, all working within a theological frame, none of whom thought they were rebelling against religion
+Why Not China? Why Not Islam? — The comparative question and what theology has to do with the answer
+The Mechanical Universe as Theological Picture — How "laws of nature" inherited the metaphysics of divine command
+The Galileo Affair, Honestly — What actually happened, and how the story got mythologized
+Darwin's Christian Audience — Why nineteenth-century evolutionists were mostly received politely by theologians
+The Modern Reframe — How the "science vs. religion" myth was constructed in the late nineteenth century and why it stuck
+Peter Harrison's Territories — How "science" and "religion" became opposed categories only recently
+Counterpoints: But Christianity Did Slow Some Inquiry — Honest examination of where religious authority did obstruct knowledge
+@UNIT|7|Slavery, Abolition, and the Long Argument|The institution that existed everywhere, abolished by people quoting scripture
+Slavery as Human Default — A sober look at how universal the institution has been
+Was Christianity Anti-Slavery from the Start? — A careful answer: no, but something more interesting
+Paul, Philemon, and the Seeds of Subversion — What was planted that took 1,800 years to germinate
+The Patristic Era's Ambivalence — Augustine, Chrysostom, and Gregory of Nyssa's striking abolitionist voice
+Medieval Christendom's Slow Decline of Slavery — How slavery largely vanished from medieval Europe, and why
+The Atlantic Trade and Christian Complicity — The terrible chapter, told honestly
+Quakers and the First Abolitionists — Why the movement began among intensely Christian sectarians
+Wilberforce, Newton, and the British Campaign — The political revolution and its explicit theological motor
+American Abolition — From the Second Great Awakening to the AME Church to Frederick Douglass's gospel
+The Argument from Imago Dei — Why "made in God's image" did work no secular argument could replicate at the time
+The Pro-Slavery Christians — Taking seriously that scripture was wielded on both sides, and what settled it
+Why Slavery Is Now Unthinkable — How a moral revolution becomes invisible by becoming total
+Modern Slavery, Modern Consciences — Why we still fight it, and where that obligation comes from
+David Bentley Hart's Provocation — Atheist Delusions and the case that abolition is unimaginable without Christianity
+Counterpoints: Enlightenment, Economics, and Other Explanations — Honest engagement with secular causal stories
+@UNIT|8|Sex, the Body, and the Christian Revolution|How Christianity rewrote what bodies were for
+The Roman Body — A frank account of ancient sexual norms: status, penetration, consent as irrelevant
+Kyle Harper's Thesis — From Shame to Sin and why this is the most underappreciated revolution
+The Body as Temple — A theological claim that elevated the slave's body to moral parity with the master's
+Christian Sexual Ethics: Strange Then, Strange Now — How early Christians' restraint scandalized Romans for opposite reasons than today
+Consent as Christian Inheritance — Why "did she agree?" was a question Rome largely didn't ask, and we can't stop asking
+Marriage as Sacrament — How a property arrangement became a covenant between equals (slowly, imperfectly)
+The Christian Elevation of Women — A genuinely complicated story with real gains and real costs
+Celibacy as Revolution — Why the monk and the nun shocked Roman family-honor culture
+The Long Road to Companionate Marriage — From medieval canon law to the modern love-match
+The Sexual Revolution as Christian Heresy — How 1960s liberation kept Christian premises (autonomy, dignity, consent) while rejecting Christian conclusions
+#MeToo and the Dignity of the Vulnerable — A movement that makes sense only on Christian assumptions
+Pornography, Prostitution, and the Christian Conscience — Why these still feel like moral problems in a secular age
+Modern Debates About Bodies — Trans, abortion, surrogacy as continuations of arguments Christianity started
+Counterpoints: The Costs of the Revolution — Sexual shame, repression, and harms the tradition produced
+@UNIT|9|The Secular Is Christian Too|Why "secularism" is not the absence of Christianity but a product of it
+Render Unto Caesar — The original distinction between religious and political authority, and where it came from
+Augustine's Two Cities — The theological architecture that made later secularism thinkable
+The Investiture Controversy — A medieval dispute that accidentally invented the separation of powers
+The Wars of Religion and Their Lesson — How sectarian violence produced the modern secular state
+John Locke's Christian Toleration — Why religious freedom was first argued for in explicitly theological terms
+Why Other Civilizations Didn't Develop This — A comparative look at Islam, China, India, and the absence of secular-religious split
+Charles Taylor's Big Story — A Secular Age and the slow construction of an "immanent frame"
+The Disenchantment of the World — How Western Christianity stripped nature of magic and prepared the ground for materialism
+The Protestant Path to Secularity — Brad Gregory's argument that the Reformation unintentionally produced our age
+Atheism as Christian Heresy — Why Western atheism, unlike Buddhist or Confucian non-theism, retains a Christian shape
+The Strange Faith of Humanism — How secular humanism inherits Christian anthropology without its grounds
+Public Religion's Strange Return — Why "post-secular" theorists like Habermas now reconsider the secularization thesis
+The Naked Public Square — Richard John Neuhaus on what happens when religion is wholly privatized
+Counterpoints: Genuinely Non-Christian Sources of the Secular — Enlightenment, classical republicanism, scientific naturalism
+@UNIT|10|Human Rights, Equality, and the Ghost in the Machine|The doctrine of imago Dei still doing load-bearing work
+The Universal Declaration's Strange Foundations — Drafted by a Catholic, a Confucian, a Marxist, and a secular Frenchman, grounded in what?
+Where Do Rights Come From? — The question modern philosophy can't quite answer
+Imago Dei: The Load-Bearing Doctrine — Why "made in God's image" still does the work no secular substitute can replicate
+Nicholas Wolterstorff's Challenge — A philosopher arguing rights cannot be grounded without theological premises
+The Failure of Naturalistic Grounding — Why evolution, reason, and utility all fail to deliver universal human dignity
+Equality Is Not Obvious — How shockingly recent and historically anomalous the equality assumption is
+Jürgen Habermas's Concession — The atheist philosopher who admits secular liberalism may be "parasitic" on Christian capital
+Larry Siedentop on Rights as Canonical — How medieval church law invented the rights-bearing person
+The American Founding's Theological Premises — "Endowed by their Creator" doing more work than the Founders' theology might suggest
+The Civil Rights Movement as Theological Argument — King's letter from Birmingham jail and the gospel as legal-moral lever
+Animal Rights, Future Generations, AI Rights — How the Christian frame keeps expanding the moral circle
+The Drained Pool — Tom Holland's worry: what if Christian moral capital is finite?
+Alasdair MacIntyre's Diagnosis — After Virtue: we are speaking a moral language whose grammar we have lost
+Counterpoints: Rights Without God — The strongest secular attempts to ground universal dignity
+@UNIT|11|The Inescapability of Faith|Everyone believes things they cannot prove
+The Myth of the View from Nowhere — Why "just following the evidence" is itself a philosophical commitment, not a neutral stance
+What Counts as Faith? — Distinguishing trust, belief, commitment, and faith — and why the distinctions matter
+The Axioms Beneath Reason — The unprovable premises every thinker depends on: logic, induction, the reliability of memory and perception
+You Can't Prove the External World Exists — The oldest scandal in philosophy, and what it shows about the limits of proof
+The Problem of Induction — Hume's worry that "the sun has always risen" doesn't entail "the sun will rise tomorrow"
+Trusting Reason: A Strange Bet — Why confidence in our rational faculties is a leap, not a conclusion
+Plantinga's Evolutionary Argument Against Naturalism — If your brain was selected for survival, why trust it for truth?
+C.S. Lewis on the Self-Defeat of Materialism — Miracles and the argument that naturalism saws off the branch it sits on
+Scientism and Its Discontents — The unprovable claim that "only science delivers knowledge" is itself not a scientific claim
+The Hard Problem of Consciousness — Why materialism still cannot explain why there is something it is like to be you
+The Grounding Problem in Ethics — Why secular ethics struggles to justify the moral weight it asks us to feel
+Where Does Meaning Come From? — The materialist account and what it can't quite reach
+MacIntyre on Tradition-Constituted Reason — Why there is no rationality outside some tradition, secular or religious
+The Theist's Symmetry Argument — If everyone is operating on unprovable premises, the question isn't faith vs. no-faith but which faith
+Counterpoints: The Strongest Materialist Replies — Steelmanning the position the unit critiques, honestly and without strawmanning
+@UNIT|12|Wokeness, Progress, and Secular Eschatology|How modern progressive politics replays Christian structure
+The Structure of Apocalypse — Original sin, fall, prophet, redemption, judgment, new world: the form persists
+History as Moral Arc — Why "the arc of the moral universe bends toward justice" is a theological claim, not an empirical one
+The Convert's Confession — Why modern public apologies, allyship rituals, and self-criticism sessions follow penitential templates
+Original Sin Returns — How concepts of inherited guilt resurface in contemporary identity discourse
+The Heretic and the Excommunicated — Cancel culture's structural resemblance to ecclesial discipline
+John Gray's Critique — Black Mass and the argument that progressive politics is Christian apocalyptic in secular dress
+The Sacralization of the Victim — Why suffering now confers moral authority, and where that pattern came from
+René Girard, Revisited — The scapegoat mechanism in contemporary public shaming
+Progress as Christian Inheritance — Why "progress" is unintelligible outside linear, eschatological time
+Joseph Bottum's An Anxious Age — How former Protestants found religious meaning in progressive activism
+The Trad Right's Mirror — How reactionary politics also draws on Christian forms while inverting them
+What Looks Religious But Isn't — Resisting the temptation to call every passionate movement "a religion"
+The Secular Saint — How modern moral exemplars (the activist, the whistleblower) inherit hagiographic structure
+Are These Echoes or Coincidences? — Methodological honesty about structural-form arguments
+Counterpoints: Why the "Wokeness Is a Religion" Thesis Often Overreaches — A fair examination of the strongest critiques
+@UNIT|13|After Christendom — Nietzsche's Question|What happens when a civilization keeps Christian morality but abandons Christian metaphysics?
+The Madman's Lantern — Nietzsche's parable and what he was actually announcing
+The Death of God Means More Than You Think — Nietzsche's prophecy about what would have to follow
+Slave Morality and Its Defenders — Re-reading Nietzsche's Genealogy in light of the whole course
+The "Last Men" Problem — Comfortable, peaceable, post-Christian — and according to Nietzsche, beneath contempt
+Tom Holland's Cautious Hope — Why he thinks Christian moral instincts can persist without belief, at least for a while
+Douglas Murray's Pessimism — The Strange Death of Europe and the running-on-fumes thesis
+Habermas's Bridge — The atheist philosopher arguing we need post-metaphysical reasoning that takes religion seriously
+The New Atheists in Retrospect — Why Dawkins, Hitchens, and Harris now look like the easy phase of the argument
+The Return of Religious Intellectuals — Why thoughtful non-believers are publicly reconsidering
+Bart Ehrman's Position — A secular scholar who finds Jesus's ethics revolutionary without finding Jesus divine
+What MacIntyre Recommends — Local communities, traditions, and the new monasticism
+Charles Taylor's Open Future — Why he thinks belief and unbelief will keep haunting each other
+The Renewable Capital Question — Can secular institutions generate the moral commitments they inherited but no longer produce?
+The Honest Atheist's Predicament — Living with Christian moral inheritance you don't believe but can't shake
+The Honest Believer's Predicament — Holding faith in a culture that retains its forms but forgot its grounds
+What This Course Has Tried to Show — A final synthesis: not that Christianity is true, but that it is far more present than we knew

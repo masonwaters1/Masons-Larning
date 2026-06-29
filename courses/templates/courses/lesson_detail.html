@@ -1,0 +1,124 @@
+{% extends "courses/base.html" %}
+{% load lesson_extras %}
+{% block title %}{{ lesson.title }} — {{ course.title }}{% endblock %}
+{% block body_style %} style="--accent:{{ course.accent }};--accent-soft:{{ course.accent_soft }}"{% endblock %}
+{% block topnav %}
+  <a href="{% url 'courses:dashboard' %}">Study</a>
+  <a href="{{ course.get_absolute_url }}">{{ course.title|truncatechars:26 }}</a>
+{% endblock %}
+
+{% block content %}
+<div class="reader-grid">
+  <aside class="reader-rail left">
+    <div class="rail-sticky">
+      <div class="rail-label">The Four Courses</div>
+      <ul class="rail-courses">
+        {% for c in courses %}
+        <li><a href="{{ c.get_absolute_url }}" class="{% if c.id == course.id %}cur{% endif %}">
+          <span class="cdot" style="background:{{ c.accent }}"></span>{{ c.title|truncatechars:24 }}</a></li>
+        {% endfor %}
+      </ul>
+      <div class="rail-label">In This Lesson</div>
+      <ul class="toc-mini" id="toc"></ul>
+    </div>
+  </aside>
+
+  <article class="article">
+    <div class="crumbs">
+      <a href="{{ course.get_absolute_url }}">{{ course.title }}</a> <span>/</span>
+      <span>Unit {{ lesson.unit.number }}</span> <span>/</span>
+      <span>Lesson {{ lesson.course_lesson_number }}</span>
+    </div>
+    <h1 class="lesson-title">{{ lesson.title }}</h1>
+    <div class="lesson-meta">
+      <span class="pill">Course {{ course.order }} &middot; Lesson {{ lesson.course_lesson_number }}</span>
+      <span>{{ lesson.unit.title }}</span>
+      {% if lesson.is_written %}<span>{{ lesson.content|reading_time }} min read</span>{% endif %}
+      <span>#{{ lesson.global_position }} in your sequence</span>
+    </div>
+
+    {% if lesson.is_written %}
+      <div class="prose" id="prose">{{ lesson.content|markdownify }}</div>
+    {% else %}
+      <div class="prose">
+        {% if lesson.summary %}<p style="font-style:italic;color:var(--ink-soft)">{{ lesson.summary }}</p>{% endif %}
+        <div class="empty-note">
+          <div class="eyebrow">Not yet written</div>
+          The full text of this lesson hasn't been composed yet. You can still mark it read,
+          or drop a Markdown file at <code>data/lessons/c{{ course.order }}_l{{ lesson.course_lesson_number }}.md</code>
+          and re-run <code>seed_courses</code>.
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="read-dock">
+      <div class="inner">
+        <span class="status" id="readStatus">{% if lesson.is_read %}Read{% else %}Not read yet{% endif %}</span>
+        <button class="btn {% if lesson.is_read %}done{% endif %}" id="markBtn"
+                data-url="{% url 'courses:toggle_read' lesson.id %}">
+          <span id="markLabel">{% if lesson.is_read %}&#10003; Read{% else %}Mark as read{% endif %}</span>
+        </button>
+      </div>
+    </div>
+
+    <nav class="lesson-nav">
+      {% if prev %}
+      <a class="lnav prev" href="{{ prev.get_absolute_url }}">
+        <div class="dir">&larr; Previous</div>
+        <div class="lt">{{ prev.title|truncatechars:46 }}</div>
+        <div class="lc">Course {{ prev.course.order }} &middot; Lesson {{ prev.course_lesson_number }}</div>
+      </a>
+      {% else %}<span class="lnav prev disabled"><div class="dir">&larr; Previous</div><div class="lt">Start of sequence</div></span>{% endif %}
+      {% if next %}
+      <a class="lnav next" href="{{ next.get_absolute_url }}" id="nextLink">
+        <div class="dir">Next &rarr;</div>
+        <div class="lt">{{ next.title|truncatechars:46 }}</div>
+        <div class="lc">Course {{ next.course.order }} &middot; Lesson {{ next.course_lesson_number }}</div>
+      </a>
+      {% else %}<span class="lnav next disabled"><div class="dir">Next &rarr;</div><div class="lt">End of sequence</div></span>{% endif %}
+    </nav>
+  </article>
+
+  <aside class="reader-rail right"></aside>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+// Build mini table of contents from h2 headings
+(function(){
+  const prose = document.getElementById('prose');
+  const toc = document.getElementById('toc');
+  if(!prose||!toc) return;
+  const heads = prose.querySelectorAll('h2');
+  if(!heads.length){ toc.innerHTML='<li style="color:var(--ink-faint);font-size:12px;border:none">&mdash;</li>'; return; }
+  heads.forEach((h,i)=>{
+    const id = 'sec-'+i; h.id = id;
+    const li=document.createElement('li');
+    const a=document.createElement('a');
+    a.href='#'+id; a.textContent=h.textContent;
+    li.appendChild(a); toc.appendChild(li);
+  });
+})();
+
+// CSRF helper
+function getCookie(name){
+  const v=document.cookie.match('(^|;)\\s*'+name+'\\s*=\\s*([^;]+)');
+  return v?v.pop():'';
+}
+// Mark as read (AJAX) — advances to next lesson when marking complete
+const btn=document.getElementById('markBtn');
+btn.addEventListener('click', async ()=>{
+  const r=await fetch(btn.dataset.url,{method:'POST',headers:{'X-CSRFToken':getCookie('csrftoken')}});
+  const d=await r.json();
+  const label=document.getElementById('markLabel');
+  const status=document.getElementById('readStatus');
+  if(d.is_read){
+    btn.classList.add('done'); label.innerHTML='&#10003; Read'; status.textContent='Read';
+    if(d.next_url){ setTimeout(()=>{ window.location.href=d.next_url; }, 450); }
+  }else{
+    btn.classList.remove('done'); label.textContent='Mark as read'; status.textContent='Not read yet';
+  }
+});
+</script>
+{% endblock %}

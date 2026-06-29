@@ -1,0 +1,125 @@
+TITLE|The Free-Market Tradition
+SUBTITLE|Economic Thought from Adam Smith to Thomas Sowell
+ACCENT|#2f5d4e
+ACCENTSOFT|#e7f0ec
+DESC|A deep dive into the lineage of thinkers who defended free markets, prices, property rights, and individual liberty — from eighteenth-century Scotland through the great battles of the twentieth century to the synthesis of Thomas Sowell, with the strongest opposing views taken seriously.
+@UNIT|1|Foundations|The Classical Roots
+Before Economics Was Economics — How moral philosophy, theology, and statecraft gave birth to a new discipline
+Adam Smith, Part I: The Theory of Moral Sentiments — Why the father of capitalism started with empathy, not self-interest
+Adam Smith, Part II: The Wealth of Nations — The invisible hand, division of labor, and the first systematic case for free markets
+David Hume and the Scottish Enlightenment — Spontaneous institutions, money, and the intellectual soil Smith grew from
+David Ricardo and Comparative Advantage — Why trade benefits both sides, even when one side is better at everything
+Thomas Malthus and the Population Question — The pessimistic case that shaped two centuries of debate
+Jean-Baptiste Say: Supply, Demand, and the Entrepreneur — Say's Law and the role of the producer in driving prosperity
+Frédéric Bastiat, Part I: That Which Is Seen and That Which Is Not Seen — The single most important habit of economic thinking
+Bastiat, Part II: The Law and the Candlemakers' Petition — Satire, natural rights, and the logic of legal plunder
+John Stuart Mill: The Last Classical Economist — Liberty, utilitarianism, and the tension between freedom and reform
+Karl Marx, Part I: The Critique of Capitalism — Taking Marx seriously before taking him apart
+Marx, Part II: The Labor Theory of Value and Its Problems — Where the system breaks down logically and empirically
+The Classical Legacy — What survived, what didn't, and what the next generation inherited
+@UNIT|2|The Marginalist Revolution|
+The Crisis in Classical Economics — Why the labor theory of value collapsed and what replaced it
+Carl Menger and the Birth of the Austrian School — Subjective value, individual choice, and the founding text of a tradition
+William Stanley Jevons and the Mathematical Turn — The British branch of the marginalist revolution
+Léon Walras and General Equilibrium — The French branch and the dream of modeling the whole economy
+What Is Marginal Utility? — The diamond-water paradox and why it changed everything
+Eugen von Böhm-Bawerk on Capital and Interest — Time preference, roundabout production, and why interest exists
+Böhm-Bawerk vs. Marx — The Austrian demolition of the exploitation theory
+Friedrich von Wieser and Opportunity Cost — The cost of anything is what you give up to get it
+Alfred Marshall and the Neoclassical Synthesis — Supply and demand scissors, and the textbook economics most people learn
+Knut Wicksell and the Natural Rate of Interest — A bridge between Austrian and mainstream monetary theory
+Why the Marginalist Revolution Mattered — From class-based to individual-based economic analysis
+The Two Roads Forward — How marginalism split into the Austrian and neoclassical traditions
+@UNIT|3|The Austrian School|
+What Makes Austrian Economics Distinct — Methodology, subjectivism, and the rejection of mathematical formalism
+Ludwig von Mises, Part I: The Man and His Mission — From Vienna to New York, defending capitalism in a hostile century
+Mises, Part II: The Economic Calculation Problem — Why socialism cannot calculate, and why this argument still matters
+Mises, Part III: Human Action and Praxeology — Economics as the logic of purposeful behavior
+Mises, Part IV: The Theory of Money and Credit — Inflation, business cycles, and the dangers of monetary manipulation
+Hayek, Part I: The Use of Knowledge in Society — The most important essay you've never read
+Hayek, Part II: Prices as Signals — How markets communicate what no central planner could ever know
+Hayek, Part III: The Road to Serfdom — Why planning leads to tyranny, even with good intentions
+Hayek, Part IV: Spontaneous Order — Language, law, markets, and the things humans make without designing
+Hayek, Part V: The Constitution of Liberty — Rule of law, freedom, and the framework for a free society
+Hayek, Part VI: The Fatal Conceit — The intellectual error at the heart of socialism
+The Austrian Business Cycle Theory — How artificially low interest rates create booms and busts
+Israel Kirzner and the Entrepreneur — Alertness, discovery, and the dynamic market process
+Murray Rothbard and the Anarcho-Capitalist Branch — Pushing Austrian logic to its radical conclusion
+Hans Hermann Hoppe, Joseph Salerno, and the Modern Austrians — Where the tradition stands today
+Austrian Critiques of Mainstream Economics — Why models, equilibrium, and aggregates can mislead
+@UNIT|4|The Chicago School|
+What Is the Chicago School? — Methodology, empiricism, and a different flavor of free-market economics
+Frank Knight: Risk, Uncertainty, and Profit — The teacher who shaped Friedman, Stigler, and Buchanan
+Henry Simons and the Early Chicago Tradition — The classical liberal foundation before Friedman
+Milton Friedman, Part I: The Making of an Economist — From New Deal Democrat to free-market champion
+Friedman, Part II: Capitalism and Freedom — The political philosophy behind the economics
+Friedman, Part III: A Monetary History of the United States — How bad monetary policy caused the Great Depression
+Friedman, Part IV: The Permanent Income Hypothesis — Why consumers smooth spending over a lifetime
+Friedman, Part V: Monetarism and the Natural Rate — The counter-revolution against Keynes
+Friedman, Part VI: Free to Choose — Bringing economics to the public
+George Stigler and the Economics of Regulation — Why regulators get captured by the industries they oversee
+Gary Becker, Part I: The Economic Approach to Human Behavior — Applying price theory to everything
+Becker, Part II: Discrimination, Family, and Crime — Economics beyond markets
+Ronald Coase, Part I: The Nature of the Firm — Why companies exist when markets are so efficient
+Coase, Part II: The Problem of Social Cost — Property rights, transaction costs, and the Coase theorem
+James Buchanan and Public Choice Theory — Politicians and bureaucrats respond to incentives too
+Robert Lucas and Rational Expectations — The revolution that swallowed macroeconomics
+How Chicago Differs From Austria — Methodology, monetary theory, and the empirical question
+@UNIT|5|Thomas Sowell|
+Who Is Thomas Sowell? — From Harlem to Harvard to Hoover, the making of an iconoclast
+Sowell and Marxism — Why he embraced it, why he left it, and what he kept
+A Conflict of Visions, Part I: The Constrained Vision — Human nature has limits, and tradeoffs are everywhere
+A Conflict of Visions, Part II: The Unconstrained Vision — The belief that human nature can be remade
+The Vision of the Anointed — Self-congratulation as a basis for social policy
+Knowledge and Decisions, Part I: The Hayekian Foundation — Extending the knowledge problem into politics and law
+Knowledge and Decisions, Part II: Trade-offs vs. Solutions — There are no solutions, only trade-offs
+Basic Economics, Part I: Prices and Markets — The clearest introduction to price theory ever written
+Basic Economics, Part II: Work, Pay, and Productivity — Wages, jobs, and what people get wrong about labor
+Basic Economics, Part III: Time and Risk — Investment, speculation, and the role of finance
+Discrimination and Disparities — Why unequal outcomes don't prove discrimination
+Economic Facts and Fallacies — Common errors about urban issues, gender, race, and academia
+Race and Culture: A World View — Why some groups succeed economically and others struggle
+Migrations and Cultures — How human capital travels across borders and centuries
+Conquests and Cultures — The long shadow of geography, conquest, and contact
+The Housing Boom and Bust — Sowell on the 2008 crisis and what caused it
+Charter Schools and Their Enemies — Education, opportunity, and entrenched interests
+Intellectuals and Society — Why people with verbal skill keep getting policy wrong
+Sowell's Method — Empirical, historical, comparative, and skeptical of theory untested by facts
+The Sowell Synthesis — Bringing it all together
+@UNIT|6|Opposing and Adjacent Views|
+Why Steelman the Other Side? — The case for taking opposing arguments seriously
+John Maynard Keynes, Part I: The General Theory — Aggregate demand and the case for active government
+Keynes, Part II: Why Keynesianism Won the Mid-Century — Depression, war, and the rise of macroeconomic management
+The Keynesian Critique of Austrian and Chicago Economics — Where they say Friedman and Hayek went wrong
+Paul Samuelson and Postwar Mainstream Economics — The textbook that taught generations
+John Kenneth Galbraith and the Affluent Society — Corporate power, consumerism, and the case for the state
+Joseph Stiglitz and Information Economics — Why markets fail when information is asymmetric
+Paul Krugman: Trade, Geography, and Politics — A Nobel laureate's case for liberal interventionism
+Thomas Piketty and the Inequality Question — Capital, returns, and the modern critique of capitalism
+Mariana Mazzucato and the Entrepreneurial State — The argument that government drives innovation
+Behavioral Economics, Part I: Daniel Kahneman and Bounded Rationality — When humans don't behave like Homo economicus
+Behavioral Economics, Part II: Richard Thaler and Nudge — Libertarian paternalism and its critics
+Modern Monetary Theory — A heterodox challenge to mainstream monetary economics
+The Free-Market Response — How Austrians and Chicagoans answer these critiques
+Where Honest Disagreement Lies — The genuine open questions in economics
+@UNIT|7|Applied Topics|
+Minimum Wage Laws — Theory, evidence, and the unintended consequences
+Rent Control and Housing Policy — Why economists across the spectrum mostly agree
+Price Controls in History — From Diocletian to Venezuela
+Tariffs and Protectionism — Comparative advantage versus the political economy of trade
+Immigration Economics — Labor markets, fiscal impact, and cultural capital
+Monetary Policy and Central Banking — The Fed, inflation targeting, and the rules-vs-discretion debate
+Inflation: Causes, Costs, and Cures — What it is, who it hurts, and how to stop it
+The Business Cycle — Austrian, monetarist, and Keynesian explanations
+Healthcare Economics — Why the U.S. system is what it is and why reform is hard
+Education and School Choice — Incentives, monopoly, and the production of human capital
+The Welfare State — Origins, effects, and the incentive problems
+Discrimination and Disparate Outcomes — Distinguishing the two and tracing the causes
+Environmental Economics — Property rights, externalities, and market-based solutions
+Regulation and Regulatory Capture — Public interest theory versus the public choice critique
+Antitrust and Competition Policy — From Standard Oil to Big Tech
+Taxation: Incidence, Incentives, and Revenue — Who really pays, and what really happens
+Government Debt and Deficits — When do they matter and why
+Crony Capitalism vs. Free Markets — The crucial distinction Sowell, Friedman, and Hayek all emphasized
+Development Economics — Why some nations are rich and others are poor
+The Future of Free-Market Economics — Where the tradition goes from here
