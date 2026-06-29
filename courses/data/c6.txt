@@ -1,0 +1,60 @@
+TITLE|Islam Under the Microscope
+SUBTITLE|Origins, Texts, Law, and the Problem of Authority
+ACCENT|#3a3f4c
+ACCENTSOFT|#e9eaed
+DESC|A graduate seminar presenting, in its strongest form, a critical thesis about Islam: that the tradition makes unusually strong historical, textual, and legal claims about itself, that each is more fragile than the tradition allows, and that some carry consequences a constitutional-liberal order cannot fully accommodate. Three commitments keep it a seminar rather than a polemic. First, everything is anchored to a citable source — a Qur'anic verse, a line of classical exegesis (tafsir), a numbered hadith, a fiqh manual, a primary historical record, or a current statute — never to an assertion about Muslims as people. Second, the doctrine/people distinction is absolute: the course critiques texts, laws, doctrines, and the states that enforce them, not the inner character of 1.8 billion individuals. Third, the strongest academic counter-scholarship is built into every part and must be answered, not avoided. It deliberately excludes the popular claims that do not survive scrutiny and discredit the rest — the "subhuman" charge, the expansive "taqiyya" thesis, and demographic "replacement" theory.
+@UNIT|1|The Clash: Sharia and the American Constitutional Order|Where classical Islamic law collides with the American order
+Sovereignty: Hakimiyya vs. "We the People" — The integralist doctrine that the right to legislate belongs to God alone, set against government by consent
+Apostasy (Ridda) — The classical consensus penalty of death for leaving Islam, against the liberty of conscience
+Blasphemy — Classical penalties for insulting the Prophet and the modern statutes that revive them, against free speech
+Jizya and Dhimmitude — The poll tax paid "in a state of submission" and the Pact of Umar, against equal protection
+The Mecca Exclusion Zone — The state-enforced religious bar to the sanctuary, against the pluralist ideal of open access
+Homosexuality — The classical consensus penalty and the states that still execute on it, against the post-Obergefell settlement
+Women: Veiling, Fitna, and Gender in Fiqh — Compulsory veiling and the asymmetries of classical fiqh, against equal protection
+Al-Wala' wa-l-Bara' (Loyalty and Disavowal) — The Salafi doctrine of disavowing the non-Muslim, against the ideal of civic assimilation
+Consanguinity: Cousin Marriage and Its Limits — The narrow, carefully bounded claim about a permitted practice and measurable genetic harm
+Counter-Scholarship: Answering Part I — Classical fiqh is not what 1.8 billion people practice; most Muslims live under civil codes and reformist jurists contest these rulings
+@UNIT|2|Source-Critical Foundations: The Documentary Problem|Whether the tradition's account of its own origins can bear the weight it carries
+The Documentary Black Hole — The thinness of contemporary first-century evidence and the late surviving biographies
+The Sira as Hagiography — The biography read as theological narrative built to explain Qur'anic allusions after the fact
+The Text Problem — The Uthmanic recension, the variant readings, the Sana'a palimpsest, and the Luxenberg thesis
+The Hadith Reliability Crisis — Goldziher and Schacht on isnads that grew backward over time
+Counter-Scholarship: Answering Part II — The radical revisionist school has lost ground; the defensible residue is uncertainty, not wholesale fabrication
+@UNIT|3|Doctrine and the Reform Problem|Why reform from within is structurally difficult
+Abrogation (Naskh) — The doctrine that later Medinan war verses supersede the earlier conciliatory ones, taught from the tradition's own exegetes
+The Uncreated Qur'an — How the eternal, uncreated text makes historical reinterpretation structurally hard
+The "No Reformation" Thesis — Why the Protestant analogy fails when the text is uncreated and the founder's example is binding
+Counter-Scholarship: Answering Part III — Abrogation is contested within Islam and reform traditions exist; the defensible claim is difficulty, not impossibility
+@UNIT|4|Muhammad: The Critical Biography|The founder's life read through the tradition's own sources
+The Maghazi: Muhammad as Military Leader — The raid economy, the fate of the Jewish tribes, the killing of critics, and captives
+The Marriages, Polygyny, and the Aisha Question — The personal exemption, the Zaynab affair, and the contested age reports
+Revelation and Convenience: The Self-Serving Ayat — The pattern of revelation tracking the man's immediate interest, up to the Satanic Verses
+The Prophethood and Character Case — The theological argument that the prophet fails on his own terms, and the poison hadith
+Counter-Scholarship: Answering Part IV — These episodes come from the same tradition treated elsewhere as late; the honest position runs through normativity, not naive history
+@UNIT|5|Jihad and the Genealogy of Modern Jihadism|The doctrine and its modern activation
+Jihad: Doctrine and Verses — The textual core, the dar al-Islam / dar al-harb division, and offensive jihad as a collective obligation
+From Text to Terror — The intellectual lineage from Ibn Taymiyya to Qutb, and the movements' own textual self-justifications
+Counter-Scholarship: Answering Part V — Quietist readings have classical pedigree and socio-political drivers matter; the surviving claim is textual availability and authority
+@UNIT|6|Antisemitism in the Source Texts|The textual substrate and its modern activation
+The Qur'anic Substrate — The "apes and pigs" motif, the "most intense in enmity" verse, and the humiliation verses in classical tafsir
+The Gharqad Hadith and the Hamas Charter — Genocidal eschatology in the most authoritative collections, quoted verbatim in Article 7
+The Sira Layer and the Indigenous-vs-Imported Debate — Lewis and Cohen against Bostom on continuity versus modern importation
+Counter-Scholarship: Answering Part VI — Centuries of relatively better Jewish life under Islam than Latin Christendom; hold the "raw material plus modern activation" line
+@UNIT|7|The Qur'anic Rejection of Christianity|The direct theological denial of the Christian creed
+Denial of the Cross — 4:157 and the substitutionist reading that removes the crucifixion, and with it the atonement
+Denial of the Trinity and the Sonship — The anti-Trinitarian verses, the frame of shirk, and the puzzle of 5:116
+Counter-Scholarship: Answering Part VII — The Islamic self-understanding is strict tawhid, not insult; the contradiction is not in doubt, only its meaning
+@UNIT|8|The Long Conquest: Thirteen Centuries of Expansion|The historical spine, taught cartographically
+The First Wave (632 to 750) — Syria, Persia, Egypt, Christian North Africa, and Spain brought under Islamic rule
+Al-Andalus and the Reconquista — The push halted at Tours and the long struggle that reframes the Crusades
+The Turkish Waves, the Balkans, and the Devshirme — Manzikert, the fall of Byzantium, and the levy of Christian boys
+1453 and the Hagia Sophia — Conquest as theological supersession made architectural, with a live modern coda
+Vienna and the Limits of Expansion — The sieges of 1529 and 1683 as the high-water marks of the expansion
+Counter-Scholarship: Answering Part VIII — All premodern empires conquered; the surviving version is religious theorization plus permanent legal subordination
+@UNIT|9|Contemporary Persecution of Christians|The thesis brought into the present
+The Present-Day Record — The Copts of Egypt, Nigeria, Pakistan's blasphemy law, and the near-collapse of Iraqi and Syrian churches
+Counter-Scholarship: Answering Part IX — Some violence is ethnic or political, not purely religious; the defensible claim is a legal architecture that enables persecution
+@UNIT|10|Method, Framing, and the Limits of the Case|How to argue the material without forfeiting credibility
+"Islam Is Not a Race" — Why criticism of a belief system is not bigotry against a people, and why the distinction is the only ground that holds
+The Taqiyya Question, Done Honestly — Teaching the narrow, defensive doctrine while refusing the expansive conspiracy thesis
+What This Course Refuses, and Why — The "subhuman" claim, expansive taqiyya, and replacement theory, and why each is excluded
