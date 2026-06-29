@@ -6,6 +6,14 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 from django.http import JsonResponse
 from .models import Course, Lesson, Progress, Highlight
 
+_NUMBER_WORDS = {1: "One", 2: "Two", 3: "Three", 4: "Four", 5: "Five",
+                 6: "Six", 7: "Seven", 8: "Eight", 9: "Nine", 10: "Ten"}
+
+
+def _count_word(n):
+    return _NUMBER_WORDS.get(n, str(n))
+
+
 
 def _next_unread():
     """Next unread lesson in interleaved order, preferring lessons that are
@@ -45,6 +53,7 @@ def dashboard(request):
 
     context = {
         "courses": courses,
+        "course_count_word": _count_word(Course.objects.count()),
         "total": total,
         "read": read,
         "percent": round(100 * read / total) if total else 0,
@@ -92,6 +101,7 @@ def lesson_detail(request, course_slug, slug):
         "next": lesson.get_next(),
         "active": "lesson",
         "courses": Course.objects.all(),
+        "course_count_word": _count_word(Course.objects.count()),
         "highlights_json": highlights,
     }
     return render(request, "courses/lesson_detail.html", context)

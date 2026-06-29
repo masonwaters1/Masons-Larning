@@ -11,7 +11,7 @@
 <div class="reader-grid">
   <aside class="reader-rail left">
     <div class="rail-sticky">
-      <div class="rail-label">The Five Courses</div>
+      <div class="rail-label">The {{ course_count_word }} Courses</div>
       <ul class="rail-courses">
         {% for c in courses %}
         <li><a href="{{ c.get_absolute_url }}" class="{% if c.id == course.id %}cur{% endif %}">

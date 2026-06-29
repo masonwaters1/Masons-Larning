@@ -18,6 +18,11 @@
     </a>
     <nav class="topnav">
       {% block topnav %}{% endblock %}
+      {% if user.is_authenticated %}
+      <form method="post" action="{% url 'logout' %}" class="logout-form">{% csrf_token %}
+        <button type="submit" class="logout-btn" title="Log out">Log out</button>
+      </form>
+      {% endif %}
     </nav>
   </header>
   <main>

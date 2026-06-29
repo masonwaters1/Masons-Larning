@@ -284,3 +284,35 @@ mark.hl.flash{ animation:hlflash 1.2s ease; }
 /* Fix: explicit display on these overrides the [hidden] attribute, so restore it */
 .notes-panel[hidden]{ display:none; }
 .hl-pop[hidden]{ display:none; }
+
+/* ===== Login + logout ===== */
+.logout-form{ display:inline; margin:0; }
+.logout-btn{ font:inherit; font-size:13px; letter-spacing:.02em; cursor:pointer;
+  background:none; border:none; color:var(--ink-soft,#6b6253);
+  padding:4px 6px; border-radius:6px; }
+.logout-btn:hover{ color:var(--ink,#2c2418); background:var(--accent-soft,#efe8d9); }
+
+.login-page main{ display:flex; align-items:center; justify-content:center;
+  min-height:70vh; padding:40px 20px; }
+.login-wrap{ width:100%; max-width:380px; }
+.login-card{ background:var(--paper,#fff); border:1px solid var(--rule,#d8d2c4);
+  border-radius:16px; padding:38px 34px; text-align:center;
+  box-shadow:0 16px 50px rgba(40,30,12,.12); }
+.login-mark{ font-size:30px; color:var(--accent,#7d5e2e); line-height:1; }
+.login-title{ font-family:var(--display,'Fraunces',serif); font-size:30px;
+  margin:.35em 0 .15em; color:var(--ink,#2c2418); }
+.login-sub{ font-size:14px; color:var(--ink-soft,#6b6253); margin:0 0 22px; line-height:1.5; }
+.login-form{ text-align:left; }
+.login-label{ display:block; font-size:12px; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--ink-soft,#6b6253); margin:14px 0 5px; }
+.login-input{ width:100%; box-sizing:border-box; font:inherit; font-size:15px;
+  padding:10px 12px; border:1px solid var(--rule,#d8d2c4); border-radius:9px;
+  background:var(--paper-soft,#fbf9f4); color:var(--ink,#2c2418); }
+.login-input:focus{ outline:none; border-color:var(--accent,#7d5e2e);
+  box-shadow:0 0 0 3px var(--accent-soft,#efe8d9); }
+.login-btn{ width:100%; margin-top:22px; font:inherit; font-size:15px; cursor:pointer;
+  padding:11px 14px; border-radius:9px; border:none;
+  background:var(--accent,#7d5e2e); color:#fff; letter-spacing:.02em; }
+.login-btn:hover{ filter:brightness(.96); }
+.login-error{ background:#fbeaea; border:1px solid #e3b9b9; color:#8a2f2f;
+  font-size:13px; padding:9px 12px; border-radius:9px; margin-bottom:6px; }
