@@ -7,11 +7,18 @@ from .models import Course, Lesson, Progress
 
 
 def _next_unread():
-    """First lesson in the interleaved order that is not yet read."""
+    """Next unread lesson in interleaved order, preferring lessons that are
+    actually written so 'Continue' lands on real content rather than a
+    coming-soon page. Falls back to the first unread lesson when every written
+    lesson has already been read."""
+    first_unread = None
     for lesson in Lesson.global_queryset():
         if not lesson.is_read:
-            return lesson
-    return None
+            if first_unread is None:
+                first_unread = lesson
+            if lesson.is_written:
+                return lesson
+    return first_unread
 
 
 def dashboard(request):

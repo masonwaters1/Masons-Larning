@@ -8,14 +8,14 @@
 {% block content %}
 <section class="dash-hero">
   <div class="wrap">
-    <span class="eyebrow">A self-directed course of study &middot; four parallel tracks</span>
+    <span class="eyebrow">A self-directed course of study &middot; five parallel tracks</span>
     <h1>Read one lesson from each<br>course, in turn.</h1>
-    <p>You move across all four courses one lesson at a time &mdash; lesson&nbsp;one of each, then lesson&nbsp;two of each, and onward. Your place is kept automatically.</p>
+    <p>You move across all five courses one lesson at a time &mdash; lesson&nbsp;one of each, then lesson&nbsp;two of each, and onward. Your place is kept automatically.</p>
 
     <div class="progress-strip">
       <div class="ring" style="--p:{{ percent }}"><b>{{ percent }}<small>%</small></b></div>
       <div class="progress-meta">
-        <div><strong>{{ read }}</strong> of <strong>{{ total }}</strong> lessons read across the four courses.</div>
+        <div><strong>{{ read }}</strong> of <strong>{{ total }}</strong> lessons read across the five courses.</div>
         <div style="margin-top:4px;color:var(--ink-faint)">{{ round_total }} interleaved rounds in the full sequence.</div>
       </div>
     </div>
@@ -36,7 +36,7 @@
 </section>
 
 <div class="wrap">
-  <div class="section-head"><h2>The Four Courses</h2><span class="eyebrow">Reading order &rarr;</span></div>
+  <div class="section-head"><h2>The Five Courses</h2><span class="eyebrow">Reading order &rarr;</span></div>
   <div class="course-grid">
     {% for c in courses %}
     <a class="course-card" href="{{ c.get_absolute_url }}" style="--ca:{{ c.accent }}">

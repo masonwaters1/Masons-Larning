@@ -1,0 +1,158 @@
+TITLE|Sovereign Grace
+SUBTITLE|The Reformed Tradition — Its Doctrines, Its History, and Its Vision of God
+ACCENT|#7d5e2e
+ACCENTSOFT|#efe8d9
+DESC|A comprehensive course in Reformed (Calvinist) theology, presented sympathetically and in depth — covering Scripture, the doctrine of God, the covenants, the person and work of Christ, the doctrines of grace, the church, and the last things, then the history of the tradition from Augustine to Bavinck. Confessionally Reformed in conviction, but intellectually honest: it engages the strongest objections and represents other Christian traditions fairly where they differ.
+@UNIT|1|The Ground of All Theology|Revelation, Scripture, and how we know God
+What Is Theology? — The knowledge of God as the aim and joy of the Christian life
+The Two Books — General revelation in creation and special revelation in Scripture
+General Revelation — What the heavens and the conscience declare about God
+The Necessity of Special Revelation — Why nature alone cannot save or fully instruct
+Sola Scriptura — Scripture as the final and infallible authority for faith and life
+The Inspiration of Scripture — What it means that the Bible is God-breathed
+The Inerrancy of Scripture — Truth without error in all that it affirms
+The Authority of Scripture — Why the Word binds the conscience above all else
+The Clarity of Scripture — The perspicuity of the Word for the ordinary believer
+The Sufficiency of Scripture — All things necessary for salvation and godliness
+The Canon — How the church recognized the books God had given
+Interpreting Scripture — The grammatical-historical method and the analogy of faith
+Word and Spirit — The internal testimony of the Holy Spirit to the Word
+Scripture, Reason, and Tradition — The Reformed ordering of the sources of authority
+@UNIT|2|The God Who Is|The being and attributes of God
+The Knowability of God — Can the finite truly know the infinite?
+The Incomprehensibility of God — Known truly, never exhaustively
+The Names of God — What Yahweh, Elohim, and Adonai reveal
+The Aseity of God — The God who exists from and through himself alone
+The Simplicity of God — Why God is not assembled from parts
+The Immutability of God — The God who does not change
+The Eternity of God — God's relation to time
+The Omnipresence of God — Wholly present everywhere at once
+The Omniscience of God — The perfect and exhaustive knowledge of God
+The Omnipotence of God — Almighty power governed by holy character
+The Holiness of God — The attribute that crowns and colors all the rest
+The Righteousness and Justice of God — God's perfect moral rectitude
+The Goodness, Love, and Mercy of God — The kindness at the heart of the Almighty
+The Wrath of God — The neglected attribute and why it matters
+The Sovereignty of God — The Lord who does all his good pleasure
+@UNIT|3|The Triune God|One God in three persons
+The Mystery of the Trinity — The central and distinguishing Christian confession
+The Biblical Case for the Trinity — How Scripture compels the doctrine
+Nicaea and the Trinitarian Battles — How the church guarded the confession
+God the Father — The first person and the fountain of deity
+God the Son — Eternally begotten, not made
+God the Holy Spirit — The Lord and giver of life
+The Filioque — The Spirit's procession and the East-West divide
+The Immanent and Economic Trinity — God in himself and God for us
+Why the Trinity Matters — The practical glory of the triune God
+@UNIT|4|The Eternal Decree|Predestination, creation, and providence
+The Decree of God — God's one eternal, wise, and holy plan
+Predestination — The doctrine, its comfort, and its difficulty
+Unconditional Election — Chosen in Christ before the foundation of the world
+Reprobation — The harder half of the doctrine, handled with care
+Supralapsarianism and Infralapsarianism — The order of the decrees
+The Sovereignty of God and the Problem of Evil — Does God author sin?
+Foreordination and Human Responsibility — Compatibilism and the freedom of the will
+Creation Out of Nothing — God brings the universe into being by his word
+Providence — God upholds, directs, and governs all that he has made
+Concurrence — How God works sovereignly through real secondary causes
+Miracles and the Ordinary Course of Nature — The God of both
+@UNIT|5|Made and Fallen|Humanity, the image of God, and sin
+The Image of God — What it means to be made in God's likeness
+Body and Soul — The constitution of the human person
+The Covenant of Works — The original arrangement with Adam
+The Fall — How sin and death entered the world
+Original Sin — The guilt and corruption inherited by the whole race
+Total Depravity — Sin's reach into every faculty of the person
+The Bondage of the Will — Luther against Erasmus, and Edwards on freedom
+The Nature and Consequences of Sin — Guilt, pollution, and death
+Common Grace — God's restraint of evil and his gifts to all people
+@UNIT|6|The Covenant|Covenant theology and the unity of Scripture
+What Is a Covenant? — The framework of all God's dealings with humanity
+The Covenant of Redemption — The eternal pact among the persons of the Trinity
+Adam as Federal Head — The covenant of works and its representative
+The Covenant of Grace — One covenant of salvation across the ages
+Federal Headship — The two Adams and the logic of imputation
+The Covenant with Noah — Preservation and the order of common grace
+The Covenant with Abraham — The gospel proclaimed beforehand in promise
+The Mosaic Covenant — Law administered within the covenant of grace
+The Davidic Covenant — The throne and the promised king
+The New Covenant — The fulfillment of all the promises in Christ
+Continuity and Discontinuity — The Reformed reply to dispensationalism
+One People of God — Israel, the church, and the unity of the Bible
+@UNIT|7|The Person of Christ|Christology and the incarnation
+The Eternal Son Before Bethlehem — The pre-existent Word
+The Incarnation — The Word became flesh and dwelt among us
+True God and True Man — The two natures in one person
+Chalcedon — The boundaries that guard the mystery
+The Sinlessness of Christ — The spotless Lamb and the second Adam
+The Three Offices of Christ — Prophet, Priest, and King
+The Humiliation of Christ — From the manger to the grave
+The Exaltation of Christ — Resurrection, ascension, and enthronement
+The Names and Titles of Christ — What Scripture calls the Savior
+@UNIT|8|The Work of Christ|The atonement and its accomplishment
+Why the Atonement Was Necessary — Justice, mercy, and the cross
+Theories of the Atonement — A survey and a Reformed assessment
+Penal Substitution — Christ bearing the wrath we deserved
+The Great Exchange — Our sin imputed to him, his righteousness to us
+For Whom Did Christ Die? — Framing the question of the atonement's extent
+Definite Atonement — The Reformed case for particular redemption
+Propitiation, Redemption, Reconciliation — The riches of the cross
+Active and Passive Obedience — Christ's law-keeping and his suffering
+The Resurrection — Vindication, victory, and the firstfruits
+The Ascension and Heavenly Session — Christ reigning and interceding now
+@UNIT|9|The Application of Redemption|The doctrines of grace and the order of salvation
+The Order of Salvation — The ordo salutis and its logic
+The Five Points of Calvinism — TULIP in its historical context
+Effectual Calling — The sovereign summons that raises the dead
+Regeneration — Born again by the Spirit, not by the will of man
+Irresistible Grace — Why saving grace finally prevails
+Faith — The empty hand that receives Christ
+Repentance — The turning of the whole person to God
+Union with Christ — The hidden center from which all blessings flow
+Justification by Faith Alone — The article on which the church stands or falls
+Imputed Righteousness — Declared righteous in the righteousness of another
+Justification: Reformed and Roman Catholic — Where the Reformation divided
+Adoption — Received as sons and made heirs of God
+Sanctification — The Spirit's lifelong work of making us holy
+The Means of Grace — Word, sacrament, and prayer
+The Third Use of the Law — The law as a guide for the believer
+Assurance of Salvation — Whether and how a Christian may know
+The Perseverance of the Saints — Kept by the power of God to the end
+Glorification — The certain end of those whom God has justified
+@UNIT|10|The Church|Ecclesiology, sacraments, and worship
+The Nature of the Church — The people of God and the body of Christ
+The Marks of the True Church — Word, sacraments, and discipline
+The Visible and Invisible Church — Two ways of seeing one church
+Reformed Church Government — Elders, courts, and Presbyterian polity
+The Sacraments — Visible signs and seals of an invisible grace
+Baptism — The Reformed understanding of the sign of the covenant
+Infant Baptism — The covenant argument for baptizing the children of believers
+The Lord's Supper — Calvin's doctrine of spiritual feeding on Christ
+The Regulative Principle of Worship — Worship governed by the Word
+Church Discipline and the Keys of the Kingdom — Binding and loosing
+The Communion of the Saints — The fellowship of the body of Christ
+@UNIT|11|The Last Things|Eschatology and the consummation
+Death and the Intermediate State — The soul between death and resurrection
+The Return of Christ — The blessed hope of the church
+The Resurrection of the Body — The redemption of our mortal flesh
+The Final Judgment — The great assize and the vindication of God
+The New Heavens and the New Earth — The home of righteousness
+Hell and Eternal Punishment — The solemn doctrine and its defense
+The Millennium — Amillennial, postmillennial, and premillennial readings
+The Already and the Not Yet — Living between the two advents
+@UNIT|12|The Reformed Story|The history of the tradition from Augustine to today
+Augustine — The fountainhead of the doctrines of grace
+The Medieval Background — What the Reformers inherited and rejected
+Martin Luther — Justification and the recovery of the gospel
+John Calvin — The theologian of Geneva and his Institutes
+The Reformed Confessions — Belgic, Heidelberg, and the shaping of the tradition
+The Synod of Dort — The five points forged against Arminianism
+The Westminster Assembly — The high-water mark of confessional Reformed theology
+The Puritans — Reformed theology lived in earnest
+Jonathan Edwards — America's theologian of sovereign grace
+Old Princeton — Hodge, Warfield, and confessional orthodoxy
+Abraham Kuyper — Sphere sovereignty and every square inch
+Herman Bavinck — The breadth and beauty of Reformed dogmatics
+The Reformed Tradition Today — Streams, strengths, and challenges
+Common Objections to Calvinism — A fair hearing and a considered reply
+Why Reformed Theology? — The God-centered vision summarized
