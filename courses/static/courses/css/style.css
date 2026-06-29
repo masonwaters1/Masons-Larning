@@ -316,3 +316,6 @@ mark.hl.flash{ animation:hlflash 1.2s ease; }
 .login-btn:hover{ filter:brightness(.96); }
 .login-error{ background:#fbeaea; border:1px solid #e3b9b9; color:#8a2f2f;
   font-size:13px; padding:9px 12px; border-radius:9px; margin-bottom:6px; }
+
+/* PIN entry: larger, centered, spaced digits */
+.pin-input{ text-align:center; letter-spacing:.5em; font-size:22px; padding-left:.5em; }

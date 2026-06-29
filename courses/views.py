@@ -1,3 +1,4 @@
+from django.conf import settings
 import json
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
@@ -170,3 +171,27 @@ def highlight_delete(request, highlight_id):
     h = get_object_or_404(Highlight, id=highlight_id)
     h.delete()
     return JsonResponse({"ok": True})
+
+
+def pin_view(request):
+    """Show a PIN entry page; on the correct PIN, unlock the session."""
+    if request.session.get("pin_ok"):
+        return redirect("courses:dashboard")
+    error = False
+    if request.method == "POST":
+        entered = (request.POST.get("pin") or "").strip()
+        if entered == str(settings.ACCESS_PIN):
+            request.session["pin_ok"] = True
+            nxt = request.GET.get("next") or request.POST.get("next") or ""
+            if nxt.startswith("/"):
+                return redirect(nxt)
+            return redirect("courses:dashboard")
+        error = True
+    return render(request, "courses/pin.html",
+                  {"error": error, "next": request.GET.get("next", "")})
+
+
+def lock_view(request):
+    """Clear the session, re-locking the site behind the PIN."""
+    request.session.flush()
+    return redirect("pin")

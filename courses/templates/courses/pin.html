@@ -1,0 +1,28 @@
+{% extends "courses/base.html" %}
+{% load static %}
+{% block title %}Enter PIN &middot; The Reading Room{% endblock %}
+{% block body_class %}login-page{% endblock %}
+
+{% block content %}
+<div class="login-wrap">
+  <div class="login-card">
+    <div class="login-mark">&#10070;</div>
+    <h1 class="login-title">The Reading Room</h1>
+    <p class="login-sub">Enter your PIN to continue.</p>
+
+    {% if error %}
+      <div class="login-error">Incorrect PIN. Please try again.</div>
+    {% endif %}
+
+    <form method="post" action="{% url 'pin' %}{% if next %}?next={{ next }}{% endif %}" class="login-form">
+      {% csrf_token %}
+      <label class="login-label" for="id_pin">PIN</label>
+      <input class="login-input pin-input" type="password" name="pin" id="id_pin"
+             inputmode="numeric" autocomplete="off" autofocus required
+             pattern="[0-9]*">
+      <input type="hidden" name="next" value="{{ next }}">
+      <button type="submit" class="login-btn">Enter</button>
+    </form>
+  </div>
+</div>
+{% endblock %}
