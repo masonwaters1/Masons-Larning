@@ -117,3 +117,22 @@ class Progress(models.Model):
 
     def __str__(self):
         return f"{'read' if self.is_read else 'unread'}: {self.lesson}"
+
+
+class Highlight(models.Model):
+    """A Kindle-style highlight on a lesson, with an optional attached note.
+    Anchored by character offsets into the rendered lesson text."""
+    lesson = models.ForeignKey(
+        Lesson, related_name="highlights", on_delete=models.CASCADE)
+    start_offset = models.PositiveIntegerField()
+    end_offset = models.PositiveIntegerField()
+    quote = models.TextField()
+    note = models.TextField(blank=True, default="")
+    color = models.CharField(max_length=10, default="yellow")
+    created_at = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ["start_offset", "id"]
+
+    def __str__(self):
+        return f"Highlight on {self.lesson.title}: {self.quote[:40]}"

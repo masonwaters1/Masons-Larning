@@ -1,9 +1,10 @@
+import json
 from django.shortcuts import render, get_object_or_404, redirect
 from django.utils import timezone
 from django.views.decorators.http import require_POST
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.http import JsonResponse
-from .models import Course, Lesson, Progress
+from .models import Course, Lesson, Progress, Highlight
 
 
 def _next_unread():
@@ -73,6 +74,17 @@ def lesson_detail(request, course_slug, slug):
     lesson = get_object_or_404(Lesson, course=course, slug=slug)
     # ensure a progress row exists
     Progress.objects.get_or_create(lesson=lesson)
+    highlights = [
+        {
+            "id": h.id,
+            "start": h.start_offset,
+            "end": h.end_offset,
+            "quote": h.quote,
+            "note": h.note,
+            "color": h.color,
+        }
+        for h in lesson.highlights.all()
+    ]
     context = {
         "course": course,
         "lesson": lesson,
@@ -80,6 +92,7 @@ def lesson_detail(request, course_slug, slug):
         "next": lesson.get_next(),
         "active": "lesson",
         "courses": Course.objects.all(),
+        "highlights_json": highlights,
     }
     return render(request, "courses/lesson_detail.html", context)
 
@@ -96,3 +109,54 @@ def toggle_read(request, lesson_id):
         "is_read": prog.is_read,
         "next_url": nxt.get_absolute_url() if (prog.is_read and nxt) else None,
     })
+
+
+@require_POST
+def highlight_create(request, lesson_id):
+    """Create a highlight (and optional note) on a lesson."""
+    lesson = get_object_or_404(Lesson, id=lesson_id)
+    try:
+        data = json.loads(request.body or "{}")
+        start = int(data["start"])
+        end = int(data["end"])
+    except (ValueError, KeyError, TypeError, json.JSONDecodeError):
+        return JsonResponse({"error": "bad request"}, status=400)
+    if end <= start:
+        return JsonResponse({"error": "empty range"}, status=400)
+    color = (data.get("color") or "yellow")[:10]
+    h = Highlight.objects.create(
+        lesson=lesson,
+        start_offset=start,
+        end_offset=end,
+        quote=(data.get("quote") or "")[:5000],
+        note=(data.get("note") or "")[:10000],
+        color=color,
+    )
+    return JsonResponse({
+        "id": h.id, "start": h.start_offset, "end": h.end_offset,
+        "quote": h.quote, "note": h.note, "color": h.color,
+    })
+
+
+@require_POST
+def highlight_update(request, highlight_id):
+    """Update a highlight's note and/or color."""
+    h = get_object_or_404(Highlight, id=highlight_id)
+    try:
+        data = json.loads(request.body or "{}")
+    except json.JSONDecodeError:
+        return JsonResponse({"error": "bad request"}, status=400)
+    if "note" in data:
+        h.note = (data.get("note") or "")[:10000]
+    if "color" in data:
+        h.color = (data.get("color") or "yellow")[:10]
+    h.save()
+    return JsonResponse({"id": h.id, "note": h.note, "color": h.color})
+
+
+@require_POST
+def highlight_delete(request, highlight_id):
+    """Delete a highlight."""
+    h = get_object_or_404(Highlight, id=highlight_id)
+    h.delete()
+    return JsonResponse({"ok": True})

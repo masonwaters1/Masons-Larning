@@ -81,6 +81,37 @@
 
   <aside class="reader-rail right"></aside>
 </div>
+
+{{ highlights_json|json_script:"hl-data" }}
+
+<!-- Floating highlight popover (create + edit) -->
+<div id="hlPop" class="hl-pop" hidden>
+  <div class="hl-swatches">
+    <button type="button" class="sw" data-color="yellow" title="Yellow"></button>
+    <button type="button" class="sw" data-color="green" title="Green"></button>
+    <button type="button" class="sw" data-color="pink" title="Pink"></button>
+    <button type="button" class="sw" data-color="blue" title="Blue"></button>
+  </div>
+  <textarea id="hlNote" class="hl-note" rows="3" placeholder="Add a note (optional)…"></textarea>
+  <div class="hl-actions">
+    <button type="button" id="hlDelete" class="hl-act danger" hidden>Delete</button>
+    <span style="flex:1"></span>
+    <button type="button" id="hlCancel" class="hl-act">Cancel</button>
+    <button type="button" id="hlSave" class="hl-act primary">Save</button>
+  </div>
+</div>
+
+<!-- Notes panel + toggle -->
+<button type="button" id="notesToggle" class="notes-toggle" aria-label="Notes">
+  <span id="notesCount">0</span> Notes
+</button>
+<div id="notesPanel" class="notes-panel" hidden>
+  <div class="notes-head">
+    <strong>Highlights &amp; Notes</strong>
+    <button type="button" id="notesClose" class="notes-close" aria-label="Close">&times;</button>
+  </div>
+  <div id="notesList" class="notes-list"></div>
+</div>
 {% endblock %}
 
 {% block scripts %}
@@ -120,5 +151,224 @@ btn.addEventListener('click', async ()=>{
     btn.classList.remove('done'); label.textContent='Mark as read'; status.textContent='Not read yet';
   }
 });
+
+// ===== Highlights & notes (Kindle-style) =====
+(function(){
+  const prose = document.getElementById('prose');
+  if(!prose) return;                         // unwritten lessons have no #prose
+  const COLORS = {
+    yellow:'#ffe58a', green:'#bfe6b0', pink:'#f4c0d3', blue:'#bcd6f5'
+  };
+  const lessonId = {{ lesson.id }};
+  let highlights = [];
+  try { highlights = JSON.parse(document.getElementById('hl-data').textContent) || []; }
+  catch(e){ highlights = []; }
+
+  const pop = document.getElementById('hlPop');
+  const noteBox = document.getElementById('hlNote');
+  const saveBtn = document.getElementById('hlSave');
+  const cancelBtn = document.getElementById('hlCancel');
+  const delBtn = document.getElementById('hlDelete');
+  let mode = null;          // 'create' | 'edit'
+  let pending = null;       // {start,end,quote} for create
+  let editId = null;        // highlight id for edit
+  let chosenColor = 'yellow';
+
+  function post(url, body){
+    return fetch(url, {
+      method:'POST',
+      headers:{'X-CSRFToken':getCookie('csrftoken'), 'Content-Type':'application/json'},
+      body: JSON.stringify(body||{})
+    }).then(r=>r.json());
+  }
+
+  // ---- offset helpers ----
+  function textOffset(node, offsetInNode){
+    let total = 0;
+    const walker = document.createTreeWalker(prose, NodeFilter.SHOW_TEXT, null);
+    let n;
+    while((n = walker.nextNode())){
+      if(n === node) return total + offsetInNode;
+      total += n.nodeValue.length;
+    }
+    return total;
+  }
+
+  // ---- apply one highlight by wrapping each text-node segment ----
+  function applyHighlight(hl){
+    let pos = 0;
+    const walker = document.createTreeWalker(prose, NodeFilter.SHOW_TEXT, null);
+    const segs = [];
+    let n;
+    while((n = walker.nextNode())){
+      const len = n.nodeValue.length;
+      const a = Math.max(hl.start, pos), b = Math.min(hl.end, pos + len);
+      if(a < b) segs.push({node:n, from:a-pos, to:b-pos});
+      pos += len;
+      if(pos >= hl.end) break;
+    }
+    segs.forEach(seg=>{
+      try{
+        const r = document.createRange();
+        r.setStart(seg.node, seg.from);
+        r.setEnd(seg.node, seg.to);
+        const m = document.createElement('mark');
+        m.className = 'hl';
+        m.dataset.id = hl.id;
+        m.dataset.color = hl.color || 'yellow';
+        m.style.background = COLORS[hl.color] || COLORS.yellow;
+        if(hl.note) m.classList.add('has-note');
+        r.surroundContents(m);
+      }catch(e){ /* overlapping/edge segment — skip */ }
+    });
+  }
+
+  function unwrap(id){
+    document.querySelectorAll('mark.hl[data-id="'+id+'"]').forEach(m=>{
+      const p = m.parentNode;
+      while(m.firstChild) p.insertBefore(m.firstChild, m);
+      p.removeChild(m); p.normalize();
+    });
+  }
+
+  function markNote(id, hasNote){
+    document.querySelectorAll('mark.hl[data-id="'+id+'"]')
+      .forEach(m=> m.classList.toggle('has-note', !!hasNote));
+  }
+  function recolor(id, color){
+    document.querySelectorAll('mark.hl[data-id="'+id+'"]').forEach(m=>{
+      m.dataset.color = color; m.style.background = COLORS[color] || COLORS.yellow;
+    });
+  }
+
+  // ---- popover ----
+  function placePop(rect){
+    pop.hidden = false;
+    const pw = pop.offsetWidth, ph = pop.offsetHeight;
+    let top = rect.top - ph - 10;
+    if(top < 8) top = rect.bottom + 10;          // flip below if no room above
+    let left = rect.left + rect.width/2 - pw/2;
+    left = Math.max(8, Math.min(left, window.innerWidth - pw - 8));
+    pop.style.top = top + 'px';
+    pop.style.left = left + 'px';
+  }
+  function highlightSwatch(){
+    pop.querySelectorAll('.sw').forEach(s=>
+      s.classList.toggle('on', s.dataset.color === chosenColor));
+  }
+  function openCreate(range){
+    mode='create';
+    pending={
+      start: textOffset(range.startContainer, range.startOffset),
+      end:   textOffset(range.endContainer, range.endOffset),
+      quote: range.toString()
+    };
+    if(pending.end <= pending.start) return;
+    editId=null; chosenColor='yellow'; noteBox.value='';
+    delBtn.hidden = true; highlightSwatch();
+    placePop(range.getBoundingClientRect());
+    setTimeout(()=>{ const s=window.getSelection(); if(s) s.removeAllRanges(); }, 0);
+  }
+  function openEdit(id){
+    const hl = highlights.find(h=>String(h.id)===String(id));
+    if(!hl) return;
+    mode='edit'; editId=id; chosenColor=hl.color||'yellow'; noteBox.value=hl.note||'';
+    delBtn.hidden = false; highlightSwatch();
+    const m = document.querySelector('mark.hl[data-id="'+id+'"]');
+    placePop((m||prose).getBoundingClientRect());
+  }
+  function closePop(){ pop.hidden = true; mode=null; pending=null; editId=null; }
+
+  pop.querySelectorAll('.sw').forEach(sw=>{
+    sw.style.background = COLORS[sw.dataset.color];
+    sw.addEventListener('click', ()=>{ chosenColor = sw.dataset.color; highlightSwatch(); });
+  });
+  cancelBtn.addEventListener('click', closePop);
+
+  saveBtn.addEventListener('click', async ()=>{
+    if(mode==='create'){
+      const body = {start:pending.start, end:pending.end, quote:pending.quote,
+                    color:chosenColor, note:noteBox.value.trim()};
+      const hl = await post('/lesson/'+lessonId+'/highlight/', body);
+      if(hl && hl.id){ highlights.push(hl); applyHighlight(hl); renderNotes(); }
+    }else if(mode==='edit'){
+      const hl = highlights.find(h=>String(h.id)===String(editId));
+      const res = await post('/highlight/'+editId+'/update/',
+                    {note:noteBox.value.trim(), color:chosenColor});
+      if(res && hl){ hl.note=res.note; hl.color=res.color;
+        recolor(editId, res.color); markNote(editId, !!res.note); renderNotes(); }
+    }
+    closePop();
+  });
+  delBtn.addEventListener('click', async ()=>{
+    if(mode!=='edit') return;
+    await post('/highlight/'+editId+'/delete/', {});
+    unwrap(editId);
+    highlights = highlights.filter(h=>String(h.id)!==String(editId));
+    renderNotes(); closePop();
+  });
+
+  // selection -> create popover
+  prose.addEventListener('mouseup', ()=>{
+    setTimeout(()=>{
+      const sel = window.getSelection();
+      if(!sel || sel.isCollapsed || !sel.rangeCount){ return; }
+      const range = sel.getRangeAt(0);
+      if(!prose.contains(range.commonAncestorContainer)) return;
+      if(range.toString().trim().length === 0) return;
+      openCreate(range);
+    }, 10);
+  });
+  // click existing highlight -> edit
+  prose.addEventListener('click', e=>{
+    const m = e.target.closest('mark.hl');
+    if(m){ e.stopPropagation(); openEdit(m.dataset.id); }
+  });
+  // dismiss popover on outside click / escape
+  document.addEventListener('mousedown', e=>{
+    if(!pop.hidden && !pop.contains(e.target) && !e.target.closest('mark.hl')) closePop();
+  });
+  document.addEventListener('keydown', e=>{ if(e.key==='Escape') closePop(); });
+
+  // ---- notes panel ----
+  const panel = document.getElementById('notesPanel');
+  const list = document.getElementById('notesList');
+  const countEl = document.getElementById('notesCount');
+  function renderNotes(){
+    countEl.textContent = highlights.length;
+    if(!highlights.length){
+      list.innerHTML = '<div class="notes-empty">No highlights yet. Select any text to highlight it and add a note.</div>';
+      return;
+    }
+    const ordered = highlights.slice().sort((a,b)=>a.start-b.start);
+    list.innerHTML = '';
+    ordered.forEach(hl=>{
+      const item = document.createElement('div');
+      item.className = 'note-item';
+      const bar = document.createElement('div');
+      bar.className = 'note-bar'; bar.style.background = COLORS[hl.color]||COLORS.yellow;
+      const body = document.createElement('div'); body.className='note-body';
+      const q = document.createElement('div'); q.className='note-quote';
+      q.textContent = '“' + (hl.quote.length>140 ? hl.quote.slice(0,140)+'…' : hl.quote) + '”';
+      body.appendChild(q);
+      if(hl.note){ const nn=document.createElement('div'); nn.className='note-text'; nn.textContent=hl.note; body.appendChild(nn); }
+      item.appendChild(bar); item.appendChild(body);
+      item.addEventListener('click', ()=>{
+        const m = document.querySelector('mark.hl[data-id="'+hl.id+'"]');
+        if(m){ m.scrollIntoView({behavior:'smooth', block:'center'});
+          m.classList.add('flash'); setTimeout(()=>m.classList.remove('flash'), 1200); }
+      });
+      list.appendChild(item);
+    });
+  }
+  document.getElementById('notesToggle').addEventListener('click', ()=>{
+    panel.hidden = !panel.hidden;
+  });
+  document.getElementById('notesClose').addEventListener('click', ()=> panel.hidden = true);
+
+  // ---- initial render ----
+  highlights.forEach(applyHighlight);
+  renderNotes();
+})();
 </script>
 {% endblock %}
