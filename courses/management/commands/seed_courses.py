@@ -66,6 +66,15 @@ class Command(BaseCommand):
         # so that reading Progress (a OneToOne on Lesson) survives every re-run.
         # This lets the deploy re-run seed_courses on each push to load new
         # lessons WITHOUT wiping which lessons have been marked as read.
+        #
+        # Before reassigning slugs, neutralize every existing slug in this course
+        # to a unique temporary value. Without this, reordering a course (moving a
+        # reused title to an earlier position while its old slug still sits on a
+        # later, not-yet-updated row) would trip the (course, slug) UNIQUE
+        # constraint mid-loop.
+        for pk in list(course.all_lessons.values_list("pk", flat=True)):
+            Lesson.objects.filter(pk=pk).update(slug=f"__tmp_{pk}")
+
         unit = None
         lesson_counter = 0
         order_in_unit = 0
@@ -124,22 +133,31 @@ class Command(BaseCommand):
 
     def _load_lessons(self):
         """Load full lesson content from data/lessons/cN_LL.md if present.
-        Filename convention: c{course_order}_l{course_lesson_number}.md"""
-        if not LESSON_DIR.exists():
-            return
+        Filename convention: c{course_order}_l{course_lesson_number}.md
+        Content is treated as purely a function of the lesson files: any lesson
+        without a backing file has its content cleared, so restructuring a
+        course never leaves stale text attached to a reused lesson slot."""
         loaded = 0
-        for f in sorted(LESSON_DIR.glob("c*_l*.md")):
-            m = re.match(r"c(\d+)_l(\d+)", f.stem)
-            if not m:
-                continue
-            c_order, l_num = int(m.group(1)), int(m.group(2))
-            try:
-                lesson = Lesson.objects.get(
-                    course__order=c_order, course_lesson_number=l_num)
-            except Lesson.DoesNotExist:
-                continue
-            lesson.content = f.read_text(encoding="utf-8")
-            lesson.save(update_fields=["content"])
-            loaded += 1
+        loaded_ids = set()
+        if LESSON_DIR.exists():
+            for f in sorted(LESSON_DIR.glob("c*_l*.md")):
+                m = re.match(r"c(\d+)_l(\d+)", f.stem)
+                if not m:
+                    continue
+                c_order, l_num = int(m.group(1)), int(m.group(2))
+                try:
+                    lesson = Lesson.objects.get(
+                        course__order=c_order, course_lesson_number=l_num)
+                except Lesson.DoesNotExist:
+                    continue
+                lesson.content = f.read_text(encoding="utf-8")
+                lesson.save(update_fields=["content"])
+                loaded_ids.add(lesson.pk)
+                loaded += 1
+        # Clear stale content from any lesson that no longer has a backing file.
+        cleared = (Lesson.objects.exclude(pk__in=loaded_ids)
+                   .exclude(content="").update(content=""))
         if loaded:
             self.stdout.write(self.style.SUCCESS(f"  Loaded {loaded} full lesson(s)."))
+        if cleared:
+            self.stdout.write(self.style.WARNING(f"  Cleared {cleared} stale lesson(s)."))
