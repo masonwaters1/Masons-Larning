@@ -173,6 +173,7 @@ btn.addEventListener('click', async ()=>{
   let pending = null;       // {start,end,quote} for create
   let editId = null;        // highlight id for edit
   let chosenColor = 'yellow';
+  let suppressSel = false;   // ignore selectionchange while we clear it ourselves
 
   function post(url, body){
     return fetch(url, {
@@ -267,7 +268,13 @@ btn.addEventListener('click', async ()=>{
     editId=null; chosenColor='yellow'; noteBox.value='';
     delBtn.hidden = true; highlightSwatch();
     placePop(range.getBoundingClientRect());
-    setTimeout(()=>{ const s=window.getSelection(); if(s) s.removeAllRanges(); }, 0);
+    // Clear the selection (also dismisses the native iOS Copy/Look-Up menu),
+    // suppressing the selectionchange this triggers so it doesn't reopen.
+    setTimeout(()=>{
+      suppressSel = true;
+      const s=window.getSelection(); if(s) s.removeAllRanges();
+      setTimeout(()=>{ suppressSel = false; }, 60);
+    }, 0);
   }
   function openEdit(id){
     const hl = highlights.find(h=>String(h.id)===String(id));
@@ -309,25 +316,39 @@ btn.addEventListener('click', async ()=>{
   });
 
   // selection -> create popover
-  prose.addEventListener('mouseup', ()=>{
-    setTimeout(()=>{
-      const sel = window.getSelection();
-      if(!sel || sel.isCollapsed || !sel.rangeCount){ return; }
-      const range = sel.getRangeAt(0);
-      if(!prose.contains(range.commonAncestorContainer)) return;
-      if(range.toString().trim().length === 0) return;
-      openCreate(range);
-    }, 10);
+  // Works on desktop (mouseup) AND touch devices like iPad/iPhone, where
+  // selecting text by long-press + drag handles does NOT fire a reliable
+  // mouseup. The `selectionchange` event fires reliably on iOS Safari, so we
+  // use it as the primary trigger, debounced until the user stops adjusting.
+  let selDebounce = null;
+  function trySelection(){
+    if(suppressSel) return;
+    const sel = window.getSelection();
+    if(!sel || sel.isCollapsed || !sel.rangeCount) return;
+    const range = sel.getRangeAt(0);
+    if(!prose.contains(range.commonAncestorContainer)) return;
+    if(range.toString().trim().length === 0) return;
+    openCreate(range);
+  }
+  document.addEventListener('selectionchange', ()=>{
+    if(suppressSel) return;
+    if(!pop.hidden && mode==='edit') return;   // don't fight an open edit popover
+    clearTimeout(selDebounce);
+    selDebounce = setTimeout(trySelection, 350); // wait until selection settles
   });
+  // desktop: respond immediately so there's no perceptible delay
+  prose.addEventListener('mouseup', ()=>{ clearTimeout(selDebounce); setTimeout(trySelection, 10); });
   // click existing highlight -> edit
   prose.addEventListener('click', e=>{
     const m = e.target.closest('mark.hl');
     if(m){ e.stopPropagation(); openEdit(m.dataset.id); }
   });
-  // dismiss popover on outside click / escape
-  document.addEventListener('mousedown', e=>{
+  // dismiss popover on outside click / tap / escape
+  function maybeDismiss(e){
     if(!pop.hidden && !pop.contains(e.target) && !e.target.closest('mark.hl')) closePop();
-  });
+  }
+  document.addEventListener('mousedown', maybeDismiss);
+  document.addEventListener('touchstart', maybeDismiss, {passive:true});
   document.addEventListener('keydown', e=>{ if(e.key==='Escape') closePop(); });
 
   // ---- notes panel ----
