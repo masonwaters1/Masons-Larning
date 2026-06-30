@@ -316,11 +316,12 @@ btn.addEventListener('click', async ()=>{
   });
 
   // selection -> create popover
-  // Works on desktop (mouseup) AND touch devices like iPad/iPhone, where
-  // selecting text by long-press + drag handles does NOT fire a reliable
-  // mouseup. The `selectionchange` event fires reliably on iOS Safari, so we
-  // use it as the primary trigger, debounced until the user stops adjusting.
+  // The popover should appear when the user FINISHES selecting — i.e. when they
+  // release the mouse (desktop) or lift their finger (touch) — never mid-drag.
+  // `selectionchange` fires continuously while dragging, so we only let it act
+  // as a fallback when no pointer is currently pressed.
   let selDebounce = null;
+  let pointerDown = false;
   function trySelection(){
     if(suppressSel) return;
     const sel = window.getSelection();
@@ -330,14 +331,23 @@ btn.addEventListener('click', async ()=>{
     if(range.toString().trim().length === 0) return;
     openCreate(range);
   }
+  // track whether a press/drag is in progress (mouse or touch)
+  document.addEventListener('mousedown', ()=>{ pointerDown = true; });
+  document.addEventListener('touchstart', ()=>{ pointerDown = true; }, {passive:true});
+  document.addEventListener('mouseup',   ()=>{ pointerDown = false; });
+  document.addEventListener('touchend',  ()=>{ pointerDown = false; });
+  document.addEventListener('touchcancel',()=>{ pointerDown = false; });
+  // primary trigger: when the user RELEASES after selecting
+  prose.addEventListener('mouseup',  ()=>{ clearTimeout(selDebounce); setTimeout(trySelection, 10); });
+  prose.addEventListener('touchend', ()=>{ clearTimeout(selDebounce); setTimeout(trySelection, 80); });
+  // fallback (mainly for touch handle-dragging where mouseup never fires):
+  // only act once the selection settles AND no pointer is currently pressed
   document.addEventListener('selectionchange', ()=>{
     if(suppressSel) return;
     if(!pop.hidden && mode==='edit') return;   // don't fight an open edit popover
     clearTimeout(selDebounce);
-    selDebounce = setTimeout(trySelection, 350); // wait until selection settles
+    selDebounce = setTimeout(()=>{ if(!pointerDown) trySelection(); }, 350);
   });
-  // desktop: respond immediately so there's no perceptible delay
-  prose.addEventListener('mouseup', ()=>{ clearTimeout(selDebounce); setTimeout(trySelection, 10); });
   // click existing highlight -> edit
   prose.addEventListener('click', e=>{
     const m = e.target.closest('mark.hl');
