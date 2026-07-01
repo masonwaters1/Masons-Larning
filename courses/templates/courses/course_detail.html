@@ -26,7 +26,7 @@
     </div>
     {% for l in unit.lessons.all %}
     <a class="lesson-row {% if l.is_read %}read{% endif %}" href="{{ l.get_absolute_url }}">
-      <span class="ln">L{{ l.course_lesson_number }}</span>
+      <span class="ln">L{{ l.number_label }}</span>
       <span class="lr-check">{% if l.is_read %}&#10003;{% endif %}</span>
       <span class="lr-title">{{ l.title }}</span>
       {% if l.is_written %}<span class="lr-badge">Full text</span>{% else %}<span></span>{% endif %}

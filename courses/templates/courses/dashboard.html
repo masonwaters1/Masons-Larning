@@ -25,7 +25,7 @@
       <div>
         <span class="ct-label">{% if read %}Continue where you left off{% else %}Begin here{% endif %}</span>
         <h3>{{ next_lesson.title }}</h3>
-        <span class="ct-course">{{ next_lesson.course.title }} &middot; Lesson {{ next_lesson.course_lesson_number }} &middot; {{ next_lesson.unit.title }}</span>
+        <span class="ct-course">{{ next_lesson.course.title }} &middot; Lesson {{ next_lesson.number_label }} &middot; {{ next_lesson.unit.title }}</span>
       </div>
       <a class="btn accent" href="{{ next_lesson.get_absolute_url }}">Read &rarr;</a>
     </div>

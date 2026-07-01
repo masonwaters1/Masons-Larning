@@ -27,11 +27,11 @@
     <div class="crumbs">
       <a href="{{ course.get_absolute_url }}">{{ course.title }}</a> <span>/</span>
       <span>Unit {{ lesson.unit.number }}</span> <span>/</span>
-      <span>Lesson {{ lesson.course_lesson_number }}</span>
+      <span>Lesson {{ lesson.number_label }}</span>
     </div>
     <h1 class="lesson-title">{{ lesson.title }}</h1>
     <div class="lesson-meta">
-      <span class="pill">Course {{ course.order }} &middot; Lesson {{ lesson.course_lesson_number }}</span>
+      <span class="pill">Course {{ course.order }} &middot; Lesson {{ lesson.number_label }}</span>
       <span>{{ lesson.unit.title }}</span>
       {% if lesson.is_written %}<span>{{ lesson.content|reading_time }} min read</span>{% endif %}
       <span>#{{ lesson.global_position }} in your sequence</span>
@@ -45,7 +45,7 @@
         <div class="empty-note">
           <div class="eyebrow">Not yet written</div>
           The full text of this lesson hasn't been composed yet. You can still mark it read,
-          or drop a Markdown file at <code>data/lessons/c{{ course.order }}_l{{ lesson.course_lesson_number }}.md</code>
+          or drop a Markdown file at <code>data/lessons/c{{ course.order }}_l{{ lesson.number_label }}.md</code>
           and re-run <code>seed_courses</code>.
         </div>
       </div>
@@ -66,14 +66,14 @@
       <a class="lnav prev" href="{{ prev.get_absolute_url }}">
         <div class="dir">&larr; Previous</div>
         <div class="lt">{{ prev.title|truncatechars:46 }}</div>
-        <div class="lc">Course {{ prev.course.order }} &middot; Lesson {{ prev.course_lesson_number }}</div>
+        <div class="lc">Course {{ prev.course.order }} &middot; Lesson {{ prev.number_label }}</div>
       </a>
       {% else %}<span class="lnav prev disabled"><div class="dir">&larr; Previous</div><div class="lt">Start of sequence</div></span>{% endif %}
       {% if next %}
       <a class="lnav next" href="{{ next.get_absolute_url }}" id="nextLink">
         <div class="dir">Next &rarr;</div>
         <div class="lt">{{ next.title|truncatechars:46 }}</div>
-        <div class="lc">Course {{ next.course.order }} &middot; Lesson {{ next.course_lesson_number }}</div>
+        <div class="lc">Course {{ next.course.order }} &middot; Lesson {{ next.number_label }}</div>
       </a>
       {% else %}<span class="lnav next disabled"><div class="dir">Next &rarr;</div><div class="lt">End of sequence</div></span>{% endif %}
     </nav>

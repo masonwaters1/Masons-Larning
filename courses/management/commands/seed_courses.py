@@ -1,4 +1,5 @@
 import re
+from decimal import Decimal
 from pathlib import Path
 from django.core.management.base import BaseCommand
 from django.utils.text import slugify
@@ -77,6 +78,7 @@ class Command(BaseCommand):
 
         unit = None
         lesson_counter = 0
+        sub_counter = 0
         order_in_unit = 0
         used_slugs = set()
         seen_unit_numbers = []
@@ -98,8 +100,20 @@ class Command(BaseCommand):
                 seen_unit_numbers.append(int(num))
                 order_in_unit = 0
                 continue
-            # lesson line
-            lesson_counter += 1
+            # A "@SUB|Title — Summary" line is a sub-lesson of the preceding main
+            # lesson: it takes a decimal number (80 -> 80.1, 80.2, ...) so extra
+            # depth can be inserted without renumbering anything that follows.
+            is_sub = line.startswith("@SUB|")
+            if is_sub:
+                if lesson_counter == 0:
+                    continue  # a sub-lesson with no parent yet: skip defensively
+                sub_counter += 1
+                number = Decimal(lesson_counter) + (Decimal(sub_counter) / Decimal(10))
+                line = line.split("|", 1)[1]
+            else:
+                lesson_counter += 1
+                sub_counter = 0
+                number = Decimal(lesson_counter)
             order_in_unit += 1
             title, summary = split_dash(line)
             base = slugify(title)[:60] or f"lesson-{lesson_counter}"
@@ -110,7 +124,7 @@ class Command(BaseCommand):
                 n += 1
             used_slugs.add(slug)
             lesson, _ = Lesson.objects.update_or_create(
-                course=course, course_lesson_number=lesson_counter,
+                course=course, course_lesson_number=number,
                 defaults={
                     "unit": unit,
                     "order_in_unit": order_in_unit,
@@ -119,7 +133,7 @@ class Command(BaseCommand):
                     "slug": slug,
                 },
             )
-            seen_lesson_numbers.append(lesson_counter)
+            seen_lesson_numbers.append(number)
             Progress.objects.get_or_create(lesson=lesson)
 
         # Remove any structure no longer present in the seed file (rare). Lessons
@@ -141,10 +155,10 @@ class Command(BaseCommand):
         loaded_ids = set()
         if LESSON_DIR.exists():
             for f in sorted(LESSON_DIR.glob("c*_l*.md")):
-                m = re.match(r"c(\d+)_l(\d+)", f.stem)
+                m = re.match(r"c(\d+)_l(\d+(?:\.\d+)?)", f.stem)
                 if not m:
                     continue
-                c_order, l_num = int(m.group(1)), int(m.group(2))
+                c_order, l_num = int(m.group(1)), Decimal(m.group(2))
                 try:
                     lesson = Lesson.objects.get(
                         course__order=c_order, course_lesson_number=l_num)

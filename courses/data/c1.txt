@@ -104,6 +104,9 @@ The Embodied Mind — Why psychology can't ignore the body
 Integrating Neuroscience and Depth Psychology — Where the traditions meet
 @UNIT|6|Political Philosophy and the Critique of Ideology|
 What Is Ideology? — Belief systems as cognitive shortcuts and dangers
+@SUB|The Psychology of the Tyrant — How men like Hitler, Stalin, Pol Pot, Che, and Khomeini rise to power, and the psychology they share
+@SUB|The Anatomy of a Tyrannical Society — How a whole society is organized to perpetrate mass evil: ideology, terror, propaganda, and the manufactured enemy
+@SUB|The Complicity of the Ordinary — Why ordinary, normal people become perpetrators, collaborators, and bystanders in atrocity
 Hannah Arendt and Totalitarianism — The conditions that make tyranny possible
 The Banality of Evil — Eichmann and the ordinary face of atrocity
 Solzhenitsyn and the Gulag — Bearing witness to ideological catastrophe

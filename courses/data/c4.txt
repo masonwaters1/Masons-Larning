@@ -87,8 +87,14 @@ Reconstruction's Promise — Black political power, schools, churches
 The Black Church Comes Into Its Own — Independent institutions from slavery's end
 Reconstruction's Betrayal — The Compromise of 1877 and the long retreat
 The Lost Cause Religion — How the South sanctified defeat
+@SUB|Everyday Life, North and South — Home, work, food, and how families stayed warm in winter and cool in summer
+@SUB|Getting Around and Getting Together — Travel, recreation, faith, and how people found joy amid a nation at war
+@SUB|Sickness, Medicine, and the Span of a Life — Disease, doctoring, child mortality, and how long people actually lived
 @UNIT|6|Industrial America and the Progressive Era (1877-1929)|Wealth, immigration, empire, and the fundamentalist-modernist divide
 The Gilded Age — Industry, robber barons, and a transforming nation
+@SUB|The Titans of Industry — Carnegie, Rockefeller, and the great debate: robber barons or captains of industry?
+@SUB|The Other Half — Labor, immigration, and the crowded, striving, unequal cities
+@SUB|Politics, Money, and Reform — Corruption, the money question, the Populist revolt, and the racial nadir
 The Social Gospel — Rauschenbusch and Christianity's response to industrial misery
 Catholic Immigration Transforms American Religion — Irish, Italian, Polish, and the Protestant reaction
 The Jewish Migration — From shtetl to Lower East Side

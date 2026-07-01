@@ -1,3 +1,5 @@
+from decimal import Decimal
+
 from django.db import models
 from django.urls import reverse
 
@@ -58,7 +60,7 @@ class Unit(models.Model):
 class Lesson(models.Model):
     unit = models.ForeignKey(Unit, related_name="lessons", on_delete=models.CASCADE)
     course = models.ForeignKey(Course, related_name="all_lessons", on_delete=models.CASCADE)
-    course_lesson_number = models.PositiveIntegerField()
+    course_lesson_number = models.DecimalField(max_digits=6, decimal_places=1)
     order_in_unit = models.PositiveIntegerField()
     title = models.CharField(max_length=400)
     summary = models.CharField(max_length=600, blank=True)
@@ -78,6 +80,26 @@ class Lesson(models.Model):
     @property
     def is_written(self):
         return bool(self.content.strip())
+
+    @property
+    def number_label(self):
+        """Human display for the lesson number: whole numbers show without a
+        decimal ('80'), sub-lessons keep one decimal place ('80.1')."""
+        try:
+            d = Decimal(self.course_lesson_number)
+        except (TypeError, ValueError):
+            return str(self.course_lesson_number)
+        if d == d.to_integral_value():
+            return str(int(d))
+        return format(d.normalize(), "f")
+
+    @property
+    def is_sublesson(self):
+        try:
+            d = Decimal(self.course_lesson_number)
+        except (TypeError, ValueError):
+            return False
+        return d != d.to_integral_value()
 
     @property
     def is_read(self):
