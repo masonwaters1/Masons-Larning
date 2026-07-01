@@ -31,6 +31,57 @@ def _next_unread():
     return first_unread
 
 
+def _progress_map():
+    """Live 'lessons written' progress across every course and unit, computed
+    from the database so the dashboard panel updates itself as content lands."""
+    courses = Course.objects.prefetch_related("units__lessons").order_by("order")
+    total_written = total_lessons = units_done = units_total = started = 0
+    rows = []
+    for c in courses:
+        c_written = c_total = c_units_done = 0
+        units = list(c.units.order_by("number"))
+        segments = []
+        for u in units:
+            lessons = list(u.lessons.all())
+            n = len(lessons)
+            w = sum(1 for l in lessons if (l.content or "").strip())
+            if n:
+                segments.append({"count": n, "pct": round(100 * w / n)})
+                if w == n:
+                    c_units_done += 1
+            c_written += w
+            c_total += n
+        units_total += len(units)
+        units_done += c_units_done
+        total_written += c_written
+        total_lessons += c_total
+        if c_written:
+            started += 1
+        rows.append({
+            "title": c.title,
+            "subtitle": c.subtitle,
+            "accent": c.accent,
+            "order": c.order,
+            "url": c.get_absolute_url(),
+            "written": c_written,
+            "total": c_total,
+            "percent": round(100 * c_written / c_total) if c_total else 0,
+            "units_done": c_units_done,
+            "units_total": len(units),
+            "segments": segments,
+        })
+    return {
+        "written": total_written,
+        "total": total_lessons,
+        "percent": round(100 * total_written / total_lessons) if total_lessons else 0,
+        "started": started,
+        "course_total": len(rows),
+        "units_done": units_done,
+        "units_total": units_total,
+        "rows": rows,
+    }
+
+
 def dashboard(request):
     courses = Course.objects.all()
     total = Lesson.objects.count()
@@ -61,6 +112,7 @@ def dashboard(request):
         "next_lesson": nxt,
         "rounds": preview,
         "round_total": len(rounds),
+        "progress_map": _progress_map(),
         "active": "dashboard",
     }
     return render(request, "courses/dashboard.html", context)

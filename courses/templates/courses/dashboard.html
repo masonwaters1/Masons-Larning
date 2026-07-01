@@ -6,6 +6,40 @@
 {% endblock %}
 
 {% block content %}
+<section class="progress-map">
+  <div class="wrap">
+    <div class="pm-headline">
+      <span class="pm-big">{{ progress_map.written }}</span>
+      <span class="pm-of">of {{ progress_map.total }} lessons written &middot; published live</span>
+    </div>
+    <div class="pm-overall"><i style="width:{{ progress_map.percent }}%"></i></div>
+    <div class="pm-stats">
+      <span><strong>{{ progress_map.percent }}%</strong> overall complete</span>
+      <span><strong>{{ progress_map.started }} / {{ progress_map.course_total }}</strong> courses started</span>
+      <span><strong>{{ progress_map.units_done }} / {{ progress_map.units_total }}</strong> units fully done</span>
+    </div>
+    <div class="pm-courses">
+      {% for r in progress_map.rows %}
+      <a class="pm-row" href="{{ r.url }}" style="--ca:{{ r.accent }}">
+        <div class="pm-row-head">
+          <span class="pm-dot"></span>
+          <span class="pm-title">{{ r.title }}</span>
+          <span class="pm-sub">{{ r.subtitle }}</span>
+          <span class="pm-count">{{ r.written }} / {{ r.total }}</span>
+          <span class="pm-pct">{{ r.percent }}%</span>
+        </div>
+        <div class="pm-seg">
+          {% for s in r.segments %}
+          <span class="pm-unit" style="flex:{{ s.count }}"><i style="width:{{ s.pct }}%"></i></span>
+          {% endfor %}
+        </div>
+        <div class="pm-foot">{{ r.units_done }} of {{ r.units_total }} units complete</div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 <section class="dash-hero">
   <div class="wrap">
     <span class="eyebrow">A self-directed course of study &middot; five parallel tracks</span>
