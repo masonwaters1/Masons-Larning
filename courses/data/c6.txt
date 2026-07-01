@@ -14,6 +14,7 @@ Women: Veiling, Fitna, and Gender in Fiqh — Compulsory veiling and the asymmet
 Al-Wala' wa-l-Bara' (Loyalty and Disavowal) — The Salafi doctrine of disavowing the non-Muslim, against the ideal of civic assimilation
 Consanguinity: Cousin Marriage and Its Limits — The narrow, carefully bounded claim about a permitted practice and measurable genetic harm
 Counter-Scholarship: Answering Part I — Classical fiqh is not what 1.8 billion people practice; most Muslims live under civil codes and reformist jurists contest these rulings
+@SUB|What the Surveys Show: Muslim Opinion in the West — The attitudinal evidence from Europe and America, its methodology wars, and what survives them
 @UNIT|2|Source-Critical Foundations: The Documentary Problem|Whether the tradition's account of its own origins can bear the weight it carries
 The Documentary Black Hole — The thinness of contemporary first-century evidence and the late surviving biographies
 The Sira as Hagiography — The biography read as theological narrative built to explain Qur'anic allusions after the fact
@@ -29,7 +30,9 @@ Counter-Scholarship: Answering Part III — Abrogation is contested within Islam
 The Maghazi: Muhammad as Military Leader — The raid economy, the fate of the Jewish tribes, the killing of critics, and captives
 The Marriages, Polygyny, and the Aisha Question — The personal exemption, the Zaynab affair, and the contested age reports
 Revelation and Convenience: The Self-Serving Ayat — The pattern of revelation tracking the man's immediate interest, up to the Satanic Verses
-The Prophethood and Character Case — The theological argument that the prophet fails on his own terms, and the poison hadith
+The Sensual Paradise: Houris and the Martyr's Incentive — The physical rewards of the Qur'anic paradise, the disputed number, and how the reward system is read by critics
+Dogs, Angels, and the Reach of the Law — The canonical rulings on dogs, the everyday reach of prophetic normativity, and the tradition's own internal dissent
+The Perfect Man Problem: Isma, Emulation, and Modern Ethics — The doctrine that the Prophet's life is the timeless model, the poison hadith, and the collision with contemporary moral norms
 Counter-Scholarship: Answering Part IV — These episodes come from the same tradition treated elsewhere as late; the honest position runs through normativity, not naive history
 @UNIT|5|Jihad and the Genealogy of Modern Jihadism|The doctrine and its modern activation
 Jihad: Doctrine and Verses — The textual core, the dar al-Islam / dar al-harb division, and offensive jihad as a collective obligation
