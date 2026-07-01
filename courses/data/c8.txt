@@ -1,0 +1,67 @@
+TITLE|Heretics and Visionaries
+SUBTITLE|The Men and Women Who Defied the Consensus of Their Age — the Vindicated, the Martyred, and the Merely Wrong
+ACCENT|#6a2f52
+ACCENTSOFT|#f1e6ec
+DESC|A study of the non-conformists who stood against the settled wisdom of their time, in science, religion, art, and politics. What does it take to see what everyone else has missed? When is the heretic a prophet, and when a crank? An honest look at the pattern of vision, dissent, persecution, and vindication — including, unflinchingly, the heretics who were dangerously wrong.
+@UNIT|1|The Anatomy of a Heretic|What it means to defy the consensus
+What Is a Heretic? — Defining the type across science, faith, art, and power
+Consensus and Its Uses — Why the crowd is usually right, and why that matters here
+The Prophet and the Crank — The hardest distinction, and why it is clear only in hindsight
+The Psychology of the Dissenter — Who stands against the crowd, and what it costs them
+The Cost of Being Early — Ridicule, exile, and the long lonely years before vindication
+Vindication and Its Ironies — What happens to the heretic, and the idea, after the victory
+The Overton Window — How the unthinkable slowly becomes the obvious
+Manufactured Heretics — When the label is a weapon rather than a description
+@UNIT|2|Heretics of Science|Those who broke what everyone knew
+Galileo and the Moving Earth — The trial that came to define science against authority
+Darwin and the Descent of Man — The idea that quietly dethroned humanity
+Semmelweis and the Doctors' Hands — The man mocked for asking physicians to wash
+Wegener and the Drifting Continents — Ignored for fifty years, and right after all
+Barbara McClintock and the Jumping Genes — Decades ahead of the field, and finally crowned
+The Ulcer Heretics — Marshall, Warren, and the bacterium no one would believe
+Boltzmann and the Reality of Atoms — The genius who died before he was proven right
+The Heretics Science Absorbed — How yesterday's rebellion becomes today's textbook
+@UNIT|3|Heretics of Faith|Those who challenged the sacred order
+Socrates and the Charge of Impiety — The first martyr of the questioning mind
+The Prophets of Israel — When dissent itself became a religious vocation
+Hypatia and the War on Inquiry — Learning caught in the crossfire of faiths
+Jan Hus and the Price of Reform — The heretic burned a century too early
+Luther at Worms — "Here I stand" and the shattering of Christendom
+The Mystics on the Edge — Eckhart, Julian, and the visionaries the church distrusted
+Spinoza, the God-Intoxicated Heretic — Excommunicated by his own people, revered by later ones
+The Dissenters Who Invented Tolerance — How persecution bred the case for liberty
+@UNIT|4|Heretics of Art and Culture|Those who broke the rules of beauty
+The Scandal of the New — Why the art that lasts is so often hated at first
+The Impressionists and the Salon — The rejected painters who remade human seeing
+Stravinsky and the Riot — The night that music broke its own rules
+The Armory Show — When modern art arrived in America and the public recoiled
+Whitman's Barbaric Yawp — The poet who broke the line and sang himself
+The Banned and the Burned — Censorship and the books that outlived their censors
+Duchamp's Urinal — The prank that permanently redefined what art could be
+The Vindication of the Avant-Garde — How yesterday's outrage becomes today's canon
+@UNIT|5|Heretics of Power|Those who defied the political order
+The Dissident's Dilemma — Speaking the truth when the truth is forbidden
+Antigone's Law — The eternal collision of conscience and the state
+Thomas More and the Silence That Spoke — A man who would not say the words
+Frederick Douglass and the Nation's Lie — Refuting a country's founding hypocrisy
+Gandhi and the Weapon of the Weak — Nonviolence as the most radical dissent
+Solzhenitsyn Against the Lie — One writer versus the whole totalitarian machine
+Living in Truth — Havel, Sakharov, and the dissidents of the Iron Curtain
+The Whistleblower's Burden — Conscience against the institution that employs you
+@UNIT|6|The Heretics Who Were Wrong|The honest counterweight
+Not Every Rebel Is Right — Why this may be the most important unit in the course
+The Charisma of the Contrarian — How merely being against the crowd seduces us
+Lysenko and the Murder of a Science — When the heretic seizes the power to enforce
+The Quacks and the Miracle Cures — Medical dissent that maimed and killed
+The Confident Prophets of Doom — Certain visions of collapse and utopia that failed
+Galileo's Ghost — How the memory of real martyrs gives cover to cranks
+The Contrarian Trap — When "they laughed at Galileo" becomes an all-purpose excuse
+Telling Them Apart — Building an honest test for vision versus delusion
+@UNIT|7|The Art of Seeing Differently|What the pattern teaches
+The Common Thread — What genuine visionaries across every domain seem to share
+Independence of Mind — The habit of reasoning from first principles
+Tolerating the Loneliness — The inner resources that sustained dissent
+Knowing When You Are Wrong — The discipline that separates the prophet from the crank
+Conviction, Calibrated — How to hold a heresy without becoming a fool
+The Debt We Owe the Heretics — Why an open society must protect its dissenters
+Becoming a Good Ancestor — Seeing clearly for the sake of those who come after

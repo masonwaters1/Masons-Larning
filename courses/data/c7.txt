@@ -1,0 +1,67 @@
+TITLE|The Breakthrough
+SUBTITLE|How New Ideas Are Born — The Psychology and History of Invention, Insight, and Revolution
+ACCENT|#1f6a6a
+ACCENTSOFT|#e3efee
+DESC|A study of how genuinely new ideas come into the world: the psychology of insight, the myth and reality of the lone genius, the environments that breed discovery, the structure of scientific revolutions, and what the great breakthroughs teach anyone who wants to think something no one has thought before.
+@UNIT|1|The Myth of the Lightning Bolt|How breakthroughs really happen
+The Eureka Myth — Why the story of sudden, solitary genius is almost always wrong
+The Slow Hunch — How most great ideas incubate for years before they seem to "arrive"
+Multiple Discovery — Why the same idea so often strikes several people at once
+Standing on Shoulders — The cumulative, borrowed, collaborative nature of invention
+The Lone Genius Reconsidered — What is true in the myth, and what it conceals
+Serendipity and the Prepared Mind — Why lucky accidents favor some minds and not others
+The Error That Opens a Door — How mistakes, failures, and dead ends breed discovery
+What Counts as a Breakthrough? — Distinguishing novelty, insight, invention, and revolution
+The Anatomy of an Idea — The stages nearly every new idea seems to pass through
+@UNIT|2|Inside the Moment of Insight|The psychology of the creative mind
+What Happens When It Clicks — The neuroscience and felt experience of the "aha"
+Incubation and the Wandering Mind — Why the answer arrives in the shower
+The Two Networks — Focused attention versus the default-mode dreamer
+Divergent and Convergent Thinking — The two engines every creative act needs
+Analogy: The Core of Cognition — How seeing likeness generates the genuinely new
+Conceptual Blending — Making ideas by fusing things that don't belong together
+The Uses of Constraint — Why limits make you more creative, not less
+Fixation and the Mental Rut — Functional fixedness and the traps of expertise
+Curiosity and the SEEKING Drive — The motivational fuel of discovery
+Flow and the Optimal State — When the mind does its very best work
+@UNIT|3|Where Good Ideas Come From|The environments of breakthrough
+The Adjacent Possible — Why some ideas cannot be thought until their moment
+Liquid Networks — Why cities, cafés, and crowded labs breed innovation
+Exaptation — When a thing invented for one purpose finds a wholly different one
+The Value of the Outsider — Why breakthroughs so often come from the edges of a field
+The Wisdom of Difference — How mixed and diverse groups out-think the experts
+Open Versus Closed — Why sharing ideas accelerates them and hoarding kills them
+The Long Zoom — How ideas connect across scales, fields, and centuries
+Patrons, Prizes, and Deadlines — How incentives shape what actually gets invented
+The Innovator's Ecosystem — Assembling the conditions that make discovery likely
+@UNIT|4|The Structure of Revolutions|How whole worldviews turn over
+Kuhn and the Paradigm — The book that changed how we understand science itself
+Normal Science — Quiet puzzle-solving inside a settled picture of the world
+Anomaly and Crisis — What happens when the facts stop fitting the frame
+The Paradigm Shift — How an entire field flips to a new way of seeing
+Incommensurability — Why rival worldviews can't quite argue with each other
+The Copernican Revolution — Moving the Earth, and moving the mind
+The Darwinian Revolution — How a single idea remade biology and everything after
+The Quantum Rupture — When physics broke its own common sense
+Science Advances One Funeral at a Time — Resistance, the old guard, and generational change
+Progress or Just Change? — Do revolutions actually get us closer to the truth?
+@UNIT|5|Case Studies in Breakthrough|Ideas that changed the world
+Gutenberg's Press — How a modified wine press remade the human mind
+Darwin's Long Delay — The twenty years between the insight and the book
+Einstein's Miracle Year — How a patent clerk rewrote space and time
+Penicillin and the Lucky Mold — Serendipity, and the decade it took to matter
+The Double Helix — Data, competition, and the race for the shape of life
+The Transistor — The small device that built the entire modern world
+The Internet's Strange Birth — How a network with no center came to be
+The Conquest of Disease — From folk inoculation to the mRNA vaccine
+The Ideas That Failed — Brilliant breakthroughs the world was not ready for
+@UNIT|6|Thinking Something New|Turning insight into reality
+From Idea to Thing — Why having the idea is only the very beginning
+The Execution Gap — Why most breakthroughs die quietly in the drawer
+Killing Your Darlings — The hard discipline of letting good ideas go
+Prototyping and Iteration — Thinking by making, and failing on purpose
+The Courage to Be Wrong — Risk, exposure, and the fear that stops us
+Persuading the World — Why a new idea needs salesmanship to survive
+Timing and the Ripe Moment — Reading when the world is finally ready
+Building a Creative Life — The habits, environments, and practices of inventive minds
+Your Own Breakthrough — Bringing the whole course together
