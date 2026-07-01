@@ -1,0 +1,185 @@
+TITLE|The Architecture of Meaning
+SUBTITLE|Depth Psychology, Mythology, and the Thought of Jordan Peterson
+ACCENT|#4b3f6b
+ACCENTSOFT|#efecf5
+DESC|A serious study of why human beings suffer, why we seek meaning, and how depth psychology, philosophy, and religion have tried to answer those questions — built around Jordan Peterson and the intellectual lineage he draws from.
+@UNIT|1|Foundations|The Psychological Lineage
+The Birth of Depth Psychology — Why the unconscious changed everything we thought we knew about the mind
+Freud's Revolution — The unconscious, repression, and the architecture of the hidden self
+The Structural Model — Id, Ego, and Superego as a map of inner conflict
+Dreams as the Royal Road — Freud's method for reading the unconscious
+Civilization and Its Discontents — Why society demands we suffer
+Enter Jung: The Break with Freud — Where Jung agreed, where he diverged, and why it mattered
+The Collective Unconscious — The inherited substrate beneath personal experience
+Archetypes: The Forms of the Psyche — The Self, the Shadow, and the patterns that shape us
+The Anima and Animus — The contrasexual soul-images and their role in development
+The Persona and the Shadow — The mask we wear and the parts we deny
+Individuation — Jung's process of becoming who you actually are
+Psychological Types — Introversion, extraversion, and the four functions
+Alchemy as Inner Transformation — Jung's recovery of a forgotten symbolic language
+Answer to Job — Jung's most controversial book and what it reveals about God and the psyche
+Erich Neumann and the Origins of Consciousness — How awareness emerged from the unconscious
+The Great Mother Archetype — The devouring and nurturing feminine
+Adler and the Inferiority Drive — Striving, compensation, and social interest
+The Legacy of Depth Psychology — What survived, what didn't, and why it still matters
+@UNIT|2|Existentialism and Phenomenology|
+What Is Existentialism? — The philosophy of existence preceding essence
+Kierkegaard and the Leap of Faith — Christianity, anxiety, and authentic choice
+The Three Stages of Life — Aesthetic, ethical, and religious modes of being
+Anxiety as the Dizziness of Freedom — Kierkegaard's psychology of dread
+Nietzsche: The Death of God — What it meant and what it unleashed
+The Will to Power — Nietzsche's account of human motivation
+Master and Slave Morality — How values are forged and inverted
+The Übermensch and Eternal Recurrence — Self-overcoming and the affirmation of life
+Thus Spoke Zarathustra — Reading Nietzsche's strangest and most important book
+Ressentiment — The hidden engine of moral judgment
+Dostoevsky's Underground Man — The first modern psychological portrait
+Crime and Punishment — Conscience, ideology, and the cost of transgression
+The Grand Inquisitor — Freedom, suffering, and the human flight from responsibility
+The Brothers Karamazov — Faith, doubt, and the problem of evil
+Demons and Ideological Possession — Dostoevsky's prophecy of the 20th century
+Heidegger's Being-Toward-Death — Authenticity, thrownness, and Dasein
+Sartre and Bad Faith — The flight from radical freedom
+Camus and the Absurd — Living meaningfully in a meaningless universe
+Viktor Frankl and Logotherapy — Meaning as the antidote to suffering
+Tillich's Courage to Be — Faith as ultimate concern
+@UNIT|3|Mythology, Religion, and Symbolic Thought|
+Why Myth Matters — Stories as the operating system of human consciousness
+Mircea Eliade and the Sacred — Hierophany, ritual, and the structure of religious experience
+The Axis Mundi — The world-center and the architecture of meaning
+Eternal Return and Archaic Ontology — How traditional cultures kept time
+Joseph Campbell and the Monomyth — The hero's journey across cultures
+The Stages of the Hero's Journey — Departure, initiation, return
+Northrop Frye and the Great Code — The Bible as the foundation of Western literature
+Archetypal Criticism — Reading texts through universal patterns
+Marduk and Tiamat — The Mesopotamian myth of order overcoming chaos
+The Egyptian Trinity: Osiris, Horus, Set — Tradition, attention, and malevolence
+Genesis 1: Order from Chaos — Reading the first creation story psychologically
+Adam, Eve, and the Fall — Self-consciousness, shame, and the burden of knowing
+Cain and Abel — The first murder and the resentment that makes evil
+Noah and the Flood — Preparation, foresight, and the catastrophe that always comes
+Abraham's Call — Voluntary adventure as the precondition for meaning
+Moses and the Exodus — Tyranny, liberation, and the law
+The Passion of Christ — Voluntary sacrifice as the highest pattern
+Comparative Mythology: East and West — Where the patterns converge and diverge
+Ritual and Sacrifice — The psychological function of religious practice
+The Sacred and the Profane — Two modes of being in the world
+@UNIT|4|Personality Psychology|
+What Is Personality? — Traits, temperament, and the science of individual difference
+The History of Trait Theory — From Galen to Cattell to today
+Eysenck's Dimensions — Extraversion, neuroticism, and psychoticism
+The Discovery of the Big Five — How researchers converged on OCEAN
+Openness to Experience — Creativity, intellect, and the explorer's mind
+Conscientiousness — Industriousness, orderliness, and long-term outcomes
+Extraversion — Enthusiasm, assertiveness, and positive emotion
+Agreeableness — Compassion, politeness, and the costs of being too nice
+Neuroticism — Withdrawal, volatility, and the negative emotion system
+The Big Five Aspects — Going one layer deeper into personality
+Heritability and Behavioral Genetics — How much of personality is inherited
+Personality and Life Outcomes — Predicting income, health, and relationships
+Sex Differences in Personality — What the data shows and what it means
+Personality Across Cultures — Universality and variation
+Personality Disorders — When traits become pathological
+Personality and Politics — Trait predictors of ideological orientation
+Measuring Yourself — How personality assessment actually works
+Changing Personality — What's malleable, what isn't, and how to work with what you have
+@UNIT|5|Neuroscience and Psychobiology|
+The Brain as a Meaning-Making Organ — Why neuroscience matters for psychology
+Jeffrey Gray's Behavioral Inhibition System — The neuroscience of anxiety
+The Behavioral Activation System — Approach, reward, and dopamine
+Jaak Panksepp and Affective Neuroscience — Emotions as ancient brain systems
+The SEEKING System — Curiosity, exploration, and the engine of motivation
+RAGE, FEAR, and PANIC — The defensive emotional systems
+CARE, PLAY, and LUST — The bonding and generative systems
+Dopamine and the Unknown — Why novelty drives us
+Hierarchies of Perception — How the brain models the world
+Anomaly and Attention — What happens when expectations break
+McGilchrist and the Divided Brain — The Master and His Emissary
+Left and Right Hemisphere Modes — Two ways of attending to reality
+Serotonin and Dominance Hierarchies — From lobsters to humans
+Stress, Cortisol, and Chronic Threat — The biology of overwhelm
+The Default Mode Network — Self-reference, rumination, and meaning
+Psychedelics and the Psyche — What altered states reveal about consciousness
+The Embodied Mind — Why psychology can't ignore the body
+Integrating Neuroscience and Depth Psychology — Where the traditions meet
+@UNIT|6|Political Philosophy and the Critique of Ideology|
+What Is Ideology? — Belief systems as cognitive shortcuts and dangers
+@SUB|The Psychology of the Tyrant — How men like Hitler, Stalin, Pol Pot, Che, and Khomeini rise to power, and the psychology they share
+@SUB|The Anatomy of a Tyrannical Society — How a whole society is organized to perpetrate mass evil: ideology, terror, propaganda, and the manufactured enemy
+@SUB|The Complicity of the Ordinary — Why ordinary, normal people become perpetrators, collaborators, and bystanders in atrocity
+Hannah Arendt and Totalitarianism — The conditions that make tyranny possible
+The Banality of Evil — Eichmann and the ordinary face of atrocity
+Solzhenitsyn and the Gulag — Bearing witness to ideological catastrophe
+The Lessons of the 20th Century — What totalitarianism taught us about human nature
+Hayek and the Knowledge Problem — Why central planning fails
+Spontaneous Order — How complex systems organize without a designer
+Orwell on Language and Thought — How words shape what we can think
+The Frankfurt School — Critical theory's origins and aims
+Marcuse and One-Dimensional Man — The critique of consumer society
+Foucault on Power and Discourse — Reading him fairly before critiquing
+Derrida and Deconstruction — What it actually claims
+Peterson's Critique of Postmodernism — The argument and its contested elements
+Marxism: The Theory and the Outcomes — Separating intellectual project from historical record
+Identity Politics — Group identity versus individual sovereignty
+Free Speech and Compelled Speech — The Bill C-16 controversy in context
+Hierarchy: Tyranny or Competence? — Two readings of structured social order
+The Sovereign Individual — Classical liberalism and its enduring case
+@UNIT|7|Peterson's Original Synthesis|
+Who Is Jordan Peterson? — Biography, training, and intellectual formation
+Maps of Meaning: The Project — What he was trying to do in his first book
+The Domain of the Known — Order, tradition, and what works
+The Domain of the Unknown — Chaos, anomaly, and the dragon
+The Hero as Mediator — Standing on the border between order and chaos
+The Metaphorical Substrate of Perception — How we see meaning before we see things
+Meaning Versus Happiness — Why one is the wrong goal
+Being with a Capital B — Peterson's use of Heidegger's term
+Truth as What Works Across Time — The pragmatic-mythological account of truth
+The Architecture of Belief — How worldviews are structured
+12 Rules for Life: The Premise — Why rules, and why these
+Rules 1-6 Explained — Posture, self-care, friendship, comparison, parenting, ordering your house
+Rules 7-12 Explained — Meaning, truth, listening, precision, children, and small joys
+Beyond Order: The Complement — When too much order becomes its own problem
+The Biblical Series: Genesis — Reading the opening of the Bible psychologically
+The Biblical Series: Exodus — Liberation and the structure of the moral order
+We Who Wrestle With God — Peterson's most recent theological synthesis
+The Major Debates — Harris on truth, Žižek on Marxism, Dawkins on God
+The Public Phenomenon — How an academic became a cultural figure
+Peterson's Core Claim — The single thesis underneath everything
+@UNIT|8|Critical Engagement|
+Why Critique Matters — The difference between absorbing and understanding
+Critiques of Peterson's Jung — What specialists say he gets right and wrong
+Critiques of His Postmodernism Reading — The case from people who study Foucault and Derrida
+Theological Critiques: The Christian View — Where traditional Christians push back
+Theological Critiques: The Atheist View — Harris, Dawkins, and the secular objection
+The Sam Harris Debates Revisited — What was actually at stake
+Feminist Critiques — The strongest versions of the argument
+Critiques from the Left — Political objections worth engaging
+Critiques from the Right — Where traditionalists find him insufficient
+The Science Questions — Where his empirical claims hold and where they're contested
+The Lobster Argument Revisited — Evaluating the analogy honestly
+Peterson's Self-Critiques — How his thinking has evolved
+The Limits of the Mythological Method — When symbolic reading goes too far
+What Peterson Misses — Thinkers and traditions underrepresented in his synthesis
+Synthesizing the Whole — Building your own view from the materials
+Where to Go From Here — Further reading and lifelong study
+@UNIT|9|The Word That Makes Worlds|How speech creates, orders, and destroys — from the cosmos to the soul
+Words That Do Things — Speech that acts instead of merely describing: the promise, the vow, the blessing
+A Word-Based Universe — John Lennox on math as language, DNA as code, and information at the base of reality
+The Word That Holds the Cosmos Together — Athanasius and the Logos as the ordering principle of creation
+In the Beginning Was the Word — Genesis 1, John 1, and the Hebrew dabar where word, thing, and deed are one
+Order Out of Chaos — Peterson's reading of Genesis: the Word speaking habitable order out of tohu wa-bohu
+Made in the Image of a Speaking God — Tolkien's sub-creation and the human calling to make worlds with words
+Building Social Worlds With Words — John Searle on how money, marriage, and nations are spoken into being
+The Word Born in the Soul — Meister Eckhart and the eternal Word uttered in the ground of the self
+Augustine and the Word of the Heart — The verbum cordis: an inner word beneath all language, imaging the Logos
+The Inner Voice — Vygotsky on how the speech spoken over us becomes the structure of our thought
+The Words That Raise a Child — How a parent's daily speech builds or ruins a psyche
+Blessing and Contempt — Gottman, Proverbs, and the interpersonal power to build up or tear down
+The Tongue Is a Fire — James 3 and the destructive power of gossip, slander, and the careless word
+The Custody of the Tongue — The desert fathers and Benedict on silence as the discipline that governs the soul
+The Rectification of Names — Confucius on why a society unravels when words stop matching reality
+Rhetoric: Moving Souls and Cities — Aristotle and Plato on the power of speech to move millions, for good and ill
+When Language Is Corrupted — Orwell and Klemperer on propaganda, Newspeak, and the lie as world-destruction
+The Cloud of Unknowing — Pseudo-Dionysius and the apophatic tradition on where all words finally fail
+Tell the Truth, or at Least Don't Lie — Peterson's ethic: deceit corrupts being, truthful speech repairs it
+Be Precise in Your Speech — The climax: how naming things precisely confronts chaos and transforms a life
