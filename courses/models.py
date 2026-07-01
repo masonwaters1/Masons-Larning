@@ -108,6 +108,52 @@ class Lesson(models.Model):
             return seq[i - 1]
         return None
 
+    def next_reading_target(self):
+        """Navigation target for the 'Mark as Read' button.
+
+        Advances to the *next course* in the interleaved cycle and returns
+        that course's first *unread* lesson (preferring written lessons), so
+        that manually reading ahead within a course is respected: if you have
+        already read lessons 4-9 of the next course, this lands you on lesson
+        10 rather than sending you back to lesson 4. Courses whose lessons are
+        all read are skipped; the cycle wraps through every course, and the
+        current course is considered only as a last resort.
+        """
+        courses = list(Course.objects.order_by("order"))
+        if not courses:
+            return None
+        n = len(courses)
+        cur_idx = next(
+            (i for i, c in enumerate(courses) if c.id == self.course_id), 0
+        )
+        # Courses to try, in order: those after the current one (wrapping
+        # around), with the current course placed last as a fallback.
+        ordered = [courses[(cur_idx + step) % n] for step in range(1, n + 1)]
+
+        def first_unread(course, require_written):
+            for lesson in (
+                Lesson.objects.filter(course=course)
+                .order_by("course_lesson_number")
+            ):
+                if lesson.is_read:
+                    continue
+                if require_written and not lesson.is_written:
+                    continue
+                return lesson
+            return None
+
+        # Prefer the next course that has an unread, written lesson.
+        for course in ordered:
+            hit = first_unread(course, require_written=True)
+            if hit:
+                return hit
+        # Otherwise fall back to any first unread lesson (e.g. coming-soon).
+        for course in ordered:
+            hit = first_unread(course, require_written=False)
+            if hit:
+                return hit
+        return None
+
 
 class Progress(models.Model):
     """Read-state for a lesson (single local user)."""

@@ -115,7 +115,7 @@ def toggle_read(request, lesson_id):
     prog.is_read = not prog.is_read
     prog.read_at = timezone.now() if prog.is_read else None
     prog.save()
-    nxt = lesson.get_next()
+    nxt = lesson.next_reading_target()
     return JsonResponse({
         "is_read": prog.is_read,
         "next_url": nxt.get_absolute_url() if (prog.is_read and nxt) else None,
