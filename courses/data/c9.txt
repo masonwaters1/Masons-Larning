@@ -1,0 +1,69 @@
+TITLE|Marxism Under the Microscope
+SUBTITLE|The Man, the Theory, the Body Count, and the Idea That Won't Die
+ACCENT|#6e1423
+ACCENTSOFT|#f3e7e9
+DESC|A rigorous, unflinching examination of Marxism from a free-market and classically liberal perspective: the life and system of Karl Marx; why the theory fails on its own terms and against human nature; the full historical record of the regimes built in its name, told with names, dates, and numbers; the great critics — Sowell, Hayek, Mises, Friedman, Kolakowski, Orwell, Solzhenitsyn — given full-length treatment; the psychology of the ideology's appeal, examined through a Jordan Peterson lens among others; and the question of why an idea refuted by argument and history alike keeps returning. The course's discipline is the same as its sister seminars: every claim anchored to a citable source, the strongest counterarguments built in and answered rather than avoided, and the honest distinction maintained between Marxism and the democratic welfare state — because a critique that flattens Sweden into Stalin discredits itself. The verdict is not assumed; it is earned, lesson by lesson.
+@UNIT|1|Marx: The Man and the System|The life, the philosophy, and the secular religion beneath it
+The Specter — Why Marxism demands study: the scale of the claim, the scale of the catastrophe, and the method of this course
+Trier to London: The Life of Karl Marx — The whole biography: the brilliance, the exile, the poverty, the dependence on a factory owner's money
+Hegel's Shadow — The dialectic, Feuerbach's inversion, and how Marx stood Hegel on his head
+The Theory of History — Historical materialism: base and superstructure, class struggle, and the stages that end in communism
+Alienation and Exploitation — The moral engine of the system: what Marx said capitalism does to the soul and the paycheck
+The Communist Manifesto — A close reading of the most consequential pamphlet ever printed
+Capital — The system's cathedral: what the big book actually argues, and what it evades
+The Revolution and the Withering State — The dictatorship of the proletariat and the strange vagueness at the doctrine's destination
+Marx the Man vs. Marx the Prophet — The personal record and the honest question of what biography can and cannot prove about a theory
+A Religion for the Godless — Fall, chosen class, apocalypse, paradise: Marxism as secularized eschatology
+@UNIT|2|Why the Theory Fails|The intellectual demolition — economics, human nature, and method
+The Labor Theory's Collapse — The foundation crumbles: marginalism, Böhm-Bawerk, and the value theory Marxism cannot live without
+The Calculation Problem — Mises's impossibility argument applied: why a Marxist economy cannot know what anything costs
+Contrary to Human Nature I: Incentives and Ownership — What people actually do when reward is severed from effort
+Contrary to Human Nature II: The Communes' Verdict — Kibbutzim, communes, and utopian colonies: the natural experiments and their unanimous result
+The New Soviet Man — The project of re-engineering human nature itself, and its total failure
+Popper's Test — Unfalsifiability: how Marxism explains everything and therefore predicts nothing
+The Constrained and Unconstrained Visions — Sowell's deepest frame: two views of human nature beneath every political argument
+What Marx Got Right — The honest ledger: real observations, real grievances — and why they cannot save the system
+@UNIT|3|The Body Count|The historical record of Marxism in power, with names, dates, and numbers
+Lenin: Terror as Policy — The Cheka, the hostages, and the documentary record that terror began on day one
+War Communism and the First Famine — Grain requisition, Kronstadt, and the 1921–22 famine
+Stalin: Collectivization and the Holodomor — Dekulakization, the war on the peasants, and Ukraine's terror-famine
+The Great Terror — 1937–38: the quotas, the confessions, the shooting lists
+The Gulag — The archipelago: scale, function, and the testimony of the survivors
+Mao I: The Great Leap Famine — The largest famine in human history, commanded from above
+Mao II: The Cultural Revolution — The war of children against parents, students against teachers, the present against the past
+Cambodia: Year Zero — The Khmer Rouge and the purest experiment: a quarter of a nation dead in four years
+North Korea: The Museum of Communism — The dynasty, the famine of the 1990s, and the state that never reformed
+Cuba and Latin America — Castro's island: the firing squads, the exodus, and the romance that will not die
+Ethiopia, Angola, and the Third World — The Cold War's forgotten Marxist catastrophes
+The Black Book's Accounting — The hundred-million figure: how it was counted, the methodological debates, and what survives them
+"Real Communism Has Never Been Tried" — The most important objection, answered: why the same result in every climate and culture is evidence about the theory
+@UNIT|4|The Great Critics|The thinkers who saw through it — one at full length per lesson
+Mises: The Impossibility Argument — The 1920 essay that called the century, applied directly to Marx
+Hayek: Serfdom and Knowledge — The road to serfdom and the knowledge problem as the two-front refutation
+Friedman: Freedom's Defender — Capitalism and Freedom, the television case, and the empirical turn
+Sowell I: The Marxist Who Looked at the Data — Harlem to Chicago: Sowell's decade as a Marxist and the government study that ended it
+Sowell II: The Anatomy of Marx's System — Sowell's Marxism: the fairest reconstruction and the most surgical demolition ever written
+Sowell III: Intellectuals and the Vision — The unconstrained vision, the anointed, and why Marxism is the intellectuals' temptation
+Kolakowski: The Greatest Fantasy — The ex-Marxist philosopher's three-volume autopsy of the entire tradition
+Orwell: The Socialist Who Told the Truth — Catalonia, Animal Farm, 1984: the left's greatest witness against the total left
+Solzhenitsyn: One Word of Truth — The Gulag Archipelago and the man who broke the spell
+Chambers: Witness — The Communist spy who came out, and the tragic sense of his testimony
+Aron and The God That Failed — The ex-communists' confessions and the sociology of disillusion
+The Critics' Verdict — What the critiques share, where they differ, and the synthesis this course adopts
+@UNIT|5|The Psychology of the Ideology|Why it appeals — resentment, utopia, and the ideologically possessed mind
+Ideological Possession — Peterson's frame: the low-resolution map that explains everything and the person the ideology thinks through
+Cain and Abel: Resentment as Engine — The first murder as the archetype of hatred of the successful, from Genesis to Nietzsche's ressentiment
+The Opium of the Intellectuals — Aron and Hayek on why the educated fall hardest
+The Victim-Oppressor Lens — The two-category machine: what it sees, what it cannot see, and what it licenses
+Equality of Outcome vs. Equality of Opportunity — The distinction on which everything turns
+Hierarchy and Competence — What hierarchies are for, when they corrupt, and the honest version of Peterson's argument
+Envy Dressed as Justice — The oldest sin in its newest clothes: distinguishing righteous grievance from disguised resentment
+Clean Your Room — The individual alternative to utopian politics — and an honest audit of the Peterson framing itself
+@UNIT|6|The Idea That Won't Die|Gramsci, the culture turn, and what the free society must actually answer
+Gramsci and the Long March — Hegemony, the war of position, and the turn from economics to culture
+The Frankfurt School: The Factual Story — Critical theory told straight — which is damning enough without the conspiracy version
+Why Refutation Never Kills It — The structural reasons Marxism survives every empirical defeat
+China: Leninist Capitalism — The party that kept the Leninism and dropped the Marxism — and what its success does and doesn't prove
+Marxism vs. the Welfare State — The honest line: why Sweden is not Stalin, and why the distinction strengthens the critique
+The Perpetual Openings — The real grievances — inequality, precarity, elite failure — that give the idea its openings in every generation
+The Answer — What the free society must offer instead: the closing argument of the course
