@@ -51,6 +51,22 @@
       </div>
     {% endif %}
 
+
+    {% if lesson.is_written %}
+    <section class="recall" id="recallBox">
+      <div class="recall-head">
+        <div>
+          <div class="eyebrow">The Recall</div>
+          <div class="recall-hint">Before scrolling back up: write what you remember — the argument, the names, the numbers. Then check what you missed. Retrieval is what makes it stick.</div>
+        </div>
+        <span class="recall-status" id="recallStatus">{% if recall_text %}Saved{% endif %}</span>
+      </div>
+      <textarea id="recallText" class="recall-text" rows="7"
+                placeholder="What do I remember from this lesson?&#10;&#8226; The core claim was&#8230;&#10;&#8226; The strongest evidence was&#8230;&#10;&#8226; The counterpoint conceded&#8230;"
+                data-url="{% url 'courses:recall_save' lesson.id %}">{{ recall_text }}</textarea>
+    </section>
+    {% endif %}
+
     <div class="read-dock">
       <div class="inner">
         <span class="status" id="readStatus">{% if lesson.is_read %}Read{% else %}Not read yet{% endif %}</span>
@@ -402,4 +418,40 @@ btn.addEventListener('click', async ()=>{
   renderNotes();
 })();
 </script>
+
+<style>
+  .recall{margin:2.4rem 0 0;padding:1.4rem 1.5rem 1.5rem;border:1px solid var(--line,#e3ddd2);
+    border-left:4px solid var(--accent,#888);border-radius:12px;background:var(--accent-soft,rgba(0,0,0,.03))}
+  .recall-head{display:flex;align-items:flex-start;justify-content:space-between;gap:1rem;margin-bottom:.8rem}
+  .recall-hint{font-size:.85rem;color:var(--ink-soft,#6b6558);margin-top:.3rem;max-width:52ch}
+  .recall-status{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft,#6b6558);white-space:nowrap;padding-top:.2rem}
+  .recall-text{width:100%;box-sizing:border-box;resize:vertical;min-height:9rem;padding:.85rem 1rem;
+    font:inherit;font-size:.95rem;line-height:1.55;color:var(--ink,#222);
+    background:#fffdf8;border:1px solid var(--line,#d8d2c6);border-radius:8px;outline:none}
+  .recall-text:focus{border-color:var(--accent,#888);box-shadow:0 0 0 3px var(--accent-soft,rgba(0,0,0,.06))}
+</style>
+<script>
+(function(){
+  const ta=document.getElementById('recallText');
+  if(!ta) return;
+  const status=document.getElementById('recallStatus');
+  let timer=null, last=ta.value;
+  async function save(){
+    if(ta.value===last) return;
+    status.textContent='Saving\u2026';
+    try{
+      const r=await fetch(ta.dataset.url,{method:'POST',
+        headers:{'X-CSRFToken':getCookie('csrftoken'),'Content-Type':'application/json'},
+        body:JSON.stringify({text:ta.value})});
+      if(r.ok){const d=await r.json();last=ta.value;status.textContent='Saved '+d.saved_at;}
+      else{status.textContent='Save failed';}
+    }catch(e){status.textContent='Offline \u2014 unsaved';}
+  }
+  ta.addEventListener('input',()=>{status.textContent='\u2026';clearTimeout(timer);timer=setTimeout(save,1200);});
+  ta.addEventListener('blur',()=>{clearTimeout(timer);save();});
+  window.addEventListener('beforeunload',()=>{if(ta.value!==last&&navigator.sendBeacon){
+    navigator.sendBeacon(ta.dataset.url,new Blob([JSON.stringify({text:ta.value})],{type:'application/json'}));}});
+})();
+</script>
+
 {% endblock %}
