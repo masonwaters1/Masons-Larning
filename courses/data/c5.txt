@@ -10,9 +10,13 @@ Cracks in the System — The Avignon papacy, the Great Schism, and the crisis of
 The Sale of Salvation — Indulgences, purgatory, and the treasury of merit
 The Anxious Conscience — Nominalism, the via moderna, and late-medieval religion
 The Morning Star — John Wycliffe and the Lollards
+@SUB|The Lollards: England's Underground Reformation — The Wycliffite Bible, the Twelve Conclusions, Oldcastle's rising, and the hidden church that survived a century of fire
+@SUB|The World of the Parish: An English Christian's Life in 1380 — The liturgical year, the plague's shadow, how long people really lived, and what faith looked like on the ground
+@SUB|The Fires: How the Church Justified Burning Heretics — From 'compel them to come in' to Aquinas's death sentence: the scriptures, the logic, and the Christians who said no
 Jan Hus and the Bohemian Revolt — A century before Luther
 The Renaissance and the Humanists — "Ad fontes" and the return to the sources
 Erasmus and the Greek New Testament — The egg that Luther hatched
+@SUB|The Alphabet Makers: Wulfila, Mesrop, and the Brothers from Thessalonica — How Bible translation invented alphabets: Gothic, Armenian, and the Cyrillic script a billion people use today
 The Eve of the Storm — A Europe ready to break
 @UNIT|2|The Ground of All Theology|Revelation, Scripture, and the formal principle of the Reformation
 What Is Theology? — The knowledge of God as the aim and joy of the Christian life
@@ -28,8 +32,11 @@ Word and Spirit — The internal testimony of the Holy Spirit to the Word
 The Tower Experience — Luther's struggle and the discovery of grace
 The Ninety-Five Theses — The spark of October 1517
 The Widening Quarrel — Leipzig, the papal bull, and the burning
+@SUB|The Priesthood of All Believers in Practice — The cup, the hymn, the German Mass, the married pastor, the house-father's catechism: how one doctrine rebuilt church life
+@SUB|Every Believer a Priest: The Doctrine That Leaked — Literacy, the pamphlet public, the parsonage, and the spiritual equality that would not stay out of politics
 The Diet of Worms — "Here I stand"
 The Wartburg and the German Bible — Translating the Word for the people
+@SUB|How Luther's Bible Made Modern German — 'Watch the people's mouths': the translation that forged a standard language out of dialect chaos
 The Radicals at Wittenberg — Karlstadt, the prophets, and Luther's return
 The Peasants' War — Revolution, bloodshed, and Luther's response
 Luther Against Erasmus — The bondage of the will and the heart of the matter
@@ -72,11 +79,14 @@ The Huguenots — The Reformed faith in France
 The French Wars of Religion — Faith, blood, and St. Bartholomew's Day
 The Dutch Revolt — Reformation and independence in the Netherlands
 John Knox and the Scottish Reformation — A nation remade
+@SUB|A School in Every Parish: How the Bible Made Scotland Literate — The First Book of Discipline, the most literate nation in Europe, and the Enlightenment it produced
 The English Reformation Begins — Henry VIII and the break with Rome
+@SUB|Tyndale to King James: The Book That Made English — The strangled translator whose phrases became the language, and the 1611 Bible that fixed them forever
 Cranmer and the Prayer Book — Reformation by liturgy
 Blood and Settlement — The Marian martyrs and the Elizabethan compromise
 The Rise of Puritanism — The push to reform the Reformation
 A Reformation of Nations — How the movement redrew the map of Europe
+@SUB|The Bibles of the Small Nations — Welsh, Finnish, Slovene, Czech, Dutch: how vernacular Scripture founded literary languages and saved one from extinction
 @UNIT|8|The Eternal Decree|Predestination, providence, and the problem of evil
 The Decree of God — God's one eternal, wise, and holy plan
 Predestination — The doctrine, its comfort, and its difficulty
@@ -129,6 +139,7 @@ The Perseverance of the Saints — Kept by the power of God to the end
 @UNIT|13|The Reformation's Long Reach|Wars, legacy, and the modern Reformed world
 The Wars of Religion — A century of blood and the road to toleration
 The Reformation and the Modern World — Liberty, literacy, and unintended consequences
+@SUB|The Missionary Alphabet-Makers — Cree syllabics, written Yoruba, Korea's Hangul revival, and Bible translation as the largest language project in human history
 Jonathan Edwards — America's theologian of sovereign grace
 The Great Awakenings — Reformed revival in the new world
 Old Princeton — Hodge, Warfield, and confessional orthodoxy
