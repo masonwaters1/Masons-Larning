@@ -1,0 +1,160 @@
+TITLE|Sovereign Grace
+SUBTITLE|Reformed Theology and the History of the Reformation
+ACCENT|#7d5e2e
+ACCENTSOFT|#efe8d9
+DESC|A braided course that tells two stories at once. One thread is the systematic theology of the Reformed tradition — Scripture, the God who reigns, grace alone, the eternal decree, Christ and his saving work, the application of redemption, the church, and the last things. The other is the history of the Reformation that recovered it — from the late-medieval eve through Luther, Zwingli, and Calvin's Geneva, out across France, the Netherlands, Scotland, and England, into the confessions, the wars of religion, and the tradition's long reach. Roughly half pure Reformed theology and half Reformation history, the two threads alternate so that each illuminates the other: the doctrine and the drama of its rediscovery side by side. Confessionally Reformed in conviction, but intellectually honest — engaging the strongest objections and representing other traditions fairly where they differ.
+@UNIT|1|The World That Needed Reforming|The late-medieval church and the eve of the Reformation
+The Question of the Reformation — Recovery, revolution, or tragedy?
+The Medieval Church at Its Height — The sacramental world and the reach of Rome
+Cracks in the System — The Avignon papacy, the Great Schism, and the crisis of authority
+The Sale of Salvation — Indulgences, purgatory, and the treasury of merit
+The Anxious Conscience — Nominalism, the via moderna, and late-medieval religion
+The Morning Star — John Wycliffe and the Lollards
+@SUB|The Lollards: England's Underground Reformation — The Wycliffite Bible, the Twelve Conclusions, Oldcastle's rising, and the hidden church that survived a century of fire
+@SUB|The World of the Parish: An English Christian's Life in 1380 — The liturgical year, the plague's shadow, how long people really lived, and what faith looked like on the ground
+@SUB|The Fires: How the Church Justified Burning Heretics — From 'compel them to come in' to Aquinas's death sentence: the scriptures, the logic, and the Christians who said no
+Jan Hus and the Bohemian Revolt — A century before Luther
+The Renaissance and the Humanists — "Ad fontes" and the return to the sources
+Erasmus and the Greek New Testament — The egg that Luther hatched
+@SUB|The Alphabet Makers: Wulfila, Mesrop, and the Brothers from Thessalonica — How Bible translation invented alphabets: Gothic, Armenian, and the Cyrillic script a billion people use today
+The Eve of the Storm — A Europe ready to break
+@UNIT|2|The Ground of All Theology|Revelation, Scripture, and the formal principle of the Reformation
+What Is Theology? — The knowledge of God as the aim and joy of the Christian life
+The Two Books — General revelation in creation and special revelation in Scripture
+General and Special Revelation — What nature declares and why it cannot save
+Sola Scriptura — Scripture as the final and infallible authority
+The Inspiration of Scripture — What it means that the Bible is God-breathed
+The Authority and Inerrancy of Scripture — Truth without error, binding the conscience
+The Clarity and Sufficiency of Scripture — Plain enough and complete enough to save
+The Canon — How the church recognized the books God had given
+Word and Spirit — The internal testimony of the Holy Spirit to the Word
+@UNIT|3|Luther and the German Reformation|The monk who shook the world
+The Tower Experience — Luther's struggle and the discovery of grace
+The Ninety-Five Theses — The spark of October 1517
+The Widening Quarrel — Leipzig, the papal bull, and the burning
+@SUB|The Priesthood of All Believers in Practice — The cup, the hymn, the German Mass, the married pastor, the house-father's catechism: how one doctrine rebuilt church life
+@SUB|Every Believer a Priest: The Doctrine That Leaked — Literacy, the pamphlet public, the parsonage, and the spiritual equality that would not stay out of politics
+The Diet of Worms — "Here I stand"
+The Wartburg and the German Bible — Translating the Word for the people
+@SUB|How Luther's Bible Made Modern German — 'Watch the people's mouths': the translation that forged a standard language out of dialect chaos
+The Radicals at Wittenberg — Karlstadt, the prophets, and Luther's return
+The Peasants' War — Revolution, bloodshed, and Luther's response
+Luther Against Erasmus — The bondage of the will and the heart of the matter
+The Augsburg Confession — The Lutheran settlement takes shape
+Luther's Legacy — The man, his faults, and his recovery of the gospel
+@UNIT|4|Grace Alone|Sin, the bondage of the will, and justification by faith
+The Image of God and the Covenant of Works — Humanity as created and tested
+The Fall — How sin and death entered the world
+Original Sin — The guilt and corruption inherited by the whole race
+Total Depravity — Sin's reach into every faculty of the person
+The Bondage of the Will — Why the sinner cannot will his own salvation
+Justification by Faith Alone — The article on which the church stands or falls
+The Great Exchange — Our sin imputed to Christ, his righteousness to us
+Faith Alone — The empty hand that receives Christ
+Justification: Reformed and Roman Catholic — Where the Reformation divided
+The Five Solas — Grace, faith, Christ, Scripture, and the glory of God alone
+@UNIT|5|Zwingli, Geneva, and the Reformed Wing|The second front of the Reformation
+Ulrich Zwingli — The Reformation comes to Zürich
+The Reformed and the Lutherans Divide — The Marburg Colloquy and the Supper
+Bucer and Strasbourg — The bridge-builder of the Reformation
+The Young Calvin — Conversion, exile, and the first Institutes
+Geneva — The reluctant reformer and the city on a hill
+Calvin's Geneva — Discipline, the academy, and the Reformed model
+The Servetus Affair — The hardest case and its honest reckoning
+Calvin the Theologian — The Institutes and the shape of Reformed thought
+Calvin's Reach — Geneva as the seedbed of an international movement
+@UNIT|6|The God Who Reigns|The being, attributes, and triune life of God
+The Knowability and Incomprehensibility of God — Known truly, never exhaustively
+The Aseity and Simplicity of God — From himself, and not assembled from parts
+The Immutability and Eternity of God — The God who does not change
+The Omniscience and Omnipotence of God — Perfect knowledge and almighty power
+The Holiness of God — The attribute that crowns and colors all the rest
+The Justice, Goodness, and Wrath of God — The moral perfections of the Almighty
+The Sovereignty of God — The Lord who does all his good pleasure
+The Mystery of the Trinity — One God in three persons
+The Biblical Case for the Trinity — How Scripture compels the doctrine
+Why the Trinity Matters — The practical glory of the triune God
+@UNIT|7|The Reformation Becomes International|France, the Netherlands, Scotland, and England
+The Huguenots — The Reformed faith in France
+The French Wars of Religion — Faith, blood, and St. Bartholomew's Day
+The Dutch Revolt — Reformation and independence in the Netherlands
+John Knox and the Scottish Reformation — A nation remade
+@SUB|A School in Every Parish: How the Bible Made Scotland Literate — The First Book of Discipline, the most literate nation in Europe, and the Enlightenment it produced
+The English Reformation Begins — Henry VIII and the break with Rome
+@SUB|Tyndale to King James: The Book That Made English — The strangled translator whose phrases became the language, and the 1611 Bible that fixed them forever
+Cranmer and the Prayer Book — Reformation by liturgy
+Blood and Settlement — The Marian martyrs and the Elizabethan compromise
+The Rise of Puritanism — The push to reform the Reformation
+A Reformation of Nations — How the movement redrew the map of Europe
+@SUB|The Bibles of the Small Nations — Welsh, Finnish, Slovene, Czech, Dutch: how vernacular Scripture founded literary languages and saved one from extinction
+@UNIT|8|The Eternal Decree|Predestination, providence, and the problem of evil
+The Decree of God — God's one eternal, wise, and holy plan
+Predestination — The doctrine, its comfort, and its difficulty
+Unconditional Election — Chosen in Christ before the foundation of the world
+Reprobation — The harder half of the doctrine, handled with care
+The Order of the Decrees — Supralapsarian and infralapsarian
+Foreordination and Human Responsibility — Compatibilism and the freedom of the will
+Does God Author Sin? — Sovereignty and the problem of evil
+Creation and Providence — God upholds, directs, and governs all things
+Concurrence — How God works through real secondary causes
+@UNIT|9|The Radicals and the Catholic Response|The Anabaptists and the Counter-Reformation
+The Radical Reformation — The Anabaptists and the rejection of the world
+Münster and the Limits of Radicalism — When the dream turned to nightmare
+Menno Simons and the Peaceful Witness — The Anabaptist legacy that endured
+The Catholic Reformation — Rome reforms itself
+The Council of Trent — Rome's answer to the Reformation
+Ignatius and the Jesuits — The shock troops of the Counter-Reformation
+Why Reunion Failed — The Reformation divides the church for good
+@UNIT|10|Christ and His Saving Work|The person of Christ, the covenants, and the atonement
+The Incarnation — The Word became flesh and dwelt among us
+True God and True Man — The two natures in one person, and Chalcedon
+The Three Offices of Christ — Prophet, Priest, and King
+Covenant Theology — The unity of Scripture in one covenant of grace
+The Two Adams — Federal headship and the logic of imputation
+Why the Atonement Was Necessary — Justice, mercy, and the cross
+Penal Substitution — Christ bearing the wrath we deserved
+Definite Atonement — The Reformed case for particular redemption
+The Resurrection and Ascension — Vindication, victory, and the reigning Christ
+@UNIT|11|Confession and Consolidation|The confessions, Dort, Westminster, and the Puritans
+Why the Reformation Wrote Confessions — Faith put into words
+The Belgic and Heidelberg — The confessions of the Reformed heart
+Arminius and the Remonstrants — The challenge from within
+The Synod of Dort — The five points forged against Arminianism
+The Westminster Assembly — The high-water mark of confessional theology
+The Westminster Standards — The confession and catechisms that shaped a tradition
+The Puritans — Reformed theology lived in earnest
+Reformed Scholasticism — The systematizing of the tradition
+The Covenanters — Faith and the cost of confession
+@UNIT|12|The Application of Redemption|The doctrines of grace and the order of salvation
+The Order of Salvation — The ordo salutis and its logic
+The Five Points of Calvinism — TULIP in its historical context
+Effectual Calling — The sovereign summons that raises the dead
+Regeneration — Born again by the Spirit, not the will of man
+Irresistible Grace — Why saving grace finally prevails
+Union with Christ — The hidden center from which all blessings flow
+Repentance and the Christian Life — The turning of the whole person to God
+Sanctification and the Third Use of the Law — The Spirit's lifelong work
+Assurance of Salvation — Whether and how a Christian may know
+The Perseverance of the Saints — Kept by the power of God to the end
+@UNIT|13|The Reformation's Long Reach|Wars, legacy, and the modern Reformed world
+The Wars of Religion — A century of blood and the road to toleration
+The Reformation and the Modern World — Liberty, literacy, and unintended consequences
+@SUB|The Missionary Alphabet-Makers — Cree syllabics, written Yoruba, Korea's Hangul revival, and Bible translation as the largest language project in human history
+Jonathan Edwards — America's theologian of sovereign grace
+The Great Awakenings — Reformed revival in the new world
+Old Princeton — Hodge, Warfield, and confessional orthodoxy
+Abraham Kuyper — Sphere sovereignty and every square inch
+Herman Bavinck — The breadth and beauty of Reformed dogmatics
+The Reformed Tradition Today — Streams, strengths, and challenges
+Was the Reformation a Mistake? — The strongest objections and a considered reply
+@UNIT|14|The Church and the Last Things|Ecclesiology, sacraments, worship, and the consummation
+The Nature and Marks of the Church — The body of Christ; Word, sacraments, discipline
+The Visible and Invisible Church — Two ways of seeing one church
+Reformed Church Government — Elders, courts, and Presbyterian polity
+The Sacraments — Visible signs and seals of an invisible grace
+Baptism and the Covenant — The Reformed case, including infant baptism
+The Lord's Supper — Calvin's doctrine of spiritual feeding on Christ
+The Regulative Principle of Worship — Worship governed by the Word
+The Return of Christ and the Last Judgment — The blessed hope and the great assize
+The New Heavens and the New Earth — The home of righteousness
+Why Sovereign Grace? — The God-centered vision summarized
