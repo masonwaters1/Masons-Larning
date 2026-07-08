@@ -1,0 +1,90 @@
+TITLE|The Moral Battlefield
+SUBTITLE|How Left and Right Think, Fight, and Feel
+ACCENT|#3b5268
+ACCENTSOFT|#e9eef3
+DESC|A course on the deep structure of political conflict: the two moral grammars (rights and entitlements versus inheritance and duties), the psychology beneath them, and the rhetorical weaponry built on top — empathy converted into a targeting system, inversion tactics, the myth of neutrality, and the compassion-vocabulary of history's worst regimes. The charter, stated plainly: this course studies the left at its worst, not the left as such; every tactic lesson runs the symmetric audit and names the right's version of the same move, because the goal is to see structures, not to hate tribes. Case files steelman the genuine underlying debate before dissecting the move. Closes with craft: what to actually do, with Jordan Peterson's stands studied and audited like every other thinker on this platform. House style: the Honest Counterpoint ends every lesson.
+@UNIT|1|Two Moral Visions|Rights versus inheritance — the deep syntax beneath every political argument
+The Two Grammars — Rights and entitlements versus inheritance and duties: the deep syntax beneath every political argument
+Burke's Contract of the Generations — The partnership of the dead, the living, and the unborn — and what it obligates
+The Gratitude Conservative — Scruton: good things are easily destroyed and hard to create; conservatism as love of what exists
+Chesterton's Fence — The reformer's test, the presumption of inherited wisdom, and when the fence really should come down
+The Entitlement Grammar at Full Strength — The rights tradition steelmanned: natural rights, the expanding circle, and its genuine glories
+Sowell's Visions Beneath the Grammars — Constrained and unconstrained as the substructure, cross-wired to the Marxism course
+What Each Side Hears — Why rights-talk sounds like liberation to one ear and dissolution to the other
+The Duties That Come With Gifts — Stewardship and obligation: the moral meaning of receiving an inheritance
+When the Grammars Collide — Welfare, family, nation: one issue argued in two languages, side by side
+@UNIT|2|The Psychology Under the Politics|Moral foundations, personality, and the science audited honestly
+Haidt's Moral Foundations — The elephant and the rider, and the finding that reframes everything: care-only versus full-spectrum morality
+The Care-Only Morality — What politics looks like when harm is the only moral dial on the dashboard
+Loyalty, Authority, Sanctity — The foundations one side cannot hear, and what they protect
+The Threat and Negativity Literatures — The dispositional research on left and right, with its replication fights aired
+Openness and Order — The Big Five's political map, and Peterson's own research territory
+Intuition First, Reasoning Second — The Righteous Mind's core claim and what motivated reasoning does to public debate
+Can You Trust This Science? — Replication, WEIRD samples, and politicized psychology: the audit
+From Psychology to Weaponry — How a care-only morality becomes a targeting system: the bridge to Unit 3
+@UNIT|3|The Empathy Weapon|The mechanism anatomized — from Bloom to Bulverism to the kafkatrap
+The Spotlight That Blinds — Paul Bloom's case against empathy: innumerate, biased, and built for manipulation
+Pathological Altruism — Oakley's research: when helping harms, and why good intentions audit nothing
+Concept Creep — Haslam's finding: how harm, trauma, and violence expanded to swallow disagreement
+Moral Grandstanding — Tosi and Warmke: status-seeking in moral talk, and how to spot it
+Bulverism — C. S. Lewis names the move in 1941: skip the argument, explain what's wrong with the arguer
+The Kafkatrap — Denial as confirmation: the unfalsifiable heart-verdict, wired to the Marxism course's Popper lesson
+Words That Do the Arguing — Phobe, denier, hater: the suffix arsenal and the verdict-vocabulary
+Compassion as Status — The economy of visible caring, and why the loudest care is the cheapest
+The Weapon Assembled — The full anatomy on one page: premise theft, heart-verdict, category collapse, cost exemption
+@UNIT|4|The Case Files|Live terrain — the genuine debate steelmanned, then the move dissected
+How to Read a Case File — The method: state the real question at full strength before touching the rhetoric
+Climate: The Apocalypse Test — Questioning catastrophism is not worshiping money: the actual ranges, the actual trade-offs, the actual move
+Youth Gender Medicine I: The Evidence — The Cass Review and the European systematic reviews: what is actually known
+Youth Gender Medicine II: The Move — You're killing kids: the suicide rhetoric audited against the evidence and the ethics
+Immigration: Limits and the Label — The real trade-off literature, and how a policy position becomes a racism verdict
+Islam: Concern and the Phobia Charge — Doctrinal criticism versus bigotry, cross-wired to the Islam course
+Canada I: Bill C-16 and Compelled Speech — Peterson's stand: what the law said, what its defenders claimed, what the tribunals implied
+Canada II: Bill C-4 — Banning conversion therapy or criminalizing counsel? The definitions that decide everything
+The United Kingdom: For the Children — The Online Safety Act, age verification, and safety as the surveillance gateway
+The Common Structure — What every file shares: the debatable claim converted to a heart-verdict, and who benefits
+Build Your Own Case File — The reader's exercise: run the method on a controversy this course hasn't touched
+@UNIT|5|The Inversion Tactics|The structures of reversal — taught as patterns, never as diagnoses
+DARVO — Deny, attack, reverse victim and offender: the reversal structure and its political career
+FOG: Fear, Obligation, Guilt — Emotional blackmail's machinery, from the therapy literature to the public square
+Guilt as Governance — The oldest control technology, and why it works best on the conscientious
+Motive-Attribution Asymmetry — The measured finding: each side believes the other runs on hate — and both are wrong
+Projection and the Accusation Mirror — The tactic described structurally, with the no-armchair-diagnosis rule enforced
+The Apology Trap — Struggle-session dynamics in modern dress, wired to the Cultural Revolution lesson
+The Right's Own Inversions — The symmetric audit: patriotism-questioning, groomer-rhetoric, and the mirror kafkatraps
+The Field Guide — Recognizing inversion in real time: the tells, the tempo, the exits
+@UNIT|6|When Virtue Kills: The Totalitarian Record|Compassion-vocabulary as atrocity's delivery vehicle — calibrated, not hysterical
+Robespierre: Terror as an Emanation of Virtue — The founding modern case, in his own words, from the Committee of Public Safety
+Aktion T4: The Mercy That Murdered — Merciful death, life unworthy of life: the Nazi euthanasia program sold as compassion
+The Soviet Care-Vocabulary — Social protection, re-education, defense of the revolution: the euphemism apparatus of the camps
+Mao: Curing the Sickness to Save the Patient — Struggle sessions as therapy: cruelty conducted in the vocabulary of help
+The Pattern Extracted — Unlimited compassion for the abstraction licensing unlimited cruelty to the person
+The Diagnostic Kit — Telling compassion from its weaponization before the body count: limits, opponents, audit, power
+The Calibration — What this unit does and does not claim: the reductio ad Hitlerum named and banned
+@UNIT|7|The Myth of Neutrality|Everyone has an agenda — the question is which agenda is best
+The View from Nowhere — Neutrality's claim at full steelman strength: Rawls, public reason, the objective press
+Why Metaphysical Neutrality Is Impossible — MacIntyre, Fish, and the values every framework smuggles
+The Neutrality Weapon — My positions are common sense, yours are ideology: keep politics out means keep yours out
+The Procedural Mask — Institutional capture: neutral rules, asymmetric enforcement, and why unanchored institutions drift
+The Naked Public Square — Neuhaus: the vacated square doesn't stay empty — the civic religion that moved in
+Everyone Has an Agenda — The perfectionist's honesty: arguing your vision of the good openly instead of smuggling it
+The Umpire Problem — The honest counterpoint at full strength: procedural neutrality is real, precious, and worth repairing
+The Mirror Check — The right's own false-neutrality moves: just common sense, just natural, the unargued default
+@UNIT|8|The Sadness Data|Politics and misery — the research, the mechanisms, the rival explanations
+The Finding — Gimbrone and after: liberal adolescents' depression rose first and fastest, and what the data actually show
+Reverse CBT — Lukianoff and Haidt: catastrophizing, emotional reasoning, and dichotomous thinking taught as political virtue
+Rumination — Nolen-Hoeksema's literature: the thought-loop that manufactures depression, and its political uses
+Catastrophizing and the Locus of Control — Apocalypse as a mental habit, and the learned helplessness of permanent grievance
+The Gratitude Data — The most replicated wellbeing intervention, and the inheritance worldview as a gratitude practice
+Rival Explanations — Reporting effects, composition, and maybe-they-see-real-problems: the alternatives weighed fairly
+The Conservative Happiness Gap — The older literature, its fights, and what survives the audit
+@UNIT|9|What To Do|The craft — naming the move, refusing the frame, keeping the warmth
+Name the Move, Keep the Warmth — That's a claim about my heart, not an answer to my argument: the foundational counter
+Refusing the Frame — Peterson's C-16 stand as a craft study: the distinction he never let blur
+Steelman and Return — Granting the strongest version, then asking for the argument back
+Precision of Speech — Say what you mean, mean what you say: why vagueness is the weapon's element
+The Socratic Counter — Questions that expose heart-verdicts without raising your voice
+When to Disengage — Not every fight is yours: audiences, allies, and the economics of attention
+Compassion With a Spine — Peterson's deeper account: the vice of the only-virtue, audited like every thinker here
+Raising Unweaponizable Kids — Inoculation, gratitude practice, and fluency in both grammars
+The Battlefield Rules — The course's charter distilled: structure over tribe, audit both ways, argue the good openly
