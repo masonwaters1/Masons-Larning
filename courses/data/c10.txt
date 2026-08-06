@@ -1,0 +1,94 @@
+TITLE|Moving Minds
+SUBTITLE|The Psychology of Influence, Persuasion, and Sales — from the First Hello to the Cast Vision
+ACCENT|#8c4f2b
+ACCENTSOFT|#f4ebe3
+DESC|A working education in how people are moved: the decision machinery under every yes, the classic principles of influence, the battle for the frame, why and when people actually buy, and the full craft of selling from cold open to signed deal. Then the course widens: persuading across political divides, selling an idea to co-workers, leading change, and casting a vision to a family or a church. Built on the serious research — Kahneman, Cialdini, Rackham, Voss, Haidt — and on the great practitioners, with the strongest objections to each technique engaged rather than avoided. House style: every lesson ends with The One Move, a single concrete application to use that week. Closing conviction, argued not assumed: the best persuaders play the long game, and integrity is not the enemy of influence but its foundation.
+@UNIT|1|How People Actually Decide|The machinery under every yes
+Two Systems, One Buyer — Kahneman's fast and slow thinking, and why every sale is made to System 1 and justified to System 2
+Emotion Decides, Reason Explains — Damasio's discovery that people who cannot feel cannot choose, and what that means for how you sell
+Loss Aversion: The Two-to-One Rule — Why losses loom twice as large as gains, and how to frame the cost of doing nothing
+Anchors Aweigh — How the first number spoken controls every number after it
+The Pull of the Status Quo — Why the default option wins, why inertia is your true competitor, and how defaults are set
+The Contrast Principle — Nothing is cheap or expensive, big or small, except next to something else
+Cognitive Ease: The Fluency Shortcut — Why the easy-to-process message feels more true, and how clarity outsells cleverness
+The Peak-End Rule — Why people remember an experience by its best moment and its last one, and how to design both
+The Paradox of Choice — Why more options produce fewer decisions, and the discipline of offering less
+The Endowment Effect — Why ownership changes value, and the quiet power of the trial, the sample, and the test drive
+@UNIT|2|The Weapons of Influence|Cialdini's principles, used and defended against
+Reciprocity: The Oldest Debt — Why giving first creates an obligation to give back, and what to give away
+Commitment and Consistency — The small yes that leads to the big one, and why people become what they publicly say
+Social Proof: The Herd Inside Us — Why "people like you chose this" beats every argument, and how to prove it honestly
+Liking: The Friend Discount — Similarity, compliments, and cooperation, and why people buy from people they like
+Authority: The Lab Coat Effect — Why credentials, confidence, and trappings of expertise move people, deserved or not
+Scarcity: The Closing Door — Why limits and deadlines drive action, and the difference between real and invented scarcity
+Unity: The Deepest We — Cialdini's late-discovered principle, shared identity, and why family, tribe, and "one of us" moves most of all
+Pre-Suasion: The Moment Before the Message — How what someone attends to right before your ask decides how the ask lands
+Defense Against the Dark Arts — Recognizing every weapon in this unit when it is aimed at you, and the click-whirr of automatic compliance
+@UNIT|3|Framing and Positioning|The battle for the frame
+The Frame Decides the Fight — Lakoff's lesson: whoever sets the terms of the conversation has already half won it
+Positioning: The Battle for the Mind — Ries and Trout, owning one word, and why the fight happens in the prospect's head, not the market
+Different Beats Better — Category thinking, why the mind slots you before it judges you, and escaping comparison by changing the comparison
+The Power of the Name — Labels, titles, and terms, and why what a thing is called changes what people think it is
+Price Framing — Per-day pricing, bundles, charm numbers, and why the same price can feel cheap or outrageous
+The Decoy Effect — How a third option nobody chooses changes which of the other two they pick
+Metaphor: The Trojan Horse of Thought — Why an argument wrapped in the right image persuades when the naked argument cannot
+Reframing: Persuasion Judo — Taking the objection, the attack, or the bad news and turning its energy toward your point
+Frame Control in the Room — Klaff's pitch dynamics: status, attention, and holding the frame when someone tries to take it
+@UNIT|4|Why People Buy|The buyer's inner world
+The Job to Be Done — Christensen's milkshake: nobody wants your product, they hire it to make progress in their life
+Status: The Hidden Engine — The signaling motive under luxury, bargains, and B2B alike, and how to let a purchase confer standing
+Identity Purchases — People buy who they want to become; selling the future self, not the feature list
+The Real Enemy Is Fear — Buying is risk, the terror of the wrong decision, and how trust, guarantees, and proof shrink the danger
+The Feeling of Being Understood — Empathy as the core selling skill: why people buy from those who get their world
+Wants Wearing Needs' Clothing — Aspiration, justification, and why people decide on the want and defend it with the need
+Trust: The Master Variable — The trust equation, why self-orientation is the killer, and how credibility, reliability, and intimacy are built
+Why People Don't Buy — Indecision, status-quo clinging, and the fear of messing up: losing to "no decision" and what actually breaks it
+The Voice of the Customer — Asking why five times, listening for the words they use, and letting the buyer teach you how to sell to them
+@UNIT|5|When People Buy|Timing, triggers, and the sales cycle
+Trigger Events: The Open Window — New job, new funding, new pain, new law: why timing beats talent and how to watch for the moment
+The Buyer's Journey — Awareness to consideration to decision, the ninety-five percent who are not in market today, and meeting each stage on its terms
+Why the Sales Cycle Is as Long as the Risk — Why gum takes seconds and software takes seasons: price, stakes, and stakeholders set the clock
+The Buying Committee — Deciders, users, blockers, and the champion: selling to a group that must sell itself when you leave the room
+Mere Exposure and the Long Game — Familiarity breeds preference: staying warmly in sight until the window opens
+Urgency, Real and Manufactured — Honest deadlines that help buyers decide, fake ones that poison trust, and telling them apart
+The Fortune in the Follow-Up — Why most sales happen after most salespeople quit, and building a follow-up system that never feels like pestering
+Timing the Ask — Ripeness, mood, seasons, and quarters: reading when a person or an organization can actually say yes
+@UNIT|6|The Craft of the Sale|From first hello to signed deal
+The Cold Open — Earning ten more seconds: pattern interrupts, relevance, and the first line of a call, email, or knock
+Diagnose Before You Prescribe — Discovery as medicine: why the seller who asks best wins, and the questions that open a buyer's world
+SPIN: The Research on What Actually Works — Rackham's four questions and the finding that closing tricks fail as stakes rise
+Listening as a Superpower — Talk ratios, silence, and the discipline of shutting up: why the buyer talking is the sale advancing
+The Challenger Move — Teach, tailor, take control: leading with an insight the buyer did not have
+The Demo and the Pitch — Features tell, benefits sell, and showing the after-picture of the buyer's life
+Objections Are Information — Isolate, understand, answer, confirm: why the objection is the sale trying to happen
+Tactical Empathy at the Table — Voss's negotiation kit: labels, mirrors, calibrated questions, and the power of "no"
+The Close: Asking for the Business — Assumptive, alternative, and direct closes, the silence after the ask, and why unasked sales die
+After the Yes — Buyer's remorse, reinforcement, onboarding, and turning one customer into three through referrals
+The Pipeline and the Math — Sales as a numbers system: activity, conversion, and the professional's relationship with rejection
+@UNIT|7|Story, Word, and Voice|The rhetoric of persuasion
+Ethos, Pathos, Logos — Aristotle's twenty-four-century head start: credibility, emotion, and logic in every pitch ever made
+The Story Beats the Statistic — The identifiable victim, narrative transportation, and why one vivid case outsells a spreadsheet
+The Customer Is the Hero — Story structure for sellers: you are the guide, they are the hero, and the product is the sword
+Words That Sell — Concrete beats abstract, "you" beats "we", "because" beats silence: the small words that carry the weight
+Ogilvy and the Craft of Copy — What the father of advertising knew about headlines, honesty, and long copy that people actually read
+The Voice and the Body — Tonality, pace, posture, and presence: how the delivery persuades before the content arrives
+The Persuasive Email — Subject lines, one ask per message, and writing to be skimmed: moving someone who gives you eight seconds
+The Presentation That Moves — Duarte's contrast of what is and what could be, one idea per slide, and endings that call to action
+@UNIT|8|Beyond the Sale|Politics, work, family, and faith
+Why Facts Don't Change Minds — Motivated reasoning and identity-protective thinking: why the argument that convinced you convinces no one else
+Speaking the Other Moral Language — Haidt's moral foundations: persuading across the political divide by arguing in their values, not yours
+Deep Canvassing: The Listening Cure — The strange, replicated finding that ten minutes of non-judgmental listening changes minds that arguments cannot
+Arguing Without Enemies — Rapoport's rules and the steelman: winning the person, not just the point
+Selling an Idea at Work — Pre-wiring the meeting, recruiting allies, and the art of letting it become their idea
+Leading Change — Kotter's playbook: urgency, coalition, small wins, and why organizations resist even improvements
+Casting Vision — Painting the destination for a team, a family, or a church: concrete pictures, the why beneath the what, and why vision leaks and must be repeated
+Persuading the People You Love — The trust bank, timing, and autonomy: why the dinner table is the hardest room and pressure backfires with those closest
+The Long Persuasion — Reputation as rhetoric: why who you have been is the loudest argument you make, and staying persuadable yourself
+@UNIT|9|The Line and the Legacy|Influence with integrity
+Persuasion or Manipulation? — The disclosure test, the win-win test, and where honest influence ends and exploitation begins
+The Dirty Tricks Catalog — Dark patterns, false scarcity, pressure tactics, and bait-and-switch: named, dissected, and refused
+Inoculation: Persuasion-Proofing — How exposing the trick in advance protects you, your buyers, and your family from it
+Honesty as Strategy — The seller's character: why in a reputation economy the truth-teller compounds and the huckster churns
+The Great Persuaders — Case studies in mastery: Franklin's asks, Lincoln's letters, Girard's referrals, and Paul before Agrippa
+Rejection and the Resilient Self — Separating the no from your worth: process goals, rejection math, and the identity that survives a hundred doors
+The Persuader's Creed — Capstone: assembling your personal playbook, the moves you will use, the lines you will not cross, and the seller you intend to become
