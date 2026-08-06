@@ -84,7 +84,16 @@ Leading Change — Kotter's playbook: urgency, coalition, small wins, and why or
 Casting Vision — Painting the destination for a team, a family, or a church: concrete pictures, the why beneath the what, and why vision leaks and must be repeated
 Persuading the People You Love — The trust bank, timing, and autonomy: why the dinner table is the hardest room and pressure backfires with those closest
 The Long Persuasion — Reputation as rhetoric: why who you have been is the loudest argument you make, and staying persuadable yourself
-@UNIT|9|The Line and the Legacy|Influence with integrity
+@UNIT|9|The Challenger's Playbook|Displacing the entrenched incumbent
+The Fortress of the Status Quo — The full anatomy of switching costs: data, habit, training, integrations, contracts, relationships, and the fear of blame that guards every incumbent
+Lessons from the Fallen Giants — WordPerfect, Lotus, Siebel, BlackBerry, WebEx: the recurring patterns in how dominant software actually gets displaced
+The 9x Problem — Why "just as good and cheaper" almost never moves anyone, and finding the wedge where you are not comparable but clearly better
+When the Wall Cracks — Price hikes, botched support, acquisitions, new decision-makers: the trigger events that turn loyal customers into shoppers, and how to be there when they hit
+The Wedge and the Beachhead — Disruption from below: picking off the overcharged and underserved, winning one niche completely, and letting land-and-expand do the rest
+Making the Switch Safe and Small — Free migration, parallel running, pilots, and guarantees: engineering the move so the first yes is tiny and the downside is yours, not theirs
+Talking About Goliath — Challenger communications from Avis to Apple to Salesforce: respecting the incumbent, reframing the choice, and letting defectors do the persuading
+Offers That Overcome Inertia, and Surviving the Counterattack — Contract buyouts, price locks, and champion enablement, timed to the renewal window, plus what the incumbent will do when it notices you
+@UNIT|10|The Line and the Legacy|Influence with integrity
 Persuasion or Manipulation? — The disclosure test, the win-win test, and where honest influence ends and exploitation begins
 The Dirty Tricks Catalog — Dark patterns, false scarcity, pressure tactics, and bait-and-switch: named, dissected, and refused
 Inoculation: Persuasion-Proofing — How exposing the trick in advance protects you, your buyers, and your family from it
