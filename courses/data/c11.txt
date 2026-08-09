@@ -1,0 +1,40 @@
+TITLE|The Attentive Mind
+SUBTITLE|The Neuroscience and Practice of Mindfulness
+ACCENT|#3d6b5e
+ACCENTSOFT|#eaf3ef
+DESC|A mini course on mindfulness that takes both halves seriously: what meditation actually does to the brain — the regions, the networks, the chemistry — and how to actually practice it, taught with the evidence-audit honesty this platform owes you. No incense, no miracle claims: the real science, the real method, and the real limits.
+@UNIT|1|What Mindfulness Actually Is|Defining the thing before studying it
+Attention Plus Attitude — The working definition: present-moment attention held with curiosity and without judgment, and why every word of that sentence is doing work
+Where It Came From — Vipassana, Zen, and the contemplative lineages that spent twenty-five centuries developing the method science is now testing
+The Secular Turn — Jon Kabat-Zinn, a basement clinic in Massachusetts, and how MBSR translated monastery practice into medicine
+The Varieties of Practice — Focused attention, open monitoring, and loving-kindness: three different exercises that get one name, and why the distinction matters for everything that follows
+What Mindfulness Is Not — Not relaxation, not emptying the mind, not positive thinking, not a religion requirement, not a productivity hack: clearing the misconceptions that cause most quitting
+@UNIT|2|The Brain on Mindfulness|The regions, the networks, and the chemistry
+The Spotlight and Its Muscles — The brain's attention networks, the prefrontal cortex, and what happens to them when attention is trained like a rep
+The Alarm and the Brake — The amygdala, the HPA axis, and cortisol: how the stress response works and what meditation measurably does to it
+The Chattering Default — The default mode network, mind-wandering, and the Harvard finding that a wandering mind is an unhappy one
+The Felt Body — The insula and interoception: why sensing your breath and heartbeat from the inside is a trainable skill with outsized effects
+The Brain That Rewires — Neuroplasticity and the famous gray-matter studies, told honestly: what Lazar and Hölzel found, and what the larger replications didn't
+The Chemistry, Without the Hype — GABA, serotonin, dopamine, and endorphins: what we actually know about meditation and neurotransmitters versus what the wellness industry claims
+The Ten-Thousand-Hour Brains — Davidson's monks, gamma synchrony, and what expert meditators reveal about the far end of the training curve
+@UNIT|3|How to Practice|The complete method, from first sit to steady habit
+The First Sit — A complete walkthrough of breath-anchored meditation: the setup, the instruction, the timer, and what the first ten minutes actually feel like
+The Body You Sit In — Posture without dogma: chairs count, cushions optional, and why the body position matters just enough to get right
+The Body Scan — The systematic sweep of attention through the body: the full protocol, why MBSR starts here, and what it trains
+Open Awareness — Dropping the anchor: monitoring whatever arises without chasing it, and why this is the harder skill taught second
+Loving-Kindness — The phrase-based practice of directed goodwill, the research on what it uniquely changes, and how to do it without feeling ridiculous
+Mindfulness Off the Cushion — Eating, walking, dishes, and doorways: informal practice, and why the pause is the portable version of the sit
+The Dose and the Habit — How long, how often, what time, and what counts: what the research says about minimum effective dose, and why consistency beats duration
+@UNIT|4|How to Think While You Sit|The instructions nobody gives you for the inside of the practice
+The Rep Is the Return — The single most important reframe: noticing you've wandered is not failing the exercise, it is the exercise
+Noting and Labeling — The quiet word attached to experience: thinking, hearing, itching — the technique, the affect-labeling research behind it, and its limits
+Trying Hard at Not-Trying — Non-striving, curiosity, and self-compassion: the attitudes that make the attention work, and the paradox of effort at the center of practice
+The Itch, the Ache, and the Wave — Working with discomfort and strong emotion on the cushion: investigation over suppression, and when to just move
+The Traps — Chasing calm, grading your sits, spiritual bypassing, and using the practice to avoid your life: the failure modes of experienced practitioners
+@UNIT|5|The Evidence, Honestly|What the studies show, what they don't, and the verdict
+The Clinic's Strongest Card — MBCT and depression relapse: the trials where mindfulness went head-to-head with maintenance antidepressants, and held
+Anxiety, Pain, and Pressure — What the meta-analyses actually show for anxiety, chronic pain, and blood pressure: modest, real, and smaller than the headlines
+The Long Game — Telomeres, immune markers, inflammation, and aging: the long-term biological claims, graded from promising to unproven
+Mind the Hype — The 2018 reckoning: tiny samples, weak controls, the app-industry evidence gap, and how a real finding got oversold into a miracle
+When Meditation Hurts — The adverse-effects research: meditation-related difficulties are real, usually mild, occasionally serious, and worth knowing before the retreat
+The Honest Verdict — What survives the audit: a genuinely effective practice with modest, well-mapped benefits — and why that beats every miracle claim ever made for it
