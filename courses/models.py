@@ -14,6 +14,10 @@ class Course(models.Model):
     description = models.TextField(blank=True)
     accent = models.CharField(max_length=7, default="#3a3a3a")
     accent_soft = models.CharField(max_length=7, default="#ece8e1")
+    # Archived courses stay fully readable but drop out of the interleaved
+    # sequence, dashboard counts, and "next lesson" logic. Toggled from the UI;
+    # the seeder never touches this field, so it survives every re-seed/deploy.
+    is_active = models.BooleanField(default=True)
 
     class Meta:
         ordering = ["order"]
@@ -107,14 +111,23 @@ class Lesson(models.Model):
 
     @staticmethod
     def global_queryset():
-        return Lesson.objects.select_related("course", "unit").order_by(
-            "course_lesson_number", "course__order"
+        """Interleaved reading sequence — active courses only. Archived
+        courses' lessons remain readable directly but are not in the cycle."""
+        return (
+            Lesson.objects.filter(course__is_active=True)
+            .select_related("course", "unit")
+            .order_by("course_lesson_number", "course__order")
         )
 
     @property
     def global_position(self):
+        """1-based position in the interleaved sequence, or None when this
+        lesson's course is archived (and thus outside the sequence)."""
         ids = list(Lesson.global_queryset().values_list("id", flat=True))
-        return ids.index(self.id) + 1
+        try:
+            return ids.index(self.id) + 1
+        except ValueError:
+            return None
 
     def get_next(self):
         seq = list(Lesson.global_queryset())
@@ -141,7 +154,7 @@ class Lesson(models.Model):
         all read are skipped; the cycle wraps through every course, and the
         current course is considered only as a last resort.
         """
-        courses = list(Course.objects.order_by("order"))
+        courses = list(Course.objects.filter(is_active=True).order_by("order"))
         if not courses:
             return None
         n = len(courses)

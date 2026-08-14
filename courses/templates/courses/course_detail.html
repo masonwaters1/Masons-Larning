@@ -6,13 +6,24 @@
 {% block content %}
 <section class="course-head">
   <div class="wrap">
-    <span class="eyebrow">Course {{ course.order }} &middot; {{ course.units.count }} units &middot; {{ course.total_lessons }} lessons</span>
+    <span class="eyebrow">Course {{ course.order }} &middot; {{ course.units.count }} units &middot; {{ course.total_lessons }} lessons{% if not course.is_active %} &middot; <span class="arch-badge">Archived</span>{% endif %}</span>
     <h1>{{ course.title }}</h1>
+    {% if not course.is_active %}
+    <p class="arch-note">This course is archived: it's out of your interleaved reading sequence, but every lesson, highlight, and checkmark is kept. Restore it to put it back in rotation.</p>
+    {% endif %}
     <p class="lede">{{ course.description }}</p>
     <div class="progress-strip" style="margin-top:26px">
       <div class="course-bar" style="width:280px;max-width:60vw"><i style="width:{{ course.percent_complete }}%;background:var(--accent)"></i></div>
       <div class="progress-meta"><strong>{{ course.read_count }}</strong> / {{ course.total_lessons }} read &middot; {{ course.percent_complete }}%</div>
     </div>
+    <form method="post" action="{% url 'courses:toggle_course_active' course.id %}" style="margin-top:18px"
+          {% if course.is_active %}onsubmit="return confirm('Archive &quot;{{ course.title|escapejs }}&quot;? It leaves your reading sequence but keeps all progress.');"{% endif %}>
+      {% csrf_token %}
+      <input type="hidden" name="next" value="{{ course.get_absolute_url }}">
+      <button type="submit" class="arch-btn {% if not course.is_active %}restore{% endif %}">
+        {% if course.is_active %}Archive this course{% else %}Restore to sequence{% endif %}
+      </button>
+    </form>
   </div>
 </section>
 

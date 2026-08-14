@@ -8,6 +8,7 @@ urlpatterns = [
     path("course/<slug:slug>/", views.course_detail, name="course_detail"),
     path("course/<slug:course_slug>/lesson/<slug:slug>/", views.lesson_detail, name="lesson_detail"),
     path("lesson/<int:lesson_id>/toggle/", views.toggle_read, name="toggle_read"),
+    path("course/<int:course_id>/toggle-active/", views.toggle_course_active, name="toggle_course_active"),
     path("lesson/<int:lesson_id>/recall/", views.recall_save, name="recall_save"),
     path("lesson/<int:lesson_id>/highlight/", views.highlight_create, name="highlight_create"),
     path("highlight/<int:highlight_id>/update/", views.highlight_update, name="highlight_update"),

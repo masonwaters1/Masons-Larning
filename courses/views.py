@@ -35,7 +35,8 @@ def _next_unread():
 def _progress_map():
     """Live 'lessons written' progress across every course and unit, computed
     from the database so the dashboard panel updates itself as content lands."""
-    courses = Course.objects.prefetch_related("units__lessons").order_by("order")
+    courses = (Course.objects.filter(is_active=True)
+               .prefetch_related("units__lessons").order_by("order"))
     total_written = total_lessons = units_done = units_total = started = 0
     rows = []
     for c in courses:
@@ -83,10 +84,13 @@ def _progress_map():
     }
 
 
+@ensure_csrf_cookie
 def dashboard(request):
-    courses = Course.objects.all()
-    total = Lesson.objects.count()
-    read = Progress.objects.filter(is_read=True).count()
+    courses = Course.objects.filter(is_active=True)
+    archived = Course.objects.filter(is_active=False)
+    total = Lesson.objects.filter(course__is_active=True).count()
+    read = Progress.objects.filter(
+        is_read=True, lesson__course__is_active=True).count()
     seq = list(Lesson.global_queryset())
     nxt = _next_unread()
 
@@ -106,7 +110,8 @@ def dashboard(request):
 
     context = {
         "courses": courses,
-        "course_count_word": _count_word(Course.objects.count()),
+        "archived_courses": archived,
+        "course_count_word": _count_word(courses.count()),
         "total": total,
         "read": read,
         "percent": round(100 * read / total) if total else 0,
@@ -154,12 +159,24 @@ def lesson_detail(request, course_slug, slug):
         "prev": lesson.get_previous(),
         "next": lesson.get_next(),
         "active": "lesson",
-        "courses": Course.objects.all(),
-        "course_count_word": _count_word(Course.objects.count()),
+        "courses": Course.objects.filter(is_active=True),
+        "course_count_word": _count_word(
+            Course.objects.filter(is_active=True).count()),
         "highlights_json": highlights,
         "recall_text": getattr(getattr(lesson, "recall_note", None), "text", ""),
     }
     return render(request, "courses/lesson_detail.html", context)
+
+
+@require_POST
+def toggle_course_active(request, course_id):
+    """Archive or restore a course. Archived courses keep all their lessons,
+    highlights, and reading progress — they simply leave the interleaved
+    sequence until restored."""
+    course = get_object_or_404(Course, id=course_id)
+    course.is_active = not course.is_active
+    course.save(update_fields=["is_active"])
+    return redirect(request.POST.get("next") or "courses:dashboard")
 
 
 @require_POST
